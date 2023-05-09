@@ -1,0 +1,39 @@
+2021/11/28 13:01:58.846  INFO: COSMOS Version: 4.5.0
+2021/11/28 13:01:58.846  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/mock/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/11/28 13:01:58.986  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/mock/config/targets/MOCK/cmd_tlm_server.txt
+2021/11/28 13:01:58.992  INFO: Marshal load success: /Users/norgaardc/Documents/cosmos_projects/mock/outputs/tmp/marshal_09ffda757985b3f72daae42213589072.bin
+2021/11/28 13:01:59.308  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/11/28 13:01:59.308  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/11/28 13:01:59.308  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/11/28 13:01:59.308  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/11/28 13:01:59.309  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/11/28 13:01:59.309  INFO: Creating thread for interface MOCKINT
+2021/11/28 13:01:59.310  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/11/28 13:01:59.310  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/11/28 13:01:59.318  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/11/28 13:01:59.319  INFO: Starting packet reading for MOCKINT
+2021/11/28 13:01:59.319  INFO: Connecting to MOCKINT...
+2021/11/28 13:01:59.409  INFO: MOCKINT Connection Success
+2021/11/28 13:02:00.353  INFO: Log File Opened : /Users/norgaardc/Documents/cosmos_projects/mock/outputs/logs/2021_11_28_13_02_00_tlm.bin
+2021/11/28 13:02:00.364  ERROR: MOCK GNC_SOH POINT_OB = NO is RED (2021/11/28 13:02:00.364)
+2021/11/28 13:02:00.364  ERROR: MOCK GNC_SOH ABOVE_GND = NO is RED (2021/11/28 13:02:00.364)
+2021/11/28 13:02:00.364  ERROR: MOCK GNC_SOH IN_SUN = NO is RED (2021/11/28 13:02:00.364)
+2021/11/28 13:02:00.365  ERROR: MOCK GNC_SOH GYRO_VALID = NO is RED (2021/11/28 13:02:00.364)
+2021/11/28 13:02:00.365  ERROR: MOCK GNC_SOH MAGMETER_VALID = NO is RED (2021/11/28 13:02:00.364)
+2021/11/28 13:02:00.365  ERROR: MOCK GNC_SOH SUN_VALID = NO is RED (2021/11/28 13:02:00.364)
+2021/11/28 13:02:00.365  ERROR: MOCK GNC_SOH RCTWHL_VALID = NO is RED (2021/11/28 13:02:00.364)
+2021/11/28 13:02:00.365  ERROR: MOCK GNC_SOH MAGTORQ_VALID = NO is RED (2021/11/28 13:02:00.364)
+2021/11/28 13:02:26.329  INFO: Log File Closed : /Users/norgaardc/Documents/cosmos_projects/mock/outputs/logs/2021_11_28_13_02_00_tlm.bin
+2021/11/28 13:02:26.430  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/11/28 13:02:26.430  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/11/28 13:02:26.430  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/11/28 13:02:26.484  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/11/28 13:02:26.494  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/11/28 13:02:26.495  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/11/28 13:02:26.495  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/11/28 13:02:26.604  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/11/28 13:02:26.615  INFO: Killing thread for interface MOCKINT
+2021/11/28 13:02:26.615  ERROR: Error reading from interface : MOCKINT
+2021/11/28 13:02:26.615  INFO: Connection Lost for MOCKINT: EBADF : Bad file descriptor
+2021/11/28 13:02:26.615  INFO: Stopped packet reading for MOCKINT
+2021/11/28 13:02:26.616  INFO: Disconnected from interface MOCKINT

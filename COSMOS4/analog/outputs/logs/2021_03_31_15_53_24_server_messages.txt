@@ -1,0 +1,38 @@
+2021/03/31 15:53:23.618  INFO: COSMOS Version: 4.4.2
+2021/03/31 15:53:23.618  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/analog/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/03/31 15:53:23.802  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/analog/config/targets/ANALOG/cmd_tlm_server.txt
+2021/03/31 15:53:23.916  INFO: Marshal file does not exist: /Users/norgaardc/Documents/cosmos_projects/analog/outputs/tmp/marshal_474206f7630cd3bd5f794c17478f06cb.bin
+2021/03/31 15:53:24.179  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/03/31 15:53:24.180  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/03/31 15:53:24.180  INFO: Creating thread for interface ANALOGINT
+2021/03/31 15:53:24.183  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/03/31 15:53:24.183  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/03/31 15:53:24.188  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/03/31 15:53:24.188  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/03/31 15:53:24.188  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/03/31 15:53:24.188  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/03/31 15:53:24.188  INFO: Starting packet reading for ANALOGINT
+2021/03/31 15:53:24.188  INFO: Connecting to ANALOGINT...
+2021/03/31 15:53:24.283  INFO: ANALOGINT Connection Success
+2021/03/31 15:53:25.723  INFO: Log File Opened : /Users/norgaardc/Documents/cosmos_projects/analog/outputs/logs/2021_03_31_15_53_25_tlm.bin
+2021/03/31 15:53:27.725  WARN: ANALOG ANALOGVALUE ANALOGREADING = 958 is YELLOW_HIGH (2021/03/31 15:53:27.725)
+2021/03/31 15:53:43.751  ERROR: ANALOG ANALOGVALUE ANALOGREADING = 1008 is RED_HIGH (2021/03/31 15:53:43.751)
+2021/03/31 15:53:48.760  WARN: ANALOG ANALOGVALUE ANALOGREADING = 959 is YELLOW_HIGH (2021/03/31 15:53:48.760)
+2021/03/31 15:53:53.770  ERROR: ANALOG ANALOGVALUE ANALOGREADING = 651 is RED_LOW (2021/03/31 15:53:53.769)
+2021/03/31 15:54:00.781  WARN: ANALOG ANALOGVALUE ANALOGREADING = 927 is YELLOW_HIGH (2021/03/31 15:54:00.781)
+2021/03/31 15:54:07.798  INFO: ANALOG ANALOGVALUE ANALOGREADING = 870 is GREEN (2021/03/31 15:54:07.798)
+2021/03/31 15:54:14.809  WARN: ANALOG ANALOGVALUE ANALOGREADING = 911 is YELLOW_HIGH (2021/03/31 15:54:14.809)
+2021/03/31 15:54:23.756  INFO: Log File Closed : /Users/norgaardc/Documents/cosmos_projects/analog/outputs/logs/2021_03_31_15_53_25_tlm.bin
+2021/03/31 15:54:23.857  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/03/31 15:54:23.857  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/03/31 15:54:23.857  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/03/31 15:54:23.933  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/03/31 15:54:23.943  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/03/31 15:54:23.943  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/03/31 15:54:23.943  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/03/31 15:54:24.008  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/03/31 15:54:24.019  INFO: Killing thread for interface ANALOGINT
+2021/03/31 15:54:24.019  ERROR: Error reading from interface : ANALOGINT
+2021/03/31 15:54:24.019  INFO: Connection Lost for ANALOGINT: EBADF : Bad file descriptor
+2021/03/31 15:54:24.019  INFO: Stopped packet reading for ANALOGINT
+2021/03/31 15:54:24.020  INFO: Disconnected from interface ANALOGINT

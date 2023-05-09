@@ -1,0 +1,59 @@
+2021/11/08 13:33:22.833  INFO: COSMOS Version: 4.5.0
+2021/11/08 13:33:22.833  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/dev_board/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/11/08 13:33:23.034  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/dev_board/config/targets/DEV_BOARD/cmd_tlm_server.txt
+2021/11/08 13:33:23.157  INFO: Marshal load success: /Users/norgaardc/Documents/cosmos_projects/dev_board/outputs/tmp/marshal_88863f86bbeac53cb487b98db54fed9a.bin
+2021/11/08 13:33:23.368  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/11/08 13:33:23.368  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/11/08 13:33:23.368  INFO: Creating thread for interface DEV_BOARDINT
+2021/11/08 13:33:23.368  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/11/08 13:33:23.368  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/11/08 13:33:23.368  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/11/08 13:33:23.369  INFO: Starting packet reading for DEV_BOARDINT
+2021/11/08 13:33:23.369  INFO: Connecting to DEV_BOARDINT...
+2021/11/08 13:33:23.369  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/11/08 13:33:23.369  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/11/08 13:33:23.375  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/11/08 13:33:23.377  INFO: DEV_BOARDINT Connection Success
+2021/11/08 13:33:23.857  WARN: DEV_BOARD BEACON FLT_COMP_ST = UPLINK_MODE is YELLOW (2021/11/08 13:33:23.857)
+2021/11/08 13:33:23.860  INFO: Log File Opened : /Users/norgaardc/Documents/cosmos_projects/dev_board/outputs/logs/2021_11_08_13_33_23_tlm.bin
+2021/11/08 13:33:45.105  INFO: Log File Closed : /Users/norgaardc/Documents/cosmos_projects/dev_board/outputs/logs/2021_11_08_13_33_23_tlm.bin
+2021/11/08 13:33:45.206  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/11/08 13:33:45.206  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/11/08 13:33:45.206  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/11/08 13:33:45.284  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/11/08 13:33:45.291  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/11/08 13:33:45.291  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/11/08 13:33:45.291  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/11/08 13:33:45.353  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/11/08 13:33:45.364  INFO: Killing thread for interface DEV_BOARDINT
+2021/11/08 13:33:45.364  ERROR: Error reading from interface : DEV_BOARDINT
+2021/11/08 13:33:45.364  INFO: Connection Lost for DEV_BOARDINT: EBADF : Bad file descriptor
+2021/11/08 13:33:45.364  INFO: Stopped packet reading for DEV_BOARDINT
+2021/11/08 13:33:45.400  INFO: Disconnected from interface DEV_BOARDINT
+2021/11/08 13:33:46.429  WARN: Failed to gracefully kill thread:
+  Caller Backtrace:
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:472:in `block in stop_callback'
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/qtbindings-4.8.6.5/lib/Qt4.rb:114:in `execute_in_main_thread'
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:468:in `stop_callback'
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server.rb:293:in `call'
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server.rb:293:in `stop'
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:388:in `stop_threads'
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:414:in `closeEvent'
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/qtbindings-4.8.6.5/lib/Qt/qtruby4.rb:479:in `method_missing'
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/qtbindings-4.8.6.5/lib/Qt/qtruby4.rb:479:in `exec'
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/gui/qt_tool.rb:323:in `block in run'
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:741:in `set_working_dir'
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/gui/qt_tool.rb:304:in `run'
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:646:in `block in run'
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:556:in `catch_fatal_exception'
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:608:in `run'
+  /Users/norgaardc/Documents/cosmos_projects/dev_board/tools/mac/CmdTlmServer.app/Contents/MacOS/CmdTlmServer.rb:15:in `block in <main>'
+  /Users/norgaardc/Documents/cosmos_projects/dev_board/tools/mac/CmdTlmServer.app/Contents/MacOS/tool_launch.rb:16:in `tool_launch'
+  /Users/norgaardc/Documents/cosmos_projects/dev_board/tools/mac/CmdTlmServer.app/Contents/MacOS/CmdTlmServer.rb:13:in `<main>'
+  
+  Thread Backtrace:
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/qtbindings-4.8.6.5/lib/Qt4.rb:107:in `sleep'
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/qtbindings-4.8.6.5/lib/Qt4.rb:107:in `execute_in_main_thread'
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:446:in `handle_string_output'
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:431:in `block in process_server_messages'
+

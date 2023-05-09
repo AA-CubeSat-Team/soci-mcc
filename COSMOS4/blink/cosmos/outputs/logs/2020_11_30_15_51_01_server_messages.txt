@@ -1,0 +1,416 @@
+2020/11/30 15:51:00.783  INFO: COSMOS Version: 4.4.2
+2020/11/30 15:51:00.786  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/blink/cosmos/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2020/11/30 15:51:00.958  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/blink/cosmos/config/targets/BLINK/cmd_tlm_server.txt
+2020/11/30 15:51:01.053  INFO: Marshal load success: /Users/norgaardc/Documents/cosmos_projects/blink/cosmos/outputs/tmp/marshal_a1d189333c1b9a59fc0c953e58175c7b.bin
+2020/11/30 15:51:01.268  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2020/11/30 15:51:01.269  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2020/11/30 15:51:01.269  INFO: Creating thread for interface BLINKINT
+2020/11/30 15:51:01.313  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2020/11/30 15:51:01.313  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2020/11/30 15:51:01.321  INFO: PREIDENTIFIED_ROUTER Connection Success
+2020/11/30 15:51:01.321  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2020/11/30 15:51:01.321  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2020/11/30 15:51:01.326  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2020/11/30 15:51:01.327  INFO: Starting packet reading for BLINKINT
+2020/11/30 15:51:01.327  INFO: Connecting to BLINKINT...
+2020/11/30 15:51:01.414  ERROR: BLINKINT Connection Failed: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+2020/11/30 15:51:01.414  ERROR: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/posix_serial_driver.rb:47:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2020/11/30 15:51:06.459  INFO: Connecting to BLINKINT...
+2020/11/30 15:51:06.459  ERROR: BLINKINT Connection Failed: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+2020/11/30 15:51:06.460  ERROR: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/posix_serial_driver.rb:47:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2020/11/30 15:51:11.462  INFO: Connecting to BLINKINT...
+2020/11/30 15:51:11.463  ERROR: BLINKINT Connection Failed: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+2020/11/30 15:51:11.463  ERROR: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/posix_serial_driver.rb:47:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2020/11/30 15:51:16.467  INFO: Connecting to BLINKINT...
+2020/11/30 15:51:16.467  ERROR: BLINKINT Connection Failed: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+2020/11/30 15:51:16.467  ERROR: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/posix_serial_driver.rb:47:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2020/11/30 15:51:21.471  INFO: Connecting to BLINKINT...
+2020/11/30 15:51:21.471  ERROR: BLINKINT Connection Failed: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+2020/11/30 15:51:21.471  ERROR: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/posix_serial_driver.rb:47:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2020/11/30 15:51:26.474  INFO: Connecting to BLINKINT...
+2020/11/30 15:51:26.474  ERROR: BLINKINT Connection Failed: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+2020/11/30 15:51:26.474  ERROR: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/posix_serial_driver.rb:47:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2020/11/30 15:51:31.477  INFO: Connecting to BLINKINT...
+2020/11/30 15:51:31.478  ERROR: BLINKINT Connection Failed: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+2020/11/30 15:51:31.478  ERROR: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/posix_serial_driver.rb:47:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2020/11/30 15:51:36.480  INFO: Connecting to BLINKINT...
+2020/11/30 15:51:36.481  ERROR: BLINKINT Connection Failed: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+2020/11/30 15:51:36.481  ERROR: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/posix_serial_driver.rb:47:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2020/11/30 15:51:41.486  INFO: Connecting to BLINKINT...
+2020/11/30 15:51:41.487  ERROR: BLINKINT Connection Failed: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+2020/11/30 15:51:41.487  ERROR: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/posix_serial_driver.rb:47:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2020/11/30 15:51:46.492  INFO: Connecting to BLINKINT...
+2020/11/30 15:51:46.492  ERROR: BLINKINT Connection Failed: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+2020/11/30 15:51:46.492  ERROR: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/posix_serial_driver.rb:47:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2020/11/30 15:51:51.493  INFO: Connecting to BLINKINT...
+2020/11/30 15:51:51.493  ERROR: BLINKINT Connection Failed: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+2020/11/30 15:51:51.493  ERROR: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/posix_serial_driver.rb:47:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2020/11/30 15:51:56.494  INFO: Connecting to BLINKINT...
+2020/11/30 15:51:56.495  ERROR: BLINKINT Connection Failed: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+2020/11/30 15:51:56.495  ERROR: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/posix_serial_driver.rb:47:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2020/11/30 15:52:01.500  INFO: Connecting to BLINKINT...
+2020/11/30 15:52:01.500  ERROR: BLINKINT Connection Failed: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+2020/11/30 15:52:01.500  ERROR: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/posix_serial_driver.rb:47:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2020/11/30 15:52:06.503  INFO: Connecting to BLINKINT...
+2020/11/30 15:52:06.503  ERROR: BLINKINT Connection Failed: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+2020/11/30 15:52:06.503  ERROR: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/posix_serial_driver.rb:47:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2020/11/30 15:52:11.508  INFO: Connecting to BLINKINT...
+2020/11/30 15:52:11.509  ERROR: BLINKINT Connection Failed: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+2020/11/30 15:52:11.509  ERROR: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/posix_serial_driver.rb:47:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2020/11/30 15:52:16.514  INFO: Connecting to BLINKINT...
+2020/11/30 15:52:16.514  ERROR: BLINKINT Connection Failed: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+2020/11/30 15:52:16.515  ERROR: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/posix_serial_driver.rb:47:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2020/11/30 15:52:21.519  INFO: Connecting to BLINKINT...
+2020/11/30 15:52:21.519  ERROR: BLINKINT Connection Failed: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+2020/11/30 15:52:21.520  ERROR: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/posix_serial_driver.rb:47:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2020/11/30 15:52:26.520  INFO: Connecting to BLINKINT...
+2020/11/30 15:52:26.520  ERROR: BLINKINT Connection Failed: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+2020/11/30 15:52:26.521  ERROR: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/posix_serial_driver.rb:47:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2020/11/30 15:52:31.521  INFO: Connecting to BLINKINT...
+2020/11/30 15:52:31.521  ERROR: BLINKINT Connection Failed: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+2020/11/30 15:52:31.522  ERROR: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/posix_serial_driver.rb:47:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2020/11/30 15:52:36.523  INFO: Connecting to BLINKINT...
+2020/11/30 15:52:36.523  ERROR: BLINKINT Connection Failed: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+2020/11/30 15:52:36.523  ERROR: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/posix_serial_driver.rb:47:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2020/11/30 15:52:41.529  INFO: Connecting to BLINKINT...
+2020/11/30 15:52:41.529  ERROR: BLINKINT Connection Failed: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+2020/11/30 15:52:41.529  ERROR: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/posix_serial_driver.rb:47:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2020/11/30 15:52:46.534  INFO: Connecting to BLINKINT...
+2020/11/30 15:52:46.535  ERROR: BLINKINT Connection Failed: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+2020/11/30 15:52:46.535  ERROR: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/posix_serial_driver.rb:47:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2020/11/30 15:52:51.539  INFO: Connecting to BLINKINT...
+2020/11/30 15:52:51.539  ERROR: BLINKINT Connection Failed: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+2020/11/30 15:52:51.539  ERROR: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/posix_serial_driver.rb:47:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2020/11/30 15:52:54.256  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2020/11/30 15:52:54.256  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2020/11/30 15:52:54.256  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2020/11/30 15:52:54.365  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2020/11/30 15:52:54.376  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2020/11/30 15:52:54.377  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2020/11/30 15:52:54.377  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2020/11/30 15:52:54.476  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2020/11/30 15:52:54.487  INFO: Killing thread for interface BLINKINT
+2020/11/30 15:52:54.487  INFO: Stopped packet reading for BLINKINT
+2020/11/30 15:52:54.498  INFO: Disconnected from interface BLINKINT

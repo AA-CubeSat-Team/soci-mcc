@@ -1,0 +1,4 @@
+COMMAND RADIO CHANGE_MODE LITTLE_ENDIAN "Command Packet to Operate Satellite Radio."
+  APPEND_ID_PARAMETER COMMAND_ID 8 UINT 1 1 1 "Command Packet ID"
+  APPEND_ARRAY_PARAMETER ENTER_CMD_MODE 8 UINT 24 "Command Array for Changing Radio Mode."
+

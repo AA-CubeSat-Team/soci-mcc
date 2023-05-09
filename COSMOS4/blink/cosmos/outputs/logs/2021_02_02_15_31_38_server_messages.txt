@@ -1,0 +1,178 @@
+2021/02/02 15:31:37.108  INFO: COSMOS Version: 4.4.2
+2021/02/02 15:31:37.109  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/blink/cosmos/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/02/02 15:31:37.245  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/blink/cosmos/config/targets/BLINK/cmd_tlm_server.txt
+2021/02/02 15:31:37.334  INFO: Marshal load success: /Users/norgaardc/Documents/cosmos_projects/blink/cosmos/outputs/tmp/marshal_369e6a3241445601ffddd946ce6f7d5e.bin
+2021/02/02 15:31:37.452  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/02/02 15:31:37.452  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/02/02 15:31:37.453  INFO: Creating thread for interface BLINKINT
+2021/02/02 15:31:37.527  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/02/02 15:31:37.527  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/02/02 15:31:37.528  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/02/02 15:31:37.528  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/02/02 15:31:37.528  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/02/02 15:31:37.538  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/02/02 15:31:37.538  INFO: Starting packet reading for BLINKINT
+2021/02/02 15:31:37.538  INFO: Connecting to BLINKINT...
+2021/02/02 15:31:37.590  INFO: BLINKINT Connection Success
+2021/02/02 15:31:39.670  ERROR: BLINKINT - Unknown 50 byte packet starting: 3235360D0A0301003235360D0A0301003235360D0A0301003235360D0A0301003235360D
+2021/02/02 15:31:39.671  INFO: Log File Opened : /Users/norgaardc/Documents/cosmos_projects/blink/cosmos/outputs/logs/2021_02_02_15_31_39_tlm.bin
+2021/02/02 15:31:40.375  ERROR: BLINKINT - Unknown 54 byte packet starting: 360D0A0301003235360D0A0301003235360D0A0301003235360D0A0301003235360D0A03
+2021/02/02 15:31:40.977  ERROR: BLINKINT - Unknown 50 byte packet starting: 3235360D0A0301003235360D0A0301003235360D0A0301003235360D0A0301003235360D
+2021/02/02 15:31:41.678  ERROR: BLINKINT - Unknown 54 byte packet starting: 360D0A0301003235360D0A0301003235360D0A0301003235360D0A0301003235360D0A03
+2021/02/02 15:31:42.284  ERROR: BLINKINT - Unknown 50 byte packet starting: 3235360D0A0301003235360D0A0301003235360D0A0301003235360D0A0301003235360D
+2021/02/02 15:31:42.984  ERROR: BLINKINT - Unknown 54 byte packet starting: 360D0A0301003235360D0A0301003235360D0A0301003235360D0A0301003235360D0A03
+2021/02/02 15:31:43.590  ERROR: BLINKINT - Unknown 50 byte packet starting: 3235360D0A0301003235360D0A0301003235360D0A0301003235360D0A0301003235360D
+2021/02/02 15:31:44.290  ERROR: BLINKINT - Unknown 54 byte packet starting: 360D0A0301003235360D0A0301003235360D0A0301003235360D0A0301003235360D0A03
+2021/02/02 15:31:44.896  ERROR: BLINKINT - Unknown 50 byte packet starting: 3235360D0A0301003235360D0A0301003235360D0A0301003235360D0A0301003235360D
+2021/02/02 15:31:45.597  ERROR: BLINKINT - Unknown 54 byte packet starting: 360D0A0301003235360D0A0301003235360D0A0301003235360D0A0301003235360D0A03
+2021/02/02 15:31:46.203  ERROR: BLINKINT - Unknown 50 byte packet starting: 3235360D0A0301003235360D0A0301003235360D0A0301003235360D0A0301003235360D
+2021/02/02 15:31:46.903  ERROR: BLINKINT - Unknown 54 byte packet starting: 360D0A0301003235360D0A0301003235360D0A0301003235360D0A0301003235360D0A03
+2021/02/02 15:31:47.511  ERROR: BLINKINT - Unknown 50 byte packet starting: 3235360D0A0301003235360D0A0301003235360D0A0301003235360D0A0301003235360D
+2021/02/02 15:31:48.210  ERROR: BLINKINT - Unknown 54 byte packet starting: 360D0A0301003235360D0A0301003235360D0A0301003235360D0A0301003235360D0A03
+2021/02/02 15:31:48.813  ERROR: BLINKINT - Unknown 50 byte packet starting: 3235360D0A0301003235360D0A0301003235360D0A0301003235360D0A0301003235360D
+2021/02/02 15:31:49.517  ERROR: BLINKINT - Unknown 54 byte packet starting: 360D0A0301003235360D0A0301003235360D0A0301003235360D0A0301003235360D0A03
+2021/02/02 15:31:50.119  ERROR: BLINKINT - Unknown 50 byte packet starting: 3235360D0A0301003235360D0A0301003235360D0A0301003235360D0A0301003235360D
+2021/02/02 15:31:50.819  ERROR: BLINKINT - Unknown 54 byte packet starting: 360D0A0301003235360D0A0301003235360D0A0301003235360D0A0301003235360D0A03
+2021/02/02 15:31:51.425  ERROR: BLINKINT - Unknown 50 byte packet starting: 3235360D0A0301003235360D0A0301003235360D0A0301003235360D0A0301003235360D
+2021/02/02 15:31:52.126  ERROR: BLINKINT - Unknown 54 byte packet starting: 360D0A0301003235360D0A0301003235360D0A0301003235360D0A0301003235360D0A03
+2021/02/02 15:31:52.747  ERROR: BLINKINT - Unknown 50 byte packet starting: 3235360D0A0301003235360D0A0301003235360D0A0301003235360D0A0301003235360D
+2021/02/02 15:31:53.432  ERROR: BLINKINT - Unknown 54 byte packet starting: 360D0A0301003235360D0A0301003235360D0A0301003235360D0A0301003235370D0A03
+2021/02/02 15:31:54.038  ERROR: BLINKINT - Unknown 50 byte packet starting: 3235370D0A0301003235370D0A0301003235370D0A0301003235370D0A0301003235370D
+2021/02/02 15:31:54.739  ERROR: BLINKINT - Unknown 55 byte packet starting: 370D0A0301003235370D0A0301003235370D0A0301003235370D0A0301003235370D0A03
+2021/02/02 15:31:55.439  ERROR: BLINKINT - Unknown 53 byte packet starting: 35370D0A0301003235370D0A0301003235370D0A0301003235370D0A0301003235370D0A
+2021/02/02 15:31:55.439  ERROR: BLINKINT - Unknown 1 byte packet starting: 01
+2021/02/02 15:31:55.443  ERROR: Error reading from interface : BLINKINT
+2021/02/02 15:31:55.444  INFO: Connection Lost for BLINKINT: RuntimeError : Calculated packet length of 0 bits < (offset:0 + size:8)
+2021/02/02 15:31:55.444  ERROR: RuntimeError : Calculated packet length of 0 bits < (offset:0 + size:8)
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/protocols/length_protocol.rb:141:in `reduce_to_single_packet'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/protocols/burst_protocol.rb:54:in `read_data'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:202:in `block (2 levels) in read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:201:in `each'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:201:in `block in read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:188:in `loop'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:188:in `read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2021/02/02 15:32:00.450  INFO: Connecting to BLINKINT...
+2021/02/02 15:32:00.456  INFO: BLINKINT Connection Success
+2021/02/02 15:32:02.587  ERROR: BLINKINT - Unknown 50 byte packet starting: 3235390D0A0301003235390D0A0301003235390D0A0301003235390D0A0301003235390D
+2021/02/02 15:32:03.290  ERROR: BLINKINT - Unknown 57 byte packet starting: 390D0A0301003235390D0A0301003235390D0A0301003235390D0A0301003236300D0A03
+2021/02/02 15:32:03.487  ERROR: BLINKINT - Unknown 13 byte packet starting: 0D0A0301003236300D0A030100
+2021/02/02 15:32:04.093  ERROR: BLINKINT - Unknown 50 byte packet starting: 3236300D0A0301003236300D0A0301003235390D0A0301003235390D0A0301003235390D
+2021/02/02 15:32:04.797  ERROR: BLINKINT - Unknown 57 byte packet starting: 390D0A0301003235390D0A0301003235390D0A0301003235390D0A0301003235390D0A03
+2021/02/02 15:32:04.994  ERROR: BLINKINT - Unknown 13 byte packet starting: 0D0A0301003235390D0A030100
+2021/02/02 15:32:05.596  ERROR: BLINKINT - Unknown 50 byte packet starting: 3235390D0A0301003236300D0A0301003236300D0A0301003236300D0A0301003236300D
+2021/02/02 15:32:06.203  ERROR: BLINKINT - Unknown 48 byte packet starting: 300D0A0301003236300D0A0301003236300D0A0301003236300D0A0301003236300D0A03
+2021/02/02 15:32:06.804  ERROR: BLINKINT - Unknown 48 byte packet starting: 300D0A0301003236300D0A0301003236300D0A0301003236300D0A0301003236300D0A03
+2021/02/02 15:32:07.406  ERROR: BLINKINT - Unknown 48 byte packet starting: 300D0A0301003236300D0A0301003236300D0A0301003236300D0A0301003236310D0A03
+2021/02/02 15:32:08.009  ERROR: BLINKINT - Unknown 49 byte packet starting: 310D0A0301003236310D0A0301003236310D0A0301003236310D0A0301003236310D0A03
+2021/02/02 15:32:08.209  ERROR: BLINKINT - Unknown 13 byte packet starting: 0D0A0301003236310D0A030100
+2021/02/02 15:32:08.812  ERROR: BLINKINT - Unknown 50 byte packet starting: 3236310D0A0301003236310D0A0301003236300D0A0301003236310D0A0301003236310D
+2021/02/02 15:32:09.418  ERROR: BLINKINT - Unknown 49 byte packet starting: 310D0A0301003236310D0A0301003236310D0A0301003236310D0A0301003236310D0A03
+2021/02/02 15:32:09.644  ERROR: BLINKINT - Unknown 13 byte packet starting: 0D0A0301003236310D0A030100
+2021/02/02 15:32:10.220  ERROR: BLINKINT - Unknown 50 byte packet starting: 3236310D0A0301003236310D0A0301003236310D0A0301003236310D0A0301003236310D
+2021/02/02 15:32:10.823  ERROR: BLINKINT - Unknown 49 byte packet starting: 310D0A0301003236310D0A0301003236310D0A0301003236310D0A0301003236310D0A03
+2021/02/02 15:32:11.020  ERROR: BLINKINT - Unknown 13 byte packet starting: 0D0A0301003236310D0A030100
+2021/02/02 15:32:11.629  ERROR: BLINKINT - Unknown 50 byte packet starting: 3236310D0A0301003236310D0A0301003236310D0A0301003236310D0A0301003236310D
+2021/02/02 15:32:12.227  ERROR: BLINKINT - Unknown 49 byte packet starting: 310D0A0301003236310D0A0301003236310D0A0301003236310D0A0301003236310D0A03
+2021/02/02 15:32:12.428  ERROR: BLINKINT - Unknown 13 byte packet starting: 0D0A0301003236310D0A030100
+2021/02/02 15:32:13.030  ERROR: BLINKINT - Unknown 50 byte packet starting: 3236310D0A0301003236310D0A0301003236310D0A0301003236310D0A0301003236310D
+2021/02/02 15:32:13.637  ERROR: BLINKINT - Unknown 49 byte packet starting: 310D0A0301003236310D0A0301003236310D0A0301003236310D0A0301003236310D0A03
+2021/02/02 15:32:13.833  ERROR: BLINKINT - Unknown 13 byte packet starting: 0D0A0301003236310D0A030100
+2021/02/02 15:32:14.439  ERROR: BLINKINT - Unknown 50 byte packet starting: 3236310D0A0301003236310D0A0301003236310D0A0301003236310D0A0301003236310D
+2021/02/02 15:32:15.042  ERROR: BLINKINT - Unknown 49 byte packet starting: 310D0A0301003236310D0A0301003236310D0A0301003236310D0A0301003236310D0A03
+2021/02/02 15:32:15.242  ERROR: BLINKINT - Unknown 13 byte packet starting: 0D0A0301003236310D0A030100
+2021/02/02 15:32:15.844  ERROR: BLINKINT - Unknown 50 byte packet starting: 3236310D0A0301003236310D0A0301003236310D0A0301003236310D0A0301003236310D
+2021/02/02 15:32:16.450  ERROR: BLINKINT - Unknown 49 byte packet starting: 310D0A0301003236310D0A0301003236310D0A0301003236310D0A0301003236310D0A03
+2021/02/02 15:32:16.647  ERROR: BLINKINT - Unknown 13 byte packet starting: 0D0A0301003236310D0A030100
+2021/02/02 15:32:17.253  ERROR: BLINKINT - Unknown 50 byte packet starting: 3236310D0A0301003236310D0A0301003236310D0A0301003236310D0A0301003236310D
+2021/02/02 15:32:17.855  ERROR: BLINKINT - Unknown 49 byte packet starting: 310D0A0301003236310D0A0301003236310D0A0301003236310D0A0301003236310D0A03
+2021/02/02 15:32:18.051  ERROR: BLINKINT - Unknown 13 byte packet starting: 0D0A0301003236310D0A030100
+2021/02/02 15:32:18.658  ERROR: BLINKINT - Unknown 50 byte packet starting: 3236310D0A0301003236310D0A0301003236310D0A0301003236310D0A0301003236300D
+2021/02/02 15:32:19.260  ERROR: BLINKINT - Unknown 48 byte packet starting: 300D0A0301003236300D0A0301003236300D0A0301003236300D0A0301003236300D0A03
+2021/02/02 15:32:19.862  ERROR: BLINKINT - Unknown 48 byte packet starting: 300D0A0301003236300D0A0301003236300D0A0301003236300D0A0301003236300D0A03
+2021/02/02 15:32:20.464  ERROR: BLINKINT - Unknown 48 byte packet starting: 300D0A0301003236300D0A0301003236300D0A0301003236300D0A0301003236300D0A03
+2021/02/02 15:32:21.070  ERROR: BLINKINT - Unknown 48 byte packet starting: 300D0A0301003236300D0A0301003236300D0A0301003236300D0A0301003236300D0A03
+2021/02/02 15:32:21.672  ERROR: BLINKINT - Unknown 48 byte packet starting: 300D0A0301003236300D0A0301003236300D0A0301003235390D0A0301003235390D0A03
+2021/02/02 15:32:22.377  ERROR: BLINKINT - Unknown 57 byte packet starting: 390D0A0301003235390D0A0301003235390D0A0301003235390D0A0301003235390D0A03
+2021/02/02 15:32:22.573  ERROR: BLINKINT - Unknown 13 byte packet starting: 0D0A0301003235390D0A030100
+2021/02/02 15:32:23.179  ERROR: BLINKINT - Unknown 50 byte packet starting: 3235390D0A0301003235390D0A0301003235380D0A0301003235380D0A0301003235380D
+2021/02/02 15:32:23.880  ERROR: BLINKINT - Unknown 56 byte packet starting: 380D0A0301003235370D0A0301003235380D0A0301003235380D0A0301003235380D0A03
+2021/02/02 15:32:24.584  ERROR: BLINKINT - Unknown 56 byte packet starting: 380D0A0301003235380D0A0301003235380D0A0301003235380D0A0301003235380D0A03
+2021/02/02 15:32:25.289  ERROR: BLINKINT - Unknown 56 byte packet starting: 380D0A0301003235380D0A0301003235380D0A0301003235380D0A0301003235380D0A03
+2021/02/02 15:32:25.999  ERROR: BLINKINT - Unknown 55 byte packet starting: 370D0A0301003235380D0A0301003235370D0A0301003235370D0A0301003235370D0A03
+2021/02/02 15:32:26.689  ERROR: BLINKINT - Unknown 53 byte packet starting: 35370D0A0301003235370D0A0301003235370D0A0301003235370D0A0301003235370D0A
+2021/02/02 15:32:26.690  ERROR: BLINKINT - Unknown 1 byte packet starting: 01
+2021/02/02 15:32:26.693  ERROR: Error reading from interface : BLINKINT
+2021/02/02 15:32:26.695  INFO: Connection Lost for BLINKINT: RuntimeError : Calculated packet length of 0 bits < (offset:0 + size:8)
+2021/02/02 15:32:26.695  ERROR: RuntimeError : Calculated packet length of 0 bits < (offset:0 + size:8)
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/protocols/length_protocol.rb:141:in `reduce_to_single_packet'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/protocols/burst_protocol.rb:54:in `read_data'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:202:in `block (2 levels) in read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:201:in `each'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:201:in `block in read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:188:in `loop'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:188:in `read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2021/02/02 15:32:31.700  INFO: Connecting to BLINKINT...
+2021/02/02 15:32:31.704  INFO: BLINKINT Connection Success
+2021/02/02 15:32:33.832  ERROR: BLINKINT - Unknown 50 byte packet starting: 3235350D0A0301003235350D0A0301003235350D0A0301003235350D0A0301003235350D
+2021/02/02 15:32:34.533  ERROR: BLINKINT - Unknown 53 byte packet starting: 350D0A0301003235350D0A0301003235350D0A0301003235350D0A0301003235350D0A03
+2021/02/02 15:32:34.537  ERROR: Error reading from interface : BLINKINT
+2021/02/02 15:32:34.538  INFO: Connection Lost for BLINKINT: RuntimeError : Calculated packet length of 0 bits < (offset:0 + size:8)
+2021/02/02 15:32:34.538  ERROR: RuntimeError : Calculated packet length of 0 bits < (offset:0 + size:8)
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/protocols/length_protocol.rb:141:in `reduce_to_single_packet'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/protocols/burst_protocol.rb:54:in `read_data'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:202:in `block (2 levels) in read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:201:in `each'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:201:in `block in read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:188:in `loop'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:188:in `read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2021/02/02 15:32:39.543  INFO: Connecting to BLINKINT...
+2021/02/02 15:32:39.548  INFO: BLINKINT Connection Success
+2021/02/02 15:32:41.676  ERROR: BLINKINT - Unknown 50 byte packet starting: 3235350D0A0301003235350D0A0301003235350D0A0301003235350D0A0301003235350D
+2021/02/02 15:32:42.376  ERROR: BLINKINT - Unknown 53 byte packet starting: 350D0A0301003235350D0A0301003235350D0A0301003235350D0A0301003235350D0A03
+2021/02/02 15:32:42.376  ERROR: Error reading from interface : BLINKINT
+2021/02/02 15:32:42.378  INFO: Connection Lost for BLINKINT: RuntimeError : Calculated packet length of 0 bits < (offset:0 + size:8)
+2021/02/02 15:32:42.378  ERROR: RuntimeError : Calculated packet length of 0 bits < (offset:0 + size:8)
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/protocols/length_protocol.rb:141:in `reduce_to_single_packet'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/protocols/burst_protocol.rb:54:in `read_data'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:202:in `block (2 levels) in read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:201:in `each'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:201:in `block in read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:188:in `loop'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:188:in `read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2021/02/02 15:32:47.382  INFO: Connecting to BLINKINT...
+2021/02/02 15:32:47.387  INFO: BLINKINT Connection Success
+2021/02/02 15:32:49.515  ERROR: BLINKINT - Unknown 50 byte packet starting: 3235310D0A0301003235320D0A0301003235320D0A0301003235320D0A0301003235330D
+2021/02/02 15:32:50.121  ERROR: BLINKINT - Unknown 50 byte packet starting: 320D0A0301003235330D0A0301003235330D0A0301003235330D0A0301003235330D0A03
+2021/02/02 15:32:50.314  ERROR: BLINKINT - Unknown 10 byte packet starting: 0A0301003235330D0A03
+2021/02/02 15:32:50.318  ERROR: BLINKINT - Unknown 1 byte packet starting: 01
+2021/02/02 15:32:50.318  ERROR: Error reading from interface : BLINKINT
+2021/02/02 15:32:50.320  INFO: Connection Lost for BLINKINT: RuntimeError : Calculated packet length of 0 bits < (offset:0 + size:8)
+2021/02/02 15:32:50.320  ERROR: RuntimeError : Calculated packet length of 0 bits < (offset:0 + size:8)
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/protocols/length_protocol.rb:141:in `reduce_to_single_packet'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/protocols/burst_protocol.rb:54:in `read_data'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:202:in `block (2 levels) in read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:201:in `each'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:201:in `block in read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:188:in `loop'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:188:in `read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2021/02/02 15:32:55.325  INFO: Connecting to BLINKINT...
+2021/02/02 15:32:55.330  INFO: BLINKINT Connection Success
+2021/02/02 15:32:55.704  INFO: Log File Closed : /Users/norgaardc/Documents/cosmos_projects/blink/cosmos/outputs/logs/2021_02_02_15_31_39_tlm.bin
+2021/02/02 15:32:55.805  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/02/02 15:32:55.805  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/02/02 15:32:55.805  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/02/02 15:32:55.827  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/02/02 15:32:55.838  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/02/02 15:32:55.838  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/02/02 15:32:55.838  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/02/02 15:32:55.936  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/02/02 15:32:55.946  INFO: Killing thread for interface BLINKINT
+2021/02/02 15:32:55.947  ERROR: Error reading from interface : BLINKINT
+2021/02/02 15:32:55.947  INFO: Connection Lost for BLINKINT: EBADF : Bad file descriptor
+2021/02/02 15:32:55.947  INFO: Stopped packet reading for BLINKINT
+2021/02/02 15:32:55.948  INFO: Disconnected from interface BLINKINT

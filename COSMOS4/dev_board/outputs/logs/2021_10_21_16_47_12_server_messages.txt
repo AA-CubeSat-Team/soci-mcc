@@ -1,0 +1,382 @@
+2021/10/21 16:47:11.122  INFO: COSMOS Version: 4.5.0
+2021/10/21 16:47:11.124  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/dev_board/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/10/21 16:47:11.295  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/dev_board/config/targets/DEV_BOARD/cmd_tlm_server.txt
+2021/10/21 16:47:11.398  INFO: Marshal file does not exist: /Users/norgaardc/Documents/cosmos_projects/dev_board/outputs/tmp/marshal_1c91e8fa52d24320125c2a18304d20ab.bin
+2021/10/21 16:47:11.645  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/10/21 16:47:11.645  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/10/21 16:47:11.645  INFO: Creating thread for interface DEV_BOARDINT
+2021/10/21 16:47:11.646  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/10/21 16:47:11.646  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/10/21 16:47:11.658  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/10/21 16:47:11.658  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/10/21 16:47:11.658  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/10/21 16:47:11.658  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/10/21 16:47:11.659  INFO: Starting packet reading for DEV_BOARDINT
+2021/10/21 16:47:11.659  INFO: Connecting to DEV_BOARDINT...
+2021/10/21 16:47:11.680  ERROR: DEV_BOARDINT Connection Failed: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1411
+2021/10/21 16:47:11.681  ERROR: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1411
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/posix_serial_driver.rb:48:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/serial_driver.rb:62:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/serial_driver.rb:62:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/streams/serial_stream.rb:68:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/streams/serial_stream.rb:68:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/serial_interface.rb:60:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/serial_interface.rb:60:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2021/10/21 16:47:16.849  INFO: Connecting to DEV_BOARDINT...
+2021/10/21 16:47:16.850  ERROR: DEV_BOARDINT Connection Failed: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1411
+2021/10/21 16:47:16.850  ERROR: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1411
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/posix_serial_driver.rb:48:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/serial_driver.rb:62:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/serial_driver.rb:62:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/streams/serial_stream.rb:68:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/streams/serial_stream.rb:68:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/serial_interface.rb:60:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/serial_interface.rb:60:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2021/10/21 16:47:21.851  INFO: Connecting to DEV_BOARDINT...
+2021/10/21 16:47:21.851  ERROR: DEV_BOARDINT Connection Failed: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1411
+2021/10/21 16:47:21.851  ERROR: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1411
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/posix_serial_driver.rb:48:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/serial_driver.rb:62:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/serial_driver.rb:62:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/streams/serial_stream.rb:68:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/streams/serial_stream.rb:68:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/serial_interface.rb:60:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/serial_interface.rb:60:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2021/10/21 16:47:26.856  INFO: Connecting to DEV_BOARDINT...
+2021/10/21 16:47:26.857  ERROR: DEV_BOARDINT Connection Failed: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1411
+2021/10/21 16:47:26.857  ERROR: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1411
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/posix_serial_driver.rb:48:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/serial_driver.rb:62:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/serial_driver.rb:62:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/streams/serial_stream.rb:68:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/streams/serial_stream.rb:68:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/serial_interface.rb:60:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/serial_interface.rb:60:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2021/10/21 16:47:31.858  INFO: Connecting to DEV_BOARDINT...
+2021/10/21 16:47:31.859  ERROR: DEV_BOARDINT Connection Failed: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1411
+2021/10/21 16:47:31.859  ERROR: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1411
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/posix_serial_driver.rb:48:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/serial_driver.rb:62:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/serial_driver.rb:62:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/streams/serial_stream.rb:68:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/streams/serial_stream.rb:68:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/serial_interface.rb:60:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/serial_interface.rb:60:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2021/10/21 16:47:36.864  INFO: Connecting to DEV_BOARDINT...
+2021/10/21 16:47:36.865  ERROR: DEV_BOARDINT Connection Failed: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1411
+2021/10/21 16:47:36.865  ERROR: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1411
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/posix_serial_driver.rb:48:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/serial_driver.rb:62:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/serial_driver.rb:62:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/streams/serial_stream.rb:68:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/streams/serial_stream.rb:68:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/serial_interface.rb:60:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/serial_interface.rb:60:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2021/10/21 16:47:41.867  INFO: Connecting to DEV_BOARDINT...
+2021/10/21 16:47:41.868  ERROR: DEV_BOARDINT Connection Failed: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1411
+2021/10/21 16:47:41.868  ERROR: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1411
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/posix_serial_driver.rb:48:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/serial_driver.rb:62:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/serial_driver.rb:62:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/streams/serial_stream.rb:68:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/streams/serial_stream.rb:68:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/serial_interface.rb:60:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/serial_interface.rb:60:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2021/10/21 16:47:46.868  INFO: Connecting to DEV_BOARDINT...
+2021/10/21 16:47:46.869  ERROR: DEV_BOARDINT Connection Failed: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1411
+2021/10/21 16:47:46.869  ERROR: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1411
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/posix_serial_driver.rb:48:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/serial_driver.rb:62:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/serial_driver.rb:62:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/streams/serial_stream.rb:68:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/streams/serial_stream.rb:68:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/serial_interface.rb:60:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/serial_interface.rb:60:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2021/10/21 16:47:51.873  INFO: Connecting to DEV_BOARDINT...
+2021/10/21 16:47:51.873  ERROR: DEV_BOARDINT Connection Failed: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1411
+2021/10/21 16:47:51.873  ERROR: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1411
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/posix_serial_driver.rb:48:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/serial_driver.rb:62:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/serial_driver.rb:62:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/streams/serial_stream.rb:68:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/streams/serial_stream.rb:68:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/serial_interface.rb:60:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/serial_interface.rb:60:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2021/10/21 16:47:56.876  INFO: Connecting to DEV_BOARDINT...
+2021/10/21 16:47:56.877  ERROR: DEV_BOARDINT Connection Failed: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1411
+2021/10/21 16:47:56.877  ERROR: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1411
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/posix_serial_driver.rb:48:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/serial_driver.rb:62:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/serial_driver.rb:62:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/streams/serial_stream.rb:68:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/streams/serial_stream.rb:68:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/serial_interface.rb:60:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/serial_interface.rb:60:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2021/10/21 16:48:01.881  INFO: Connecting to DEV_BOARDINT...
+2021/10/21 16:48:01.881  ERROR: DEV_BOARDINT Connection Failed: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1411
+2021/10/21 16:48:01.881  ERROR: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1411
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/posix_serial_driver.rb:48:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/serial_driver.rb:62:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/serial_driver.rb:62:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/streams/serial_stream.rb:68:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/streams/serial_stream.rb:68:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/serial_interface.rb:60:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/serial_interface.rb:60:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2021/10/21 16:48:06.884  INFO: Connecting to DEV_BOARDINT...
+2021/10/21 16:48:06.885  ERROR: DEV_BOARDINT Connection Failed: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1411
+2021/10/21 16:48:06.885  ERROR: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1411
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/posix_serial_driver.rb:48:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/serial_driver.rb:62:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/serial_driver.rb:62:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/streams/serial_stream.rb:68:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/streams/serial_stream.rb:68:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/serial_interface.rb:60:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/serial_interface.rb:60:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2021/10/21 16:48:11.889  INFO: Connecting to DEV_BOARDINT...
+2021/10/21 16:48:11.890  ERROR: DEV_BOARDINT Connection Failed: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1411
+2021/10/21 16:48:11.890  ERROR: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1411
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/posix_serial_driver.rb:48:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/serial_driver.rb:62:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/serial_driver.rb:62:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/streams/serial_stream.rb:68:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/streams/serial_stream.rb:68:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/serial_interface.rb:60:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/serial_interface.rb:60:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2021/10/21 16:48:16.892  INFO: Connecting to DEV_BOARDINT...
+2021/10/21 16:48:16.892  ERROR: DEV_BOARDINT Connection Failed: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1411
+2021/10/21 16:48:16.893  ERROR: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1411
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/posix_serial_driver.rb:48:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/serial_driver.rb:62:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/serial_driver.rb:62:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/streams/serial_stream.rb:68:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/streams/serial_stream.rb:68:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/serial_interface.rb:60:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/serial_interface.rb:60:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2021/10/21 16:48:21.896  INFO: Connecting to DEV_BOARDINT...
+2021/10/21 16:48:21.896  ERROR: DEV_BOARDINT Connection Failed: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1411
+2021/10/21 16:48:21.896  ERROR: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1411
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/posix_serial_driver.rb:48:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/serial_driver.rb:62:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/serial_driver.rb:62:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/streams/serial_stream.rb:68:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/streams/serial_stream.rb:68:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/serial_interface.rb:60:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/serial_interface.rb:60:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2021/10/21 16:48:26.897  INFO: Connecting to DEV_BOARDINT...
+2021/10/21 16:48:26.898  ERROR: DEV_BOARDINT Connection Failed: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1411
+2021/10/21 16:48:26.898  ERROR: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1411
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/posix_serial_driver.rb:48:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/serial_driver.rb:62:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/serial_driver.rb:62:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/streams/serial_stream.rb:68:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/streams/serial_stream.rb:68:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/serial_interface.rb:60:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/serial_interface.rb:60:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2021/10/21 16:48:31.902  INFO: Connecting to DEV_BOARDINT...
+2021/10/21 16:48:31.903  ERROR: DEV_BOARDINT Connection Failed: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1411
+2021/10/21 16:48:31.903  ERROR: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1411
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/posix_serial_driver.rb:48:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/serial_driver.rb:62:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/serial_driver.rb:62:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/streams/serial_stream.rb:68:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/streams/serial_stream.rb:68:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/serial_interface.rb:60:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/serial_interface.rb:60:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2021/10/21 16:48:36.907  INFO: Connecting to DEV_BOARDINT...
+2021/10/21 16:48:36.907  ERROR: DEV_BOARDINT Connection Failed: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1411
+2021/10/21 16:48:36.907  ERROR: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1411
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/posix_serial_driver.rb:48:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/serial_driver.rb:62:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/serial_driver.rb:62:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/streams/serial_stream.rb:68:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/streams/serial_stream.rb:68:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/serial_interface.rb:60:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/serial_interface.rb:60:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2021/10/21 16:48:41.911  INFO: Connecting to DEV_BOARDINT...
+2021/10/21 16:48:41.911  ERROR: DEV_BOARDINT Connection Failed: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1411
+2021/10/21 16:48:41.911  ERROR: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1411
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/posix_serial_driver.rb:48:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/serial_driver.rb:62:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/serial_driver.rb:62:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/streams/serial_stream.rb:68:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/streams/serial_stream.rb:68:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/serial_interface.rb:60:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/serial_interface.rb:60:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2021/10/21 16:48:46.912  INFO: Connecting to DEV_BOARDINT...
+2021/10/21 16:48:46.912  ERROR: DEV_BOARDINT Connection Failed: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1411
+2021/10/21 16:48:46.913  ERROR: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1411
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/posix_serial_driver.rb:48:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/serial_driver.rb:62:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/serial_driver.rb:62:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/streams/serial_stream.rb:68:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/streams/serial_stream.rb:68:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/serial_interface.rb:60:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/serial_interface.rb:60:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2021/10/21 16:48:51.919  INFO: Connecting to DEV_BOARDINT...
+2021/10/21 16:48:51.919  ERROR: DEV_BOARDINT Connection Failed: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1411
+2021/10/21 16:48:51.919  ERROR: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1411
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/posix_serial_driver.rb:48:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/serial_driver.rb:62:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/serial_driver.rb:62:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/streams/serial_stream.rb:68:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/streams/serial_stream.rb:68:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/serial_interface.rb:60:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/serial_interface.rb:60:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2021/10/21 16:48:54.381  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/10/21 16:48:54.381  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/10/21 16:48:54.381  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/10/21 16:48:54.416  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/10/21 16:48:54.426  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/10/21 16:48:54.426  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/10/21 16:48:54.426  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/10/21 16:48:54.512  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/10/21 16:48:54.523  INFO: Killing thread for interface DEV_BOARDINT
+2021/10/21 16:48:54.523  INFO: Stopped packet reading for DEV_BOARDINT
+2021/10/21 16:48:54.534  INFO: Disconnected from interface DEV_BOARDINT

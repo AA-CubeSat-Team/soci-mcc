@@ -1,0 +1,29 @@
+2021/02/09 15:49:38.883  INFO: COSMOS Version: 4.4.2
+2021/02/09 15:49:38.883  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/light/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/02/09 15:49:39.011  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/light/config/targets/LIGHT/cmd_tlm_server.txt
+2021/02/09 15:49:39.107  INFO: Marshal load success: /Users/norgaardc/Documents/cosmos_projects/light/outputs/tmp/marshal_650a9be7ef63de097e4e8c36e38cc334.bin
+2021/02/09 15:49:39.316  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/02/09 15:49:39.317  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/02/09 15:49:39.317  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/02/09 15:49:39.317  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/02/09 15:49:39.317  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/02/09 15:49:39.318  INFO: Creating thread for interface LIGHTINT
+2021/02/09 15:49:39.398  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/02/09 15:49:39.398  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/02/09 15:49:39.406  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/02/09 15:49:39.407  INFO: Starting packet reading for LIGHTINT
+2021/02/09 15:49:39.407  INFO: Connecting to LIGHTINT...
+2021/02/09 15:49:39.446  INFO: LIGHTINT Connection Success
+2021/02/09 15:54:02.594  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/02/09 15:54:02.594  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/02/09 15:54:02.594  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/02/09 15:54:02.606  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/02/09 15:54:02.606  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/02/09 15:54:02.606  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/02/09 15:54:02.606  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/02/09 15:54:02.704  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/02/09 15:54:02.715  INFO: Killing thread for interface LIGHTINT
+2021/02/09 15:54:02.715  ERROR: Error reading from interface : LIGHTINT
+2021/02/09 15:54:02.716  INFO: Connection Lost for LIGHTINT: EBADF : Bad file descriptor
+2021/02/09 15:54:02.716  INFO: Stopped packet reading for LIGHTINT
+2021/02/09 15:54:02.716  INFO: Disconnected from interface LIGHTINT

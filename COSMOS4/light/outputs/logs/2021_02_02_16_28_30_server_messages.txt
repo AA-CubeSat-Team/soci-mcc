@@ -1,0 +1,137 @@
+2021/02/02 16:28:29.412  INFO: COSMOS Version: 4.4.2
+2021/02/02 16:28:29.412  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/light/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/02/02 16:28:29.541  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/light/config/targets/LIGHT/cmd_tlm_server.txt
+2021/02/02 16:28:29.633  INFO: Marshal load success: /Users/norgaardc/Documents/cosmos_projects/light/outputs/tmp/marshal_5f5d6e3550395e528f2af19b1712e0b6.bin
+2021/02/02 16:28:29.840  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/02/02 16:28:29.840  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/02/02 16:28:29.840  INFO: Creating thread for interface LIGHTINT
+2021/02/02 16:28:29.841  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/02/02 16:28:29.841  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/02/02 16:28:29.845  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/02/02 16:28:29.845  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/02/02 16:28:29.845  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/02/02 16:28:29.850  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/02/02 16:28:29.850  INFO: Starting packet reading for LIGHTINT
+2021/02/02 16:28:29.850  INFO: Connecting to LIGHTINT...
+2021/02/02 16:28:29.921  ERROR: LIGHTINT Connection Failed: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+2021/02/02 16:28:29.922  ERROR: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/posix_serial_driver.rb:47:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2021/02/02 16:28:34.925  INFO: Connecting to LIGHTINT...
+2021/02/02 16:28:34.925  ERROR: LIGHTINT Connection Failed: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+2021/02/02 16:28:34.925  ERROR: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/posix_serial_driver.rb:47:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2021/02/02 16:28:39.926  INFO: Connecting to LIGHTINT...
+2021/02/02 16:28:39.926  ERROR: LIGHTINT Connection Failed: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+2021/02/02 16:28:39.928  ERROR: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1421
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/posix_serial_driver.rb:47:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2021/02/02 16:28:44.933  INFO: Connecting to LIGHTINT...
+2021/02/02 16:28:44.941  INFO: LIGHTINT Connection Success
+2021/02/02 16:28:47.064  ERROR: LIGHTINT - Unknown 50 byte packet starting: 3236350D0A0301003236350D0A0301003236350D0A0301003236340D0A0301003236340D
+2021/02/02 16:28:47.064  INFO: Log File Opened : /Users/norgaardc/Documents/cosmos_projects/light/outputs/logs/2021_02_02_16_28_47_tlm.bin
+2021/02/02 16:28:47.764  ERROR: LIGHTINT - Unknown 52 byte packet starting: 340D0A0301003236340D0A0301003236340D0A0301003236340D0A0301003236340D0A03
+2021/02/02 16:28:47.764  ERROR: LIGHTINT - Unknown 1 byte packet starting: 01
+2021/02/02 16:28:47.768  ERROR: Error reading from interface : LIGHTINT
+2021/02/02 16:28:47.769  INFO: Connection Lost for LIGHTINT: RuntimeError : Calculated packet length of 0 bits < (offset:0 + size:8)
+2021/02/02 16:28:47.770  ERROR: RuntimeError : Calculated packet length of 0 bits < (offset:0 + size:8)
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/protocols/length_protocol.rb:141:in `reduce_to_single_packet'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/protocols/burst_protocol.rb:54:in `read_data'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:202:in `block (2 levels) in read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:201:in `each'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:201:in `block in read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:188:in `loop'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:188:in `read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2021/02/02 16:28:52.773  INFO: Connecting to LIGHTINT...
+2021/02/02 16:28:52.778  INFO: LIGHTINT Connection Success
+2021/02/02 16:28:54.907  ERROR: LIGHTINT - Unknown 50 byte packet starting: 3235390D0A0301003235390D0A0301003235380D0A0301003235380D0A0301003235380D
+2021/02/02 16:28:55.607  ERROR: LIGHTINT - Unknown 56 byte packet starting: 380D0A0301003235380D0A0301003235380D0A0301003235380D0A0301003235380D0A03
+2021/02/02 16:28:56.312  ERROR: LIGHTINT - Unknown 55 byte packet starting: 370D0A0301003235370D0A0301003235370D0A0301003235370D0A0301003235370D0A03
+2021/02/02 16:28:57.012  ERROR: LIGHTINT - Unknown 53 byte packet starting: 35370D0A0301003235370D0A0301003235360D0A0301003235360D0A0301003235360D0A
+2021/02/02 16:28:57.012  ERROR: LIGHTINT - Unknown 1 byte packet starting: 01
+2021/02/02 16:28:57.012  ERROR: Error reading from interface : LIGHTINT
+2021/02/02 16:28:57.014  INFO: Connection Lost for LIGHTINT: RuntimeError : Calculated packet length of 0 bits < (offset:0 + size:8)
+2021/02/02 16:28:57.014  ERROR: RuntimeError : Calculated packet length of 0 bits < (offset:0 + size:8)
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/protocols/length_protocol.rb:141:in `reduce_to_single_packet'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/protocols/burst_protocol.rb:54:in `read_data'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:202:in `block (2 levels) in read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:201:in `each'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:201:in `block in read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:188:in `loop'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:188:in `read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2021/02/02 16:29:02.019  INFO: Connecting to LIGHTINT...
+2021/02/02 16:29:02.024  INFO: LIGHTINT Connection Success
+2021/02/02 16:29:04.151  ERROR: LIGHTINT - Unknown 50 byte packet starting: 3234390D0A0301003234390D0A0301003234390D0A0301003234390D0A0301003234390D
+2021/02/02 16:29:04.856  ERROR: LIGHTINT - Unknown 56 byte packet starting: 380D0A0301003234380D0A0301003234380D0A0301003234380D0A0301003234380D0A03
+2021/02/02 16:29:05.556  ERROR: LIGHTINT - Unknown 56 byte packet starting: 380D0A0301003234380D0A0301003234380D0A0301003234370D0A0301003234370D0A03
+2021/02/02 16:29:06.260  ERROR: LIGHTINT - Unknown 55 byte packet starting: 370D0A0301003234370D0A0301003234370D0A0301003234370D0A0301003234360D0A03
+2021/02/02 16:29:06.867  ERROR: LIGHTINT - Unknown 52 byte packet starting: 34360D0A0301003234360D0A0301003234360D0A0301003234360D0A0301003234360D0A
+2021/02/02 16:29:06.964  ERROR: LIGHT STATUS received with actual packet length of 3 but defined length of 4
+2021/02/02 16:29:07.567  ERROR: LIGHTINT - Unknown 50 byte packet starting: 3234350D0A0301003234350D0A0301003234350D0A0301003234350D0A0301003234350D
+2021/02/02 16:29:08.268  ERROR: LIGHTINT - Unknown 53 byte packet starting: 350D0A0301003234340D0A0301003234350D0A0301003234340D0A0301003234340D0A03
+2021/02/02 16:29:08.268  ERROR: Error reading from interface : LIGHTINT
+2021/02/02 16:29:08.269  INFO: Connection Lost for LIGHTINT: RuntimeError : Calculated packet length of 0 bits < (offset:0 + size:8)
+2021/02/02 16:29:08.269  ERROR: RuntimeError : Calculated packet length of 0 bits < (offset:0 + size:8)
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/protocols/length_protocol.rb:141:in `reduce_to_single_packet'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/protocols/burst_protocol.rb:54:in `read_data'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:202:in `block (2 levels) in read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:201:in `each'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:201:in `block in read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:188:in `loop'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:188:in `read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2021/02/02 16:29:13.300  INFO: Connecting to LIGHTINT...
+2021/02/02 16:29:13.306  INFO: LIGHTINT Connection Success
+2021/02/02 16:29:13.366  INFO: Log File Closed : /Users/norgaardc/Documents/cosmos_projects/light/outputs/logs/2021_02_02_16_28_47_tlm.bin
+2021/02/02 16:29:13.467  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/02/02 16:29:13.467  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/02/02 16:29:13.467  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/02/02 16:29:13.534  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/02/02 16:29:13.542  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/02/02 16:29:13.542  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/02/02 16:29:13.543  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/02/02 16:29:13.630  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/02/02 16:29:13.640  INFO: Killing thread for interface LIGHTINT
+2021/02/02 16:29:13.641  ERROR: Error reading from interface : LIGHTINT
+2021/02/02 16:29:13.641  INFO: Connection Lost for LIGHTINT: EBADF : Bad file descriptor
+2021/02/02 16:29:13.641  INFO: Stopped packet reading for LIGHTINT
+2021/02/02 16:29:13.642  INFO: Disconnected from interface LIGHTINT

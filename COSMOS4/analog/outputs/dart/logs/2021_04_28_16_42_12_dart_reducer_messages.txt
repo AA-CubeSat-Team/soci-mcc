@@ -1,0 +1,8 @@
+2021/04/28 16:42:11.830  INFO: Dart Reducer Starting with 5 threads...
+2021/04/28 17:24:07.237  FATAL: Fatal Exception! Exiting...
+2021/04/28 17:24:07.237  FATAL: SignalException : SIGHUP
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/dart/lib/dart_reducer_manager.rb:87:in `sleep'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/dart/lib/dart_reducer_manager.rb:87:in `run'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/dart/processes/dart_reducer.rb:26:in `block in <main>'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:556:in `catch_fatal_exception'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/dart/processes/dart_reducer.rb:17:in `<main>'

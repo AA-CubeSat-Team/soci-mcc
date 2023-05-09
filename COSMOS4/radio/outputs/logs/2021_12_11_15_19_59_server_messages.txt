@@ -1,0 +1,29 @@
+2021/12/11 15:19:58.078  INFO: COSMOS Version: 4.5.0
+2021/12/11 15:19:58.079  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/radio/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/12/11 15:19:58.249  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/radio/config/targets/RADIO/cmd_tlm_server.txt
+2021/12/11 15:19:58.254  INFO: Marshal load success: /Users/norgaardc/Documents/cosmos_projects/radio/outputs/tmp/marshal_4d5b537dc8ff4b0ca9ad6e70551b7dfa.bin
+2021/12/11 15:19:58.558  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/12/11 15:19:58.559  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/12/11 15:19:58.559  INFO: Creating thread for interface RADIOINT
+2021/12/11 15:19:58.559  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/12/11 15:19:58.559  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/12/11 15:19:58.559  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/12/11 15:19:58.560  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/12/11 15:19:58.560  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/12/11 15:19:58.566  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/12/11 15:19:58.566  INFO: Starting packet reading for RADIOINT
+2021/12/11 15:19:58.566  INFO: Connecting to RADIOINT...
+2021/12/11 15:19:58.603  INFO: RADIOINT Connection Success
+2021/12/11 15:20:39.124  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/12/11 15:20:39.124  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/12/11 15:20:39.124  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/12/11 15:20:39.213  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/12/11 15:20:39.219  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/12/11 15:20:39.219  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/12/11 15:20:39.219  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/12/11 15:20:39.323  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/12/11 15:20:39.334  INFO: Killing thread for interface RADIOINT
+2021/12/11 15:20:39.334  ERROR: Error reading from interface : RADIOINT
+2021/12/11 15:20:39.334  INFO: Connection Lost for RADIOINT: EBADF : Bad file descriptor
+2021/12/11 15:20:39.334  INFO: Stopped packet reading for RADIOINT
+2021/12/11 15:20:39.369  INFO: Disconnected from interface RADIOINT

@@ -1,0 +1,127 @@
+2021/02/07 15:09:20.551  INFO: COSMOS Version: 4.4.2
+2021/02/07 15:09:20.551  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/light/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/02/07 15:09:20.678  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/light/config/targets/LIGHT/cmd_tlm_server.txt
+2021/02/07 15:09:20.768  INFO: Marshal load success: /Users/norgaardc/Documents/cosmos_projects/light/outputs/tmp/marshal_6f24da1f2dc5c42a8d7278e31feedbab.bin
+2021/02/07 15:09:20.976  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/02/07 15:09:20.976  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/02/07 15:09:20.976  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/02/07 15:09:20.977  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/02/07 15:09:20.977  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/02/07 15:09:20.977  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/02/07 15:09:20.977  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/02/07 15:09:20.986  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/02/07 15:09:20.986  INFO: Creating thread for interface LIGHTINT
+2021/02/07 15:09:21.055  INFO: Starting packet reading for LIGHTINT
+2021/02/07 15:09:21.055  INFO: Connecting to LIGHTINT...
+2021/02/07 15:09:21.059  INFO: LIGHTINT Connection Success
+2021/02/07 15:09:22.588  INFO: Log File Opened : /Users/norgaardc/Documents/cosmos_projects/light/outputs/logs/2021_02_07_15_09_22_tlm.bin
+2021/02/07 15:12:28.653  INFO: cmd("LIGHT READLDRPIN with READLDRPIN 14")
+2021/02/07 15:12:28.654  INFO: Log File Opened : /Users/norgaardc/Documents/cosmos_projects/light/outputs/logs/2021_02_07_15_12_28_cmd.bin
+2021/02/07 15:12:58.119  INFO: cmd("LIGHT READLDRPIN with READLDRPIN 14")
+2021/02/07 15:15:14.543  ERROR: Error reading from interface : LIGHTINT
+2021/02/07 15:15:14.543  INFO: Connection Lost for LIGHTINT: RuntimeError : Calculated packet length of 0 bits < (offset:0 + size:8)
+2021/02/07 15:15:14.543  ERROR: RuntimeError : Calculated packet length of 0 bits < (offset:0 + size:8)
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/protocols/length_protocol.rb:141:in `reduce_to_single_packet'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/protocols/burst_protocol.rb:54:in `read_data'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:202:in `block (2 levels) in read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:201:in `each'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:201:in `block in read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:188:in `loop'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:188:in `read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2021/02/07 15:15:19.548  INFO: Connecting to LIGHTINT...
+2021/02/07 15:15:19.549  ERROR: LIGHTINT Connection Failed: EBUSY : Resource busy @ rb_sysopen - /dev/cu.usbmodem1421
+2021/02/07 15:15:19.549  ERROR: EBUSY : Resource busy @ rb_sysopen - /dev/cu.usbmodem1421
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/posix_serial_driver.rb:47:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2021/02/07 15:15:24.552  INFO: Connecting to LIGHTINT...
+2021/02/07 15:15:24.552  ERROR: LIGHTINT Connection Failed: EBUSY : Resource busy @ rb_sysopen - /dev/cu.usbmodem1421
+2021/02/07 15:15:24.552  ERROR: EBUSY : Resource busy @ rb_sysopen - /dev/cu.usbmodem1421
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/posix_serial_driver.rb:47:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2021/02/07 15:15:29.556  INFO: Connecting to LIGHTINT...
+2021/02/07 15:15:29.559  INFO: LIGHTINT Connection Success
+2021/02/07 15:15:30.078  ERROR: Error reading from interface : LIGHTINT
+2021/02/07 15:15:30.078  INFO: Connection Lost for LIGHTINT: RuntimeError : Calculated packet length of 0 bits < (offset:0 + size:8)
+2021/02/07 15:15:30.078  ERROR: RuntimeError : Calculated packet length of 0 bits < (offset:0 + size:8)
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/protocols/length_protocol.rb:141:in `reduce_to_single_packet'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/protocols/burst_protocol.rb:54:in `read_data'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:202:in `block (2 levels) in read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:201:in `each'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:201:in `block in read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:188:in `loop'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:188:in `read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2021/02/07 15:15:35.083  INFO: Connecting to LIGHTINT...
+2021/02/07 15:15:35.086  INFO: LIGHTINT Connection Success
+2021/02/07 15:15:35.087  ERROR: LIGHTINT - Unknown 1 byte packet starting: 01
+2021/02/07 15:15:35.087  ERROR: LIGHTINT - Unknown 4 byte packet starting: 04160000
+2021/02/07 15:15:35.089  ERROR: Error reading from interface : LIGHTINT
+2021/02/07 15:15:35.090  INFO: Connection Lost for LIGHTINT: RuntimeError : Calculated packet length of 0 bits < (offset:0 + size:8)
+2021/02/07 15:15:35.090  ERROR: RuntimeError : Calculated packet length of 0 bits < (offset:0 + size:8)
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/protocols/length_protocol.rb:141:in `reduce_to_single_packet'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/protocols/burst_protocol.rb:54:in `read_data'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:202:in `block (2 levels) in read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:201:in `each'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:201:in `block in read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:188:in `loop'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:188:in `read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2021/02/07 15:15:40.095  INFO: Connecting to LIGHTINT...
+2021/02/07 15:15:40.095  ERROR: LIGHTINT Connection Failed: EBUSY : Resource busy @ rb_sysopen - /dev/cu.usbmodem1421
+2021/02/07 15:15:40.095  ERROR: EBUSY : Resource busy @ rb_sysopen - /dev/cu.usbmodem1421
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/posix_serial_driver.rb:47:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/io/serial_driver.rb:58:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/streams/serial_stream.rb:65:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/serial_interface.rb:59:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2021/02/07 15:15:45.097  INFO: Connecting to LIGHTINT...
+2021/02/07 15:15:45.103  INFO: LIGHTINT Connection Success
+2021/02/07 15:15:51.382  INFO: Log File Closed : /Users/norgaardc/Documents/cosmos_projects/light/outputs/logs/2021_02_07_15_12_28_cmd.bin
+2021/02/07 15:15:51.382  INFO: Log File Closed : /Users/norgaardc/Documents/cosmos_projects/light/outputs/logs/2021_02_07_15_09_22_tlm.bin
+2021/02/07 15:15:51.483  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/02/07 15:15:51.483  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/02/07 15:15:51.483  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/02/07 15:15:51.540  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/02/07 15:15:51.546  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/02/07 15:15:51.546  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/02/07 15:15:51.547  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/02/07 15:15:51.601  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/02/07 15:15:51.612  INFO: Killing thread for interface LIGHTINT
+2021/02/07 15:15:51.612  ERROR: Error reading from interface : LIGHTINT
+2021/02/07 15:15:51.612  INFO: Connection Lost for LIGHTINT: EBADF : Bad file descriptor
+2021/02/07 15:15:51.612  INFO: Stopped packet reading for LIGHTINT
+2021/02/07 15:15:51.613  INFO: Disconnected from interface LIGHTINT

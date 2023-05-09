@@ -1,0 +1,42 @@
+2020/11/07 19:06:53.282  INFO: COSMOS Version: 4.4.2
+2020/11/07 19:06:53.283  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/blink/cosmos/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2020/11/07 19:06:53.411  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/blink/cosmos/config/targets/BLINK/cmd_tlm_server.txt
+2020/11/07 19:06:53.415  INFO: Marshal load success: /Users/norgaardc/Documents/cosmos_projects/blink/cosmos/outputs/tmp/marshal_a1d189333c1b9a59fc0c953e58175c7b.bin
+2020/11/07 19:06:53.734  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2020/11/07 19:06:53.735  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2020/11/07 19:06:53.735  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2020/11/07 19:06:53.735  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2020/11/07 19:06:53.740  INFO: PREIDENTIFIED_ROUTER Connection Success
+2020/11/07 19:06:53.740  INFO: Creating thread for interface BLINKINT
+2020/11/07 19:06:53.836  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2020/11/07 19:06:53.836  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2020/11/07 19:06:53.844  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2020/11/07 19:06:53.844  INFO: Starting packet reading for BLINKINT
+2020/11/07 19:06:53.844  INFO: Connecting to BLINKINT...
+2020/11/07 19:06:53.927  INFO: BLINKINT Connection Success
+2020/11/07 19:06:54.882  INFO: Log File Opened : /Users/norgaardc/Documents/cosmos_projects/blink/cosmos/outputs/logs/2020_11_07_19_06_54_tlm.bin
+2020/11/07 19:07:55.434  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):51356
+2020/11/07 19:08:15.649  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):51356
+2020/11/07 19:08:15.720  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):51356
+2020/11/07 19:10:57.388  INFO: cmd("BLINK DELAY with DELAY 50")
+2020/11/07 19:10:57.389  INFO: Log File Opened : /Users/norgaardc/Documents/cosmos_projects/blink/cosmos/outputs/logs/2020_11_07_19_10_57_cmd.bin
+2020/11/07 19:11:30.221  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):51359
+2020/11/07 19:11:48.256  INFO: cmd("BLINK DELAY with DELAY 1")
+2020/11/07 19:12:08.815  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):51359
+2020/11/07 19:12:08.817  ERROR: PREIDENTIFIED_ROUTER: Error sending to client: RuntimeError Interface not connected for write: StreamInterface
+2020/11/07 19:12:08.817  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):51359
+2020/11/07 19:12:15.781  INFO: Log File Closed : /Users/norgaardc/Documents/cosmos_projects/blink/cosmos/outputs/logs/2020_11_07_19_10_57_cmd.bin
+2020/11/07 19:12:15.782  INFO: Log File Closed : /Users/norgaardc/Documents/cosmos_projects/blink/cosmos/outputs/logs/2020_11_07_19_06_54_tlm.bin
+2020/11/07 19:12:15.882  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2020/11/07 19:12:15.883  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2020/11/07 19:12:15.883  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2020/11/07 19:12:15.931  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2020/11/07 19:12:15.937  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2020/11/07 19:12:15.938  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2020/11/07 19:12:15.938  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2020/11/07 19:12:16.033  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2020/11/07 19:12:16.044  INFO: Killing thread for interface BLINKINT
+2020/11/07 19:12:16.044  ERROR: Error reading from interface : BLINKINT
+2020/11/07 19:12:16.044  INFO: Connection Lost for BLINKINT: EBADF : Bad file descriptor
+2020/11/07 19:12:16.044  INFO: Stopped packet reading for BLINKINT
+2020/11/07 19:12:16.045  INFO: Disconnected from interface BLINKINT

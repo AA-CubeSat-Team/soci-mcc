@@ -1,0 +1,31 @@
+2021/10/21 17:47:36.320  INFO: COSMOS Version: 4.5.0
+2021/10/21 17:47:36.320  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/dev_board/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/10/21 17:47:36.472  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/dev_board/config/targets/DEV_BOARD/cmd_tlm_server.txt
+2021/10/21 17:47:36.475  INFO: Marshal load success: /Users/norgaardc/Documents/cosmos_projects/dev_board/outputs/tmp/marshal_1c91e8fa52d24320125c2a18304d20ab.bin
+2021/10/21 17:47:36.686  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/10/21 17:47:36.686  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/10/21 17:47:36.686  INFO: Creating thread for interface DEV_BOARDINT
+2021/10/21 17:47:36.731  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/10/21 17:47:36.731  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/10/21 17:47:36.732  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/10/21 17:47:36.732  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/10/21 17:47:36.732  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/10/21 17:47:36.741  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/10/21 17:47:36.741  INFO: Starting packet reading for DEV_BOARDINT
+2021/10/21 17:47:36.741  INFO: Connecting to DEV_BOARDINT...
+2021/10/21 17:47:36.775  INFO: DEV_BOARDINT Connection Success
+2021/10/21 17:47:37.085  INFO: Log File Opened : /Users/norgaardc/Documents/cosmos_projects/dev_board/outputs/logs/2021_10_21_17_47_37_tlm.bin
+2021/10/21 17:49:17.359  INFO: Log File Closed : /Users/norgaardc/Documents/cosmos_projects/dev_board/outputs/logs/2021_10_21_17_47_37_tlm.bin
+2021/10/21 17:49:17.460  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/10/21 17:49:17.461  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/10/21 17:49:17.461  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/10/21 17:49:17.537  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/10/21 17:49:17.545  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/10/21 17:49:17.545  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/10/21 17:49:17.545  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/10/21 17:49:17.588  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/10/21 17:49:17.598  INFO: Killing thread for interface DEV_BOARDINT
+2021/10/21 17:49:17.598  ERROR: Error reading from interface : DEV_BOARDINT
+2021/10/21 17:49:17.599  INFO: Connection Lost for DEV_BOARDINT: EBADF : Bad file descriptor
+2021/10/21 17:49:17.599  INFO: Stopped packet reading for DEV_BOARDINT
+2021/10/21 17:49:17.632  INFO: Disconnected from interface DEV_BOARDINT

@@ -1,0 +1,3 @@
+COMMAND LIGHT delay BIG_ENDIAN "Starts a collect on the LIGHT target."
+  APPEND_PARAMETER delay 16 UINT 0 255 1 "Collect value from LDR."
+  

@@ -1,0 +1,2 @@
+INTERFACE DEV_BOARDINT serial_interface.rb /dev/tty.usbmodem1421 /dev/tty.usbmodem1421 115200 NONE 1 10.0 nil LENGTH 0 8 0 1 LITTLE_ENDIAN
+  TARGET DEV_BOARD

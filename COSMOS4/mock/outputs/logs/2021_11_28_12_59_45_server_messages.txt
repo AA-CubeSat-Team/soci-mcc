@@ -1,0 +1,74 @@
+2021/11/28 12:59:44.770  INFO: COSMOS Version: 4.5.0
+2021/11/28 12:59:44.770  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/mock/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/11/28 12:59:44.915  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/mock/config/targets/MOCK/cmd_tlm_server.txt
+2021/11/28 12:59:45.001  INFO: Marshal load success: /Users/norgaardc/Documents/cosmos_projects/mock/outputs/tmp/marshal_208cb8ad0b8fd5de060be997c76c6e7d.bin
+2021/11/28 12:59:45.208  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/11/28 12:59:45.208  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/11/28 12:59:45.208  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/11/28 12:59:45.208  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/11/28 12:59:45.209  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/11/28 12:59:45.209  INFO: Creating thread for interface MOCKINT
+2021/11/28 12:59:45.210  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/11/28 12:59:45.210  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/11/28 12:59:45.220  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/11/28 12:59:45.220  INFO: Starting packet reading for MOCKINT
+2021/11/28 12:59:45.220  INFO: Connecting to MOCKINT...
+2021/11/28 12:59:45.298  INFO: MOCKINT Connection Success
+2021/11/28 12:59:46.253  INFO: Log File Opened : /Users/norgaardc/Documents/cosmos_projects/mock/outputs/logs/2021_11_28_12_59_46_tlm.bin
+2021/11/28 12:59:46.265  ERROR: MOCK GNC_SOH POINT_OB = NO is RED (2021/11/28 12:59:46.265)
+2021/11/28 12:59:46.265  ERROR: MOCK GNC_SOH ABOVE_GND = NO is RED (2021/11/28 12:59:46.265)
+2021/11/28 12:59:46.265  ERROR: MOCK GNC_SOH IN_SUN = NO is RED (2021/11/28 12:59:46.265)
+2021/11/28 12:59:46.265  ERROR: MOCK GNC_SOH GYRO_VALID = NO is RED (2021/11/28 12:59:46.265)
+2021/11/28 12:59:46.265  ERROR: MOCK GNC_SOH MAGMETER_VALID = NO is RED (2021/11/28 12:59:46.265)
+2021/11/28 12:59:46.265  ERROR: MOCK GNC_SOH SUN_VALID = NO is RED (2021/11/28 12:59:46.265)
+2021/11/28 12:59:46.265  ERROR: MOCK GNC_SOH RCTWHL_VALID = NO is RED (2021/11/28 12:59:46.265)
+2021/11/28 12:59:46.266  ERROR: MOCK GNC_SOH MAGTORQ_VALID = NO is RED (2021/11/28 12:59:46.265)
+2021/11/28 12:59:46.277  ERROR: Error reading from interface : MOCKINT
+2021/11/28 12:59:46.278  INFO: Connection Lost for MOCKINT: RuntimeError : Calculated packet length of 0 bits < (offset:0 + size:8)
+2021/11/28 12:59:46.279  ERROR: RuntimeError : Calculated packet length of 0 bits < (offset:0 + size:8)
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/protocols/length_protocol.rb:141:in `reduce_to_single_packet'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/protocols/burst_protocol.rb:54:in `read_data'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/interface.rb:202:in `block (2 levels) in read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/interface.rb:201:in `each'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/interface.rb:201:in `block in read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/interface.rb:188:in `loop'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/interface.rb:188:in `read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2021/11/28 12:59:51.285  INFO: Connecting to MOCKINT...
+2021/11/28 12:59:51.290  INFO: MOCKINT Connection Success
+2021/11/28 12:59:53.348  ERROR: Error reading from interface : MOCKINT
+2021/11/28 12:59:53.349  INFO: Connection Lost for MOCKINT: RuntimeError : Calculated packet length of 0 bits < (offset:0 + size:8)
+2021/11/28 12:59:53.349  ERROR: RuntimeError : Calculated packet length of 0 bits < (offset:0 + size:8)
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/protocols/length_protocol.rb:141:in `reduce_to_single_packet'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/protocols/burst_protocol.rb:54:in `read_data'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/interface.rb:202:in `block (2 levels) in read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/interface.rb:201:in `each'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/interface.rb:201:in `block in read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/interface.rb:188:in `loop'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/interface.rb:188:in `read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2021/11/28 12:59:58.350  INFO: Connecting to MOCKINT...
+2021/11/28 12:59:58.355  INFO: MOCKINT Connection Success
+2021/11/28 13:00:00.408  ERROR: Error reading from interface : MOCKINT
+2021/11/28 13:00:00.409  INFO: Connection Lost for MOCKINT: RuntimeError : Calculated packet length of 0 bits < (offset:0 + size:8)
+2021/11/28 13:00:00.409  ERROR: RuntimeError : Calculated packet length of 0 bits < (offset:0 + size:8)
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/protocols/length_protocol.rb:141:in `reduce_to_single_packet'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/protocols/burst_protocol.rb:54:in `read_data'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/interface.rb:202:in `block (2 levels) in read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/interface.rb:201:in `each'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/interface.rb:201:in `block in read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/interface.rb:188:in `loop'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/interface.rb:188:in `read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2021/11/28 13:00:04.896  INFO: Log File Closed : /Users/norgaardc/Documents/cosmos_projects/mock/outputs/logs/2021_11_28_12_59_46_tlm.bin
+2021/11/28 13:00:04.997  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/11/28 13:00:04.998  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/11/28 13:00:04.998  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/11/28 13:00:05.102  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/11/28 13:00:05.108  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/11/28 13:00:05.108  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/11/28 13:00:05.109  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/11/28 13:00:05.216  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/11/28 13:00:05.228  INFO: Killing thread for interface MOCKINT
+2021/11/28 13:00:05.228  INFO: Stopped packet reading for MOCKINT
+2021/11/28 13:00:05.238  INFO: Disconnected from interface MOCKINT

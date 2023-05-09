@@ -1,0 +1,32 @@
+2021/03/31 15:59:55.751  INFO: COSMOS Version: 4.4.2
+2021/03/31 15:59:55.751  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/analog/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/03/31 15:59:55.892  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/analog/config/targets/ANALOG/cmd_tlm_server.txt
+2021/03/31 15:59:55.974  INFO: Marshal load success: /Users/norgaardc/Documents/cosmos_projects/analog/outputs/tmp/marshal_474206f7630cd3bd5f794c17478f06cb.bin
+2021/03/31 15:59:56.185  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/03/31 15:59:56.185  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/03/31 15:59:56.185  INFO: Creating thread for interface ANALOGINT
+2021/03/31 15:59:56.186  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/03/31 15:59:56.186  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/03/31 15:59:56.191  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/03/31 15:59:56.191  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/03/31 15:59:56.191  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/03/31 15:59:56.197  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/03/31 15:59:56.197  INFO: Starting packet reading for ANALOGINT
+2021/03/31 15:59:56.197  INFO: Connecting to ANALOGINT...
+2021/03/31 15:59:56.275  INFO: ANALOGINT Connection Success
+2021/03/31 15:59:57.731  INFO: Log File Opened : /Users/norgaardc/Documents/cosmos_projects/analog/outputs/logs/2021_03_31_15_59_57_tlm.bin
+2021/03/31 15:59:59.733  WARN: ANALOG ANALOGVALUE ANALOGREADING = 945 is YELLOW_HIGH (2021/03/31 15:59:59.733)
+2021/03/31 16:00:11.220  INFO: Log File Closed : /Users/norgaardc/Documents/cosmos_projects/analog/outputs/logs/2021_03_31_15_59_57_tlm.bin
+2021/03/31 16:00:11.321  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/03/31 16:00:11.322  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/03/31 16:00:11.322  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/03/31 16:00:11.389  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/03/31 16:00:11.397  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/03/31 16:00:11.397  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/03/31 16:00:11.397  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/03/31 16:00:11.496  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/03/31 16:00:11.507  INFO: Killing thread for interface ANALOGINT
+2021/03/31 16:00:11.507  ERROR: Error reading from interface : ANALOGINT
+2021/03/31 16:00:11.508  INFO: Connection Lost for ANALOGINT: EBADF : Bad file descriptor
+2021/03/31 16:00:11.508  INFO: Stopped packet reading for ANALOGINT
+2021/03/31 16:00:11.508  INFO: Disconnected from interface ANALOGINT

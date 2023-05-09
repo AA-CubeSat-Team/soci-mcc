@@ -1,0 +1,114 @@
+2021/04/28 16:42:11.938  INFO: Dart Worker Starting...
+2021/04/28 16:42:11.941  INFO: Marshal load success: /Users/norgaardc/Documents/cosmos_projects/analog/outputs/tmp/marshal_3fa5ee6bef19ce3c44156d58cdac553d.bin
+2021/04/28 16:44:03.524  INFO: Creating PacketConfig: 59c7bca8a51643644ea9030d97bc4000...
+2021/04/28 16:44:03.586  INFO: Created Item:10:2:PACKET_TIMESECONDS
+2021/04/28 16:44:03.620  INFO: Created Item:11:2:PACKET_TIMEFORMATTED
+2021/04/28 16:44:03.633  INFO: Created Item:12:2:RECEIVED_TIMESECONDS
+2021/04/28 16:44:03.645  INFO: Created Item:13:2:RECEIVED_TIMEFORMATTED
+2021/04/28 16:44:03.656  INFO: Created Item:14:2:LENGTH
+2021/04/28 16:44:03.670  INFO: Created Item:15:2:ANALOGID
+2021/04/28 16:44:03.683  INFO: Created Item:16:2:READANALOGPIN
+2021/04/28 16:44:03.700  INFO: Created Item:17:2:ANALOGREADING
+2021/04/28 16:44:03.710  INFO: Created Item:18:2:CMDSSENT
+2021/04/28 16:44:03.724  INFO: Created Item:19:2:CMDSACCEPTED
+2021/04/28 16:44:03.735  INFO: creating t2_0:i0
+2021/04/28 16:44:03.736  INFO: creating t2_0:i1
+2021/04/28 16:44:03.736  INFO: creating t2_0:i2
+2021/04/28 16:44:03.736  INFO: creating t2_0:i3
+2021/04/28 16:44:03.736  INFO: creating t2_0:i4
+2021/04/28 16:44:03.736  INFO: creating t2_0:i5
+2021/04/28 16:44:03.736  INFO: creating t2_0:i6
+2021/04/28 16:44:03.736  INFO: creating t2_0:i7
+2021/04/28 16:44:03.736  INFO: creating t2_0:i8
+2021/04/28 16:44:03.736  INFO: creating t2_0:i9
+2021/04/28 16:44:03.904  INFO: Successfully Created PacketConfig: 59c7bca8a51643644ea9030d97bc4000
+2021/04/28 16:50:44.007  INFO: Creating PacketConfig: e2306d6b9e9e59301621d7f5e17cd3e0...
+2021/04/28 16:50:44.021  INFO: Created Item:20:4:PACKET_TIMESECONDS
+2021/04/28 16:50:44.034  INFO: Created Item:21:4:PACKET_TIMEFORMATTED
+2021/04/28 16:50:44.045  INFO: Created Item:22:4:RECEIVED_TIMESECONDS
+2021/04/28 16:50:44.058  INFO: Created Item:23:4:RECEIVED_TIMEFORMATTED
+2021/04/28 16:50:44.071  INFO: Created Item:24:4:PLE_FIRST_TIME
+2021/04/28 16:50:44.083  INFO: Created Item:25:4:PLE_LAST_TIME
+2021/04/28 16:50:44.094  INFO: Created Item:26:4:DECOM_MESSAGE_TIME
+2021/04/28 16:50:44.106  INFO: Created Item:27:4:REDUCTION_MESSAGE_TIME
+2021/04/28 16:50:44.120  INFO: Created Item:28:4:PACKET_ID
+2021/04/28 16:50:44.131  INFO: Created Item:29:4:LAST_PLE_ID
+2021/04/28 16:50:44.143  INFO: Created Item:30:4:PLE_STATE_NEED_DECOM
+2021/04/28 16:50:44.156  INFO: Created Item:31:4:PLE_STATE_ERROR
+2021/04/28 16:50:44.168  INFO: Created Item:32:4:DECOM_COUNT
+2021/04/28 16:50:44.181  INFO: Created Item:33:4:DECOM_ERROR_COUNT
+2021/04/28 16:50:44.192  INFO: Created Item:34:4:DECOM_MESSAGE
+2021/04/28 16:50:44.204  INFO: Created Item:35:4:REDUCTION_COUNT
+2021/04/28 16:50:44.217  INFO: Created Item:36:4:REDUCTION_ERROR_COUNT
+2021/04/28 16:50:44.230  INFO: Created Item:37:4:REDUCTION_MESSAGE
+2021/04/28 16:50:44.242  INFO: Created Item:38:4:DART_DATA_BYTES
+2021/04/28 16:50:44.263  INFO: Created Item:39:4:DART_LOGS_BYTES
+2021/04/28 16:50:44.287  INFO: Created Item:40:4:DART_DATABASE_BYTES
+2021/04/28 16:50:44.317  INFO: Created Item:41:4:DART_STATUS_SECONDS
+2021/04/28 16:50:44.336  INFO: Created Item:42:4:PLE_FIRST_TIME_S
+2021/04/28 16:50:44.355  INFO: Created Item:43:4:PLE_FIRST_TIME_US
+2021/04/28 16:50:44.375  INFO: Created Item:44:4:PLE_LAST_TIME_S
+2021/04/28 16:50:44.393  INFO: Created Item:45:4:PLE_LAST_TIME_US
+2021/04/28 16:50:44.412  INFO: Created Item:46:4:DECOM_MESSAGE_TIME_S
+2021/04/28 16:50:44.431  INFO: Created Item:47:4:DECOM_MESSAGE_TIME_US
+2021/04/28 16:50:44.449  INFO: Created Item:48:4:REDUCTION_MESSAGE_TIME_S
+2021/04/28 16:50:44.468  INFO: Created Item:49:4:REDUCTION_MESSAGE_TIME_US
+2021/04/28 16:50:44.480  INFO: creating t3_0:i0
+2021/04/28 16:50:44.481  INFO: creating t3_0:i1
+2021/04/28 16:50:44.481  INFO: creating t3_0:i2
+2021/04/28 16:50:44.481  INFO: creating t3_0:i3
+2021/04/28 16:50:44.481  INFO: creating t3_0:i4
+2021/04/28 16:50:44.481  INFO: creating t3_0:i5
+2021/04/28 16:50:44.481  INFO: creating t3_0:i6
+2021/04/28 16:50:44.481  INFO: creating t3_0:i7
+2021/04/28 16:50:44.481  INFO: creating t3_0:i8
+2021/04/28 16:50:44.481  INFO: creating t3_0:i9
+2021/04/28 16:50:44.481  INFO: creating t3_0:i10
+2021/04/28 16:50:44.481  INFO: creating t3_0:i11
+2021/04/28 16:50:44.481  INFO: creating t3_0:i12
+2021/04/28 16:50:44.481  INFO: creating t3_0:i13
+2021/04/28 16:50:44.481  INFO: creating t3_0:i14
+2021/04/28 16:50:44.481  INFO: creating t3_0:i15
+2021/04/28 16:50:44.481  INFO: creating t3_0:i16
+2021/04/28 16:50:44.481  INFO: creating t3_0:i17
+2021/04/28 16:50:44.481  INFO: creating t3_0:i18
+2021/04/28 16:50:44.481  INFO: creating t3_0:i19
+2021/04/28 16:50:44.481  INFO: creating t3_0:i20
+2021/04/28 16:50:44.481  INFO: creating t3_0:i21
+2021/04/28 16:50:44.481  INFO: creating t3_0:i22
+2021/04/28 16:50:44.481  INFO: creating t3_0:i23
+2021/04/28 16:50:44.481  INFO: creating t3_0:i24
+2021/04/28 16:50:44.481  INFO: creating t3_0:i25
+2021/04/28 16:50:44.481  INFO: creating t3_0:i26
+2021/04/28 16:50:44.481  INFO: creating t3_0:i27
+2021/04/28 16:50:44.481  INFO: creating t3_0:i28
+2021/04/28 16:50:44.482  INFO: creating t3_0:i29
+2021/04/28 16:50:44.482  INFO: creating t3_0:i30
+2021/04/28 16:50:44.482  INFO: creating t3_0:i31
+2021/04/28 16:50:44.482  INFO: creating t3_0:i32
+2021/04/28 16:50:44.697  INFO: Successfully Created PacketConfig: e2306d6b9e9e59301621d7f5e17cd3e0
+2021/04/28 17:24:08.260  FATAL: Fatal Exception! Exiting...
+2021/04/28 17:24:08.260  FATAL: SignalException : SIGHUP
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient/session.rb:805:in `gets'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient/session.rb:805:in `block in parse_header'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/timeout.rb:76:in `timeout'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient/session.rb:801:in `parse_header'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient/session.rb:784:in `read_header'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient/session.rb:561:in `get_header'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient.rb:1299:in `do_get_header'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient.rb:1245:in `do_get_block'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient.rb:1019:in `block in do_request'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient.rb:1133:in `protect_keep_alive_disconnected'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient.rb:1014:in `do_request'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient.rb:856:in `request'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient.rb:765:in `post'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/json_drb_object.rb:136:in `make_request'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/json_drb_object.rb:92:in `block (2 levels) in method_missing'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/json_drb_object.rb:88:in `loop'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/json_drb_object.rb:88:in `block in method_missing'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/json_drb_object.rb:86:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/json_drb_object.rb:86:in `method_missing'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/dart/lib/dart_decommutator.rb:65:in `run'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/dart/processes/dart_worker.rb:35:in `block in <main>'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:556:in `catch_fatal_exception'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/dart/processes/dart_worker.rb:17:in `<main>'

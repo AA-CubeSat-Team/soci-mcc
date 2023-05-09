@@ -1,0 +1,78 @@
+2021/02/09 15:54:11.155  INFO: COSMOS Version: 4.4.2
+2021/02/09 15:54:11.155  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/light/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/02/09 15:54:11.332  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/light/config/targets/LIGHT/cmd_tlm_server.txt
+2021/02/09 15:54:11.448  INFO: Marshal load success: /Users/norgaardc/Documents/cosmos_projects/light/outputs/tmp/marshal_650a9be7ef63de097e4e8c36e38cc334.bin
+2021/02/09 15:54:11.667  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/02/09 15:54:11.667  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/02/09 15:54:11.667  INFO: Creating thread for interface LIGHTINT
+2021/02/09 15:54:11.668  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/02/09 15:54:11.668  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/02/09 15:54:11.668  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/02/09 15:54:11.668  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/02/09 15:54:11.668  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/02/09 15:54:11.678  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/02/09 15:54:11.678  INFO: Starting packet reading for LIGHTINT
+2021/02/09 15:54:11.678  INFO: Connecting to LIGHTINT...
+2021/02/09 15:54:11.684  INFO: LIGHTINT Connection Success
+2021/02/09 15:54:18.719  ERROR: LIGHTINT - Unknown 100 byte packet starting: 3233370D0A040100003233370D0A040100003233370D0A040100003233370D0A04010000
+2021/02/09 15:54:18.721  INFO: Log File Opened : /Users/norgaardc/Documents/cosmos_projects/light/outputs/logs/2021_02_09_15_54_18_tlm.bin
+2021/02/09 15:54:24.237  ERROR: LIGHTINT - Unknown 102 byte packet starting: 33370D0A040100003233370D0A040100003233370D0A040100003233370D0A0401000032
+2021/02/09 15:54:25.731  ERROR: LIGHTINT - Unknown 20 byte packet starting: 0A040100003233370D0A040100003233370D0A04
+2021/02/09 15:54:25.735  ERROR: LIGHTINT - Unknown 2 byte packet starting: 0100
+2021/02/09 15:54:25.735  ERROR: Error reading from interface : LIGHTINT
+2021/02/09 15:54:25.737  INFO: Connection Lost for LIGHTINT: RuntimeError : Calculated packet length of 0 bits < (offset:0 + size:8)
+2021/02/09 15:54:25.737  ERROR: RuntimeError : Calculated packet length of 0 bits < (offset:0 + size:8)
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/protocols/length_protocol.rb:141:in `reduce_to_single_packet'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/protocols/burst_protocol.rb:54:in `read_data'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:202:in `block (2 levels) in read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:201:in `each'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:201:in `block in read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:188:in `loop'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:188:in `read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2021/02/09 15:54:30.740  INFO: Connecting to LIGHTINT...
+2021/02/09 15:54:30.745  INFO: LIGHTINT Connection Success
+2021/02/09 15:54:37.786  ERROR: LIGHTINT - Unknown 100 byte packet starting: 3233360D0A040100003233360D0A040100003233360D0A040100003233360D0A04010000
+2021/02/09 15:54:43.298  ERROR: LIGHTINT - Unknown 102 byte packet starting: 33360D0A040100003233360D0A040100003233360D0A040100003233360D0A0401000032
+2021/02/09 15:54:44.793  ERROR: LIGHTINT - Unknown 20 byte packet starting: 0A040100003233350D0A040100003233350D0A04
+2021/02/09 15:54:44.797  ERROR: LIGHTINT - Unknown 2 byte packet starting: 0100
+2021/02/09 15:54:44.797  ERROR: Error reading from interface : LIGHTINT
+2021/02/09 15:54:44.798  INFO: Connection Lost for LIGHTINT: RuntimeError : Calculated packet length of 0 bits < (offset:0 + size:8)
+2021/02/09 15:54:44.798  ERROR: RuntimeError : Calculated packet length of 0 bits < (offset:0 + size:8)
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/protocols/length_protocol.rb:141:in `reduce_to_single_packet'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/protocols/burst_protocol.rb:54:in `read_data'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:202:in `block (2 levels) in read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:201:in `each'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:201:in `block in read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:188:in `loop'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:188:in `read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2021/02/09 15:54:49.800  INFO: Connecting to LIGHTINT...
+2021/02/09 15:54:49.805  INFO: LIGHTINT Connection Success
+2021/02/09 15:54:56.843  ERROR: LIGHTINT - Unknown 100 byte packet starting: 3233360D0A040100003233360D0A040100003233360D0A040100003233360D0A04010000
+2021/02/09 15:55:02.360  ERROR: LIGHTINT - Unknown 102 byte packet starting: 33360D0A040100003233360D0A040100003233360D0A040100003233360D0A0401000032
+2021/02/09 15:55:03.855  ERROR: LIGHTINT - Unknown 20 byte packet starting: 0A040100003233360D0A040100003233360D0A04
+2021/02/09 15:55:03.859  ERROR: LIGHTINT - Unknown 2 byte packet starting: 0100
+2021/02/09 15:55:03.859  ERROR: Error reading from interface : LIGHTINT
+2021/02/09 15:55:03.860  INFO: Connection Lost for LIGHTINT: RuntimeError : Calculated packet length of 0 bits < (offset:0 + size:8)
+2021/02/09 15:55:03.860  ERROR: RuntimeError : Calculated packet length of 0 bits < (offset:0 + size:8)
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/protocols/length_protocol.rb:141:in `reduce_to_single_packet'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/protocols/burst_protocol.rb:54:in `read_data'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:202:in `block (2 levels) in read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:201:in `each'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:201:in `block in read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:188:in `loop'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/interfaces/interface.rb:188:in `read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.4.2/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2021/02/09 15:55:04.028  INFO: Log File Closed : /Users/norgaardc/Documents/cosmos_projects/light/outputs/logs/2021_02_09_15_54_18_tlm.bin
+2021/02/09 15:55:04.128  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/02/09 15:55:04.128  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/02/09 15:55:04.129  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/02/09 15:55:04.176  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/02/09 15:55:04.183  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/02/09 15:55:04.183  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/02/09 15:55:04.183  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/02/09 15:55:04.249  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/02/09 15:55:04.259  INFO: Killing thread for interface LIGHTINT
+2021/02/09 15:55:04.260  INFO: Stopped packet reading for LIGHTINT
+2021/02/09 15:55:04.270  INFO: Disconnected from interface LIGHTINT

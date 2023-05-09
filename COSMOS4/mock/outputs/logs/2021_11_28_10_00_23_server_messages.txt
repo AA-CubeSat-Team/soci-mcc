@@ -1,0 +1,93 @@
+2021/11/28 10:00:22.859  INFO: COSMOS Version: 4.5.0
+2021/11/28 10:00:22.862  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/mock/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/11/28 10:00:23.040  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/mock/config/targets/MOCK/cmd_tlm_server.txt
+2021/11/28 10:00:23.133  INFO: Marshal file does not exist: /Users/norgaardc/Documents/cosmos_projects/mock/outputs/tmp/marshal_aa532847d0c3bffa3e73d86a17dd95f4.bin
+2021/11/28 10:00:23.392  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/11/28 10:00:23.392  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/11/28 10:00:23.392  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/11/28 10:00:23.392  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/11/28 10:00:23.394  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/11/28 10:00:23.397  INFO: Creating thread for interface MOCKINT
+2021/11/28 10:00:23.401  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/11/28 10:00:23.401  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/11/28 10:00:23.402  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/11/28 10:00:23.496  INFO: Starting packet reading for MOCKINT
+2021/11/28 10:00:23.496  INFO: Connecting to MOCKINT...
+2021/11/28 10:00:23.554  INFO: MOCKINT Connection Success
+2021/11/28 10:00:25.530  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:25.531  INFO: Log File Opened : /Users/norgaardc/Documents/cosmos_projects/mock/outputs/logs/2021_11_28_10_00_25_tlm.bin
+2021/11/28 10:00:26.033  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:26.533  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:27.033  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:27.533  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:28.037  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:28.536  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:29.036  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:29.539  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:30.039  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:30.539  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:31.042  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:31.542  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:32.042  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:32.542  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:33.045  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:33.545  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:34.045  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:34.549  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:35.050  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:35.548  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:36.048  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:36.551  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:37.052  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:37.551  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:38.055  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:38.554  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:39.054  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:39.558  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:40.058  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:40.558  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:41.060  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:41.561  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:42.063  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:42.560  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:43.063  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:43.564  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:44.065  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:44.563  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:45.067  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:45.566  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:46.066  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:46.570  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:47.070  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:47.569  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:48.073  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:48.573  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:49.072  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:49.582  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:50.076  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:50.576  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:51.075  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:51.579  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:52.079  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:52.579  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:53.078  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:53.582  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:54.081  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:54.581  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:55.085  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:55.585  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:55.860  INFO: Log File Closed : /Users/norgaardc/Documents/cosmos_projects/mock/outputs/logs/2021_11_28_10_00_25_tlm.bin
+2021/11/28 10:00:55.964  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/11/28 10:00:55.964  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/11/28 10:00:55.964  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/11/28 10:00:56.008  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/11/28 10:00:56.019  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/11/28 10:00:56.019  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/11/28 10:00:56.019  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/11/28 10:00:56.084  ERROR: MOCKINT - Unknown 8 byte packet starting: 0801FA200A056302
+2021/11/28 10:00:56.107  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/11/28 10:00:56.119  INFO: Killing thread for interface MOCKINT
+2021/11/28 10:00:56.119  ERROR: Error reading from interface : MOCKINT
+2021/11/28 10:00:56.120  INFO: Connection Lost for MOCKINT: EBADF : Bad file descriptor
+2021/11/28 10:00:56.120  INFO: Stopped packet reading for MOCKINT
+2021/11/28 10:00:56.120  INFO: Disconnected from interface MOCKINT

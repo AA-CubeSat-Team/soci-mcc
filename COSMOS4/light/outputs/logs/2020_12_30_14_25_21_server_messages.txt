@@ -1,0 +1,22 @@
+2020/12/30 14:25:20.624  INFO: COSMOS Version: 4.4.2
+2020/12/30 14:25:20.624  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/light/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2020/12/30 14:25:20.859  INFO: Marshal file does not exist: /Users/norgaardc/Documents/cosmos_projects/light/outputs/tmp/marshal_2613a96d9c6947a1b489a62f277c975e.bin
+2020/12/30 14:25:21.114  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2020/12/30 14:25:21.115  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2020/12/30 14:25:21.115  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2020/12/30 14:25:21.115  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2020/12/30 14:25:21.127  INFO: PREIDENTIFIED_ROUTER Connection Success
+2020/12/30 14:25:21.127  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2020/12/30 14:25:21.127  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2020/12/30 14:25:21.127  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2020/12/30 14:26:00.118  INFO: PREIDENTIFIED_ROUTER: Tcpip server accepted connection from (127.0.0.1):49821
+2020/12/30 14:26:10.162  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost read connection to (127.0.0.1):49821
+2020/12/30 14:26:10.193  INFO: PREIDENTIFIED_ROUTER: Tcpip server lost write connection to (127.0.0.1):49821
+2020/12/30 14:26:24.892  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2020/12/30 14:26:24.892  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2020/12/30 14:26:24.893  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2020/12/30 14:26:24.914  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2020/12/30 14:26:24.925  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2020/12/30 14:26:24.925  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2020/12/30 14:26:24.925  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2020/12/30 14:26:25.022  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER

@@ -1,0 +1,257 @@
+2021/07/27 08:25:45.383  INFO: COSMOS Version: 4.5.0
+2021/07/27 08:25:45.383  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/gyro/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/07/27 08:25:45.519  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/gyro/config/targets/GYRO/cmd_tlm_server.txt
+2021/07/27 08:25:45.528  INFO: Marshal load success: /Users/norgaardc/Documents/cosmos_projects/gyro/outputs/tmp/marshal_8c4140c53c0b1782323c4ffa4595c746.bin
+2021/07/27 08:25:45.806  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/07/27 08:25:45.806  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/07/27 08:25:45.807  INFO: Creating thread for interface GYROINT
+2021/07/27 08:25:45.907  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/07/27 08:25:45.907  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/07/27 08:25:45.916  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/07/27 08:25:45.916  INFO: Starting packet reading for GYROINT
+2021/07/27 08:25:45.916  INFO: Connecting to GYROINT...
+2021/07/27 08:25:45.916  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/07/27 08:25:45.916  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/07/27 08:25:45.917  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/07/27 08:25:45.960  INFO: GYROINT Connection Success
+2021/07/27 08:25:48.199  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:25:48.201  INFO: Log File Opened : /Users/norgaardc/Documents/cosmos_projects/gyro/outputs/logs/2021_07_27_08_25_48_tlm.bin
+2021/07/27 08:25:48.452  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:25:48.702  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:25:48.956  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:25:49.206  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:25:49.460  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:25:49.709  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:25:49.963  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:25:50.213  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:25:50.467  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:25:50.717  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:25:50.971  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:25:51.225  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:25:51.475  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:25:51.728  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:25:51.978  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:25:52.232  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:25:52.482  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:25:52.737  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:25:52.986  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:25:53.240  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:25:53.490  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:25:53.743  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:25:53.993  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:25:54.247  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:25:54.501  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:25:54.751  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:25:55.005  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:25:55.255  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:25:55.509  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:25:55.759  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:25:56.012  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:25:56.262  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:25:56.516  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:25:56.767  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:25:57.020  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:25:57.274  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:25:57.524  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:25:57.777  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:25:58.027  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:25:58.282  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:25:58.531  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:25:58.785  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:25:59.035  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:25:59.288  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:25:59.538  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:25:59.792  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:00.046  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:00.296  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:00.550  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:00.800  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:01.053  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:01.303  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:01.557  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:01.807  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:02.061  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:02.311  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:02.565  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:02.819  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:03.069  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:03.323  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:03.573  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:03.826  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:04.076  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:04.330  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:04.580  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:04.834  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:05.084  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:05.338  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:05.587  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:05.841  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:06.095  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:06.345  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:06.599  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:06.849  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:07.102  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:07.353  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:07.606  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:07.856  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:08.110  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:08.360  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:08.614  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:08.868  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:09.117  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:09.371  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:09.621  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:09.876  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:10.125  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:10.379  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:10.629  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:10.883  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:11.133  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:11.386  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:11.640  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:11.891  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:12.144  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:12.394  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:12.648  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:12.897  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:13.151  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:13.401  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:13.655  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:13.905  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:14.159  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:14.409  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:14.663  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:14.916  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:15.166  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:15.421  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:15.670  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:15.925  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:16.174  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:16.428  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:16.678  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:16.932  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:17.181  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:17.435  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:17.689  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:17.939  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:18.193  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:18.443  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:18.697  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:18.947  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:19.200  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:19.450  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:19.704  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:19.954  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:20.208  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:20.462  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:20.711  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:20.965  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:21.215  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:21.469  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:21.719  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:21.973  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:22.223  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:22.477  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:22.727  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:22.980  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:23.235  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:23.484  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:23.738  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:23.988  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:24.242  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:24.492  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:24.745  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:24.995  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:25.250  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:25.499  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:25.753  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:26.003  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:26.257  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:26.510  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:26.760  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:27.014  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:27.264  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:27.518  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:27.768  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:28.022  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:28.272  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:28.525  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:28.775  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:29.030  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:29.283  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:29.533  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:29.787  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:30.037  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:30.291  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:30.541  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:30.794  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:31.044  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:31.298  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:31.549  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:31.802  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:32.055  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:32.305  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:32.559  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:32.809  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:33.063  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:33.313  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:33.596  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:33.817  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:34.071  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:34.320  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:34.574  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:34.824  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:35.078  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:26:35.113  INFO: User disconnecting interface GYROINT
+2021/07/27 08:26:35.113  INFO: Killing thread for interface GYROINT
+2021/07/27 08:26:35.113  ERROR: Error reading from interface : GYROINT
+2021/07/27 08:26:35.113  INFO: Connection Lost for GYROINT: EBADF : Bad file descriptor
+2021/07/27 08:26:35.113  INFO: Stopped packet reading for GYROINT
+2021/07/27 08:26:35.114  INFO: Disconnected from interface GYROINT
+2021/07/27 08:27:43.330  INFO: User connecting interface GYROINT
+2021/07/27 08:27:43.330  INFO: Creating thread for interface GYROINT
+2021/07/27 08:27:43.333  INFO: Starting packet reading for GYROINT
+2021/07/27 08:27:43.333  INFO: Connecting to GYROINT...
+2021/07/27 08:27:43.338  INFO: GYROINT Connection Success
+2021/07/27 08:27:45.617  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:27:45.867  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:27:46.121  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:27:46.371  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:27:46.625  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:27:46.878  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:27:47.128  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:27:47.378  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:27:47.632  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:27:47.886  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:27:48.136  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:27:48.390  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:27:48.640  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:27:48.894  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:27:49.143  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:27:49.397  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:27:49.647  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:27:49.901  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:27:50.151  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:27:50.404  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:27:50.658  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:27:50.908  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:27:51.162  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:27:51.412  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:27:51.666  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:27:51.916  ERROR: GYRO GYRO1 received with actual packet length of 27 but defined length of 14
+2021/07/27 08:27:52.105  INFO: User disconnecting interface GYROINT
+2021/07/27 08:27:52.106  INFO: Killing thread for interface GYROINT
+2021/07/27 08:27:52.106  ERROR: Error reading from interface : GYROINT
+2021/07/27 08:27:52.106  INFO: Connection Lost for GYROINT: EBADF : Bad file descriptor
+2021/07/27 08:27:52.106  INFO: Stopped packet reading for GYROINT
+2021/07/27 08:27:52.107  INFO: Disconnected from interface GYROINT
+2021/07/27 08:29:34.902  INFO: Log File Closed : /Users/norgaardc/Documents/cosmos_projects/gyro/outputs/logs/2021_07_27_08_25_48_tlm.bin
+2021/07/27 08:29:35.002  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/07/27 08:29:35.003  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/07/27 08:29:35.003  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/07/27 08:29:35.057  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/07/27 08:29:35.057  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/07/27 08:29:35.057  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/07/27 08:29:35.057  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/07/27 08:29:35.156  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/07/27 08:29:35.167  INFO: Disconnected from interface GYROINT

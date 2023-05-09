@@ -1,0 +1,61 @@
+2021/11/28 14:19:19.694  INFO: COSMOS Version: 4.5.0
+2021/11/28 14:19:19.694  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/mock/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/11/28 14:19:19.862  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/mock/config/targets/MOCK/cmd_tlm_server.txt
+2021/11/28 14:19:19.936  INFO: Marshal load success: /Users/norgaardc/Documents/cosmos_projects/mock/outputs/tmp/marshal_09ffda757985b3f72daae42213589072.bin
+2021/11/28 14:19:20.148  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/11/28 14:19:20.149  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/11/28 14:19:20.149  INFO: Creating thread for interface MOCKINT
+2021/11/28 14:19:20.222  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/11/28 14:19:20.222  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/11/28 14:19:20.232  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/11/28 14:19:20.232  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/11/28 14:19:20.232  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/11/28 14:19:20.232  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/11/28 14:19:20.232  INFO: Starting packet reading for MOCKINT
+2021/11/28 14:19:20.232  INFO: Connecting to MOCKINT...
+2021/11/28 14:19:20.248  ERROR: MOCKINT Connection Failed: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1411
+2021/11/28 14:19:20.248  ERROR: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1411
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/posix_serial_driver.rb:48:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/serial_driver.rb:62:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/serial_driver.rb:62:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/streams/serial_stream.rb:68:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/streams/serial_stream.rb:68:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/serial_interface.rb:60:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/serial_interface.rb:60:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2021/11/28 14:19:25.282  INFO: Connecting to MOCKINT...
+2021/11/28 14:19:25.283  ERROR: MOCKINT Connection Failed: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1411
+2021/11/28 14:19:25.283  ERROR: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1411
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/posix_serial_driver.rb:48:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/serial_driver.rb:62:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/serial_driver.rb:62:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/streams/serial_stream.rb:68:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/streams/serial_stream.rb:68:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/serial_interface.rb:60:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/serial_interface.rb:60:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2021/11/28 14:19:26.672  INFO: User disconnecting interface MOCKINT
+2021/11/28 14:19:26.672  INFO: Killing thread for interface MOCKINT
+2021/11/28 14:19:26.672  INFO: Stopped packet reading for MOCKINT
+2021/11/28 14:19:26.682  INFO: Disconnected from interface MOCKINT
+2021/11/28 14:21:43.451  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/11/28 14:21:43.451  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/11/28 14:21:43.452  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/11/28 14:21:43.463  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/11/28 14:21:43.473  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/11/28 14:21:43.473  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/11/28 14:21:43.473  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/11/28 14:21:43.563  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/11/28 14:21:43.574  INFO: Disconnected from interface MOCKINT

@@ -1,0 +1,49 @@
+2021/11/28 12:12:56.140  INFO: COSMOS Version: 4.5.0
+2021/11/28 12:12:56.140  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/mock/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/11/28 12:12:56.272  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/mock/config/targets/MOCK/cmd_tlm_server.txt
+2021/11/28 12:12:56.353  INFO: Marshal load success: /Users/norgaardc/Documents/cosmos_projects/mock/outputs/tmp/marshal_fb2d37c516adf62e8f94d8f37a435335.bin
+2021/11/28 12:12:56.561  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/11/28 12:12:56.561  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/11/28 12:12:56.561  INFO: Creating thread for interface MOCKINT
+2021/11/28 12:12:56.635  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/11/28 12:12:56.635  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/11/28 12:12:56.645  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/11/28 12:12:56.645  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/11/28 12:12:56.645  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/11/28 12:12:56.646  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/11/28 12:12:56.646  INFO: Starting packet reading for MOCKINT
+2021/11/28 12:12:56.646  INFO: Connecting to MOCKINT...
+2021/11/28 12:12:56.667  INFO: MOCKINT Connection Success
+2021/11/28 12:12:58.687  INFO: Log File Opened : /Users/norgaardc/Documents/cosmos_projects/mock/outputs/logs/2021_11_28_12_12_58_tlm.bin
+2021/11/28 12:12:58.694  WARN: MOCK GNC_SOH OPS_MODE = MANEUVER is YELLOW (2021/11/28 12:12:58.694)
+2021/11/28 12:12:58.694  ERROR: MOCK GNC_SOH POINT_OB = NO is RED (2021/11/28 12:12:58.694)
+2021/11/28 12:12:58.694  ERROR: MOCK GNC_SOH ABOVE_GND = NO is RED (2021/11/28 12:12:58.694)
+2021/11/28 12:12:58.694  ERROR: MOCK GNC_SOH IN_SUN = NO is RED (2021/11/28 12:12:58.694)
+2021/11/28 12:12:58.694  ERROR: MOCK GNC_SOH GYRO_VALID = NO is RED (2021/11/28 12:12:58.694)
+2021/11/28 12:12:58.694  ERROR: MOCK GNC_SOH MAGMETER_VALID = NO is RED (2021/11/28 12:12:58.694)
+2021/11/28 12:12:58.694  ERROR: MOCK GNC_SOH SUN_VALID = NO is RED (2021/11/28 12:12:58.694)
+2021/11/28 12:12:58.694  ERROR: MOCK GNC_SOH RCTWHL_VALID = NO is RED (2021/11/28 12:12:58.694)
+2021/11/28 12:12:58.694  ERROR: MOCK GNC_SOH MAGTORQ_VALID = NO is RED (2021/11/28 12:12:58.694)
+2021/11/28 12:19:23.068  ERROR: Error reading from interface : MOCKINT
+2021/11/28 12:19:23.068  INFO: Connection Lost for MOCKINT: RuntimeError : Calculated packet length of 0 bits < (offset:0 + size:8)
+2021/11/28 12:19:23.068  ERROR: RuntimeError : Calculated packet length of 0 bits < (offset:0 + size:8)
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/protocols/length_protocol.rb:141:in `reduce_to_single_packet'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/protocols/burst_protocol.rb:54:in `read_data'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/interface.rb:202:in `block (2 levels) in read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/interface.rb:201:in `each'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/interface.rb:201:in `block in read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/interface.rb:188:in `loop'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/interface.rb:188:in `read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2021/11/28 12:19:25.642  INFO: Log File Closed : /Users/norgaardc/Documents/cosmos_projects/mock/outputs/logs/2021_11_28_12_12_58_tlm.bin
+2021/11/28 12:19:25.744  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/11/28 12:19:25.744  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/11/28 12:19:25.744  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/11/28 12:19:25.787  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/11/28 12:19:25.798  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/11/28 12:19:25.798  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/11/28 12:19:25.799  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/11/28 12:19:25.887  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/11/28 12:19:25.898  INFO: Killing thread for interface MOCKINT
+2021/11/28 12:19:25.899  INFO: Stopped packet reading for MOCKINT
+2021/11/28 12:19:25.909  INFO: Disconnected from interface MOCKINT

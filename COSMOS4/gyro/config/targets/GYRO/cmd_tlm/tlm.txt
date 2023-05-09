@@ -1,0 +1,7 @@
+TELEMETRY GYRO GYRO1 LITTLE_ENDIAN "Gyroscope 1 Data"
+  APPEND_ITEM length 8 UINT "Packet Length"
+  APPEND_ID_ITEM pktid 8 UINT 1 "Pack ID for COSMOS Identification"
+  APPEND_ITEM X 32 FLOAT "X-axis angular velocity"
+  APPEND_ITEM Y 32 FLOAT "Y-axis angular velocity"
+  APPEND_ITEM Z 32 FLOAT "Z-axis angular velocity"
+  APPEND_ITEM delay 8 UINT "Current delay value (ms) between LED blinks."

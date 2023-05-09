@@ -1,0 +1,47 @@
+2020/12/24 10:37:35.002  INFO: COSMOS Version: 4.4.2
+2020/12/24 10:37:35.002  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/blink/cosmos/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2020/12/24 10:37:35.142  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/blink/cosmos/config/targets/BLINK/cmd_tlm_server.txt
+2020/12/24 10:37:35.144  INFO: Marshal load success: /Users/norgaardc/Documents/cosmos_projects/blink/cosmos/outputs/tmp/marshal_0757cdacde18a028ce4751bffb3d58e3.bin
+2020/12/24 10:37:35.354  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2020/12/24 10:37:35.354  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2020/12/24 10:37:35.354  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2020/12/24 10:37:35.355  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2020/12/24 10:37:35.355  INFO: PREIDENTIFIED_ROUTER Connection Success
+2020/12/24 10:37:35.355  INFO: Creating thread for interface BLINKINT
+2020/12/24 10:37:35.356  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2020/12/24 10:37:35.356  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2020/12/24 10:37:35.366  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2020/12/24 10:37:35.366  INFO: Starting packet reading for BLINKINT
+2020/12/24 10:37:35.366  INFO: Connecting to BLINKINT...
+2020/12/24 10:37:35.455  INFO: BLINKINT Connection Success
+2020/12/24 10:37:36.395  INFO: Log File Opened : /Users/norgaardc/Documents/cosmos_projects/blink/cosmos/outputs/logs/2020_12_24_10_37_36_tlm.bin
+2020/12/24 10:37:44.360  INFO: cmd("BLINK SEND_CMD with PKTID 1, EXECUTE 2")
+2020/12/24 10:37:44.361  INFO: Log File Opened : /Users/norgaardc/Documents/cosmos_projects/blink/cosmos/outputs/logs/2020_12_24_10_37_44_cmd.bin
+2020/12/24 10:37:49.021  INFO: cmd("BLINK SEND_CMD with PKTID 1, EXECUTE 3")
+2020/12/24 10:37:56.120  INFO: cmd("BLINK SEND_CMD with PKTID 1, EXECUTE 2")
+2020/12/24 10:38:01.378  INFO: cmd("BLINK SEND_CMD with PKTID 1, EXECUTE 2")
+2020/12/24 10:38:02.613  INFO: cmd("BLINK SEND_CMD with PKTID 1, EXECUTE 2")
+2020/12/24 10:38:09.375  INFO: cmd("BLINK SEND_CMD with PKTID 1, EXECUTE 3")
+2020/12/24 10:38:26.215  INFO: cmd("BLINK SEND_CMD with PKTID 1, EXECUTE 2")
+2020/12/24 10:38:28.367  INFO: cmd("BLINK SEND_CMD with PKTID 1, EXECUTE 2")
+2020/12/24 10:38:31.646  INFO: cmd("BLINK SEND_CMD with PKTID 1, EXECUTE 3")
+2020/12/24 10:38:33.508  INFO: cmd("BLINK SEND_CMD with PKTID 1, EXECUTE 3")
+2020/12/24 10:38:38.323  INFO: cmd("BLINK SEND_CMD with PKTID 1, EXECUTE 3")
+2020/12/24 10:38:40.022  INFO: cmd("BLINK SEND_CMD with PKTID 1, EXECUTE 2")
+2020/12/24 10:38:42.932  INFO: cmd("BLINK SEND_CMD with PKTID 1, EXECUTE 3")
+2020/12/24 10:38:45.008  INFO: cmd("BLINK SEND_CMD with PKTID 1, EXECUTE 2")
+2020/12/24 10:38:57.642  INFO: Log File Closed : /Users/norgaardc/Documents/cosmos_projects/blink/cosmos/outputs/logs/2020_12_24_10_37_44_cmd.bin
+2020/12/24 10:38:57.642  INFO: Log File Closed : /Users/norgaardc/Documents/cosmos_projects/blink/cosmos/outputs/logs/2020_12_24_10_37_36_tlm.bin
+2020/12/24 10:38:57.743  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2020/12/24 10:38:57.743  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2020/12/24 10:38:57.743  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2020/12/24 10:38:57.798  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2020/12/24 10:38:57.807  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2020/12/24 10:38:57.807  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2020/12/24 10:38:57.807  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2020/12/24 10:38:57.903  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2020/12/24 10:38:57.914  INFO: Killing thread for interface BLINKINT
+2020/12/24 10:38:57.915  ERROR: Error reading from interface : BLINKINT
+2020/12/24 10:38:57.915  INFO: Connection Lost for BLINKINT: EBADF : Bad file descriptor
+2020/12/24 10:38:57.915  INFO: Stopped packet reading for BLINKINT
+2020/12/24 10:38:57.915  INFO: Disconnected from interface BLINKINT
