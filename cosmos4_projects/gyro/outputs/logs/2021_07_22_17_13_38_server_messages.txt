@@ -1,0 +1,42 @@
+2021/07/22 17:13:37.075  INFO: COSMOS Version: 4.5.0
+2021/07/22 17:13:37.077  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/gyro/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/07/22 17:13:37.291  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/gyro/config/targets/GYRO/cmd_tlm_server.txt
+2021/07/22 17:13:37.405  INFO: Marshal load success: /Users/norgaardc/Documents/cosmos_projects/gyro/outputs/tmp/marshal_a94a3d7c9df6344fa7457138f9af6f24.bin
+2021/07/22 17:13:37.638  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/07/22 17:13:37.638  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/07/22 17:13:37.639  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/07/22 17:13:37.639  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/07/22 17:13:37.641  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/07/22 17:13:37.642  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/07/22 17:13:37.642  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/07/22 17:13:37.650  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/07/22 17:13:37.650  INFO: Creating thread for interface GYROINT
+2021/07/22 17:13:37.745  INFO: Starting packet reading for GYROINT
+2021/07/22 17:13:37.745  INFO: Connecting to GYROINT...
+2021/07/22 17:13:37.789  ERROR: GYROINT Connection Failed: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1411
+2021/07/22 17:13:37.789  ERROR: ENOENT : No such file or directory @ rb_sysopen - /dev/cu.usbmodem1411
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/open-uri.rb:37:in `open'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/posix_serial_driver.rb:48:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/serial_driver.rb:62:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/serial_driver.rb:62:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/streams/serial_stream.rb:68:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/streams/serial_stream.rb:68:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/serial_interface.rb:60:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/serial_interface.rb:60:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:266:in `connect'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:71:in `block (2 levels) in start'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:69:in `block in start'
+2021/07/22 17:13:40.611  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/07/22 17:13:40.611  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/07/22 17:13:40.612  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/07/22 17:13:40.635  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/07/22 17:13:40.643  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/07/22 17:13:40.643  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/07/22 17:13:40.643  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/07/22 17:13:40.738  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/07/22 17:13:40.748  INFO: Killing thread for interface GYROINT
+2021/07/22 17:13:40.748  INFO: Stopped packet reading for GYROINT
+2021/07/22 17:13:40.759  INFO: Disconnected from interface GYROINT

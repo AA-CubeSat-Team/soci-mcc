@@ -1,0 +1,2 @@
+COMMAND GYRO delay LITTLE_ENDIAN "Command to change how fast to send gyro data."
+  APPEND_PARAMETER delay 8 uint 0 255 1 "Delay (ms) between gyroscope readings."

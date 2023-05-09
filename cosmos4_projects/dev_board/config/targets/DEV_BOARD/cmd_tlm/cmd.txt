@@ -1,0 +1,2 @@
+COMMAND DEV_BOARD FLIGHT_COMP_STATE LITTLE_ENDIAN "Command to change flight computer state."
+  APPEND_PARAMETER CHANGE_COMP_STATE 64 UINT 0 255 1 "Change Flight Computer State."

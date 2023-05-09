@@ -1,0 +1,6 @@
+INTERFACE SOCIINT serial_interface.rb COM1 COM1 9600 NONE 1 10.0 nil TERMINATED "0xABCD" "0xABCD" true 0 nil false nil
+  TARGET SOCI
+  PROTOCOL WRITE AckProtocol CRC
+  PROTOCOL READ AckProtocol CRC
+  
+  

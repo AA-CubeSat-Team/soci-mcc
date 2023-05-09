@@ -1,0 +1,32 @@
+2020/12/05 12:20:50.124  INFO: COSMOS Version: 4.4.2
+2020/12/05 12:20:50.125  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/blink/cosmos/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2020/12/05 12:20:50.255  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/blink/cosmos/config/targets/BLINK/cmd_tlm_server.txt
+2020/12/05 12:20:50.257  INFO: Marshal load success: /Users/norgaardc/Documents/cosmos_projects/blink/cosmos/outputs/tmp/marshal_6b905acff2e242c390b204a1b2ca8d89.bin
+2020/12/05 12:20:50.463  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2020/12/05 12:20:50.463  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2020/12/05 12:20:50.464  INFO: Creating thread for interface BLINKINT
+2020/12/05 12:20:50.464  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2020/12/05 12:20:50.464  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2020/12/05 12:20:50.468  INFO: PREIDENTIFIED_ROUTER Connection Success
+2020/12/05 12:20:50.468  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2020/12/05 12:20:50.468  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2020/12/05 12:20:50.473  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2020/12/05 12:20:50.473  INFO: Starting packet reading for BLINKINT
+2020/12/05 12:20:50.473  INFO: Connecting to BLINKINT...
+2020/12/05 12:20:50.544  INFO: BLINKINT Connection Success
+2020/12/05 12:20:51.503  INFO: Log File Opened : /Users/norgaardc/Documents/cosmos_projects/blink/cosmos/outputs/logs/2020_12_05_12_20_51_tlm.bin
+2020/12/05 12:20:52.501  ERROR: BLINK SOH DELAY = 250 is RED_HIGH (2020/12/05 12:20:52.501)
+2020/12/05 12:50:26.315  INFO: Log File Closed : /Users/norgaardc/Documents/cosmos_projects/blink/cosmos/outputs/logs/2020_12_05_12_20_51_tlm.bin
+2020/12/05 12:50:26.417  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2020/12/05 12:50:26.417  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2020/12/05 12:50:26.417  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2020/12/05 12:50:26.529  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2020/12/05 12:50:26.540  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2020/12/05 12:50:26.540  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2020/12/05 12:50:26.540  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2020/12/05 12:50:26.627  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2020/12/05 12:50:26.639  INFO: Killing thread for interface BLINKINT
+2020/12/05 12:50:26.639  ERROR: Error reading from interface : BLINKINT
+2020/12/05 12:50:26.639  INFO: Connection Lost for BLINKINT: EBADF : Bad file descriptor
+2020/12/05 12:50:26.639  INFO: Stopped packet reading for BLINKINT
+2020/12/05 12:50:26.640  INFO: Disconnected from interface BLINKINT

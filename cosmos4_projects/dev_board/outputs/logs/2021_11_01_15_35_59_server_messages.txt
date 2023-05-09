@@ -1,0 +1,191 @@
+2021/11/01 15:35:58.024  INFO: COSMOS Version: 4.5.0
+2021/11/01 15:35:58.024  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/dev_board/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/11/01 15:35:58.178  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/dev_board/config/targets/DEV_BOARD/cmd_tlm_server.txt
+2021/11/01 15:35:58.180  INFO: Marshal file does not exist: /Users/norgaardc/Documents/cosmos_projects/dev_board/outputs/tmp/marshal_cef7de08592e1edaba1e7c35d98f476b.bin
+2021/11/01 15:35:58.531  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/11/01 15:35:58.531  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/11/01 15:35:58.531  INFO: Creating thread for interface DEV_BOARDINT
+2021/11/01 15:35:58.531  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/11/01 15:35:58.531  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/11/01 15:35:58.539  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/11/01 15:35:58.539  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/11/01 15:35:58.539  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/11/01 15:35:58.540  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/11/01 15:35:58.540  INFO: Starting packet reading for DEV_BOARDINT
+2021/11/01 15:35:58.540  INFO: Connecting to DEV_BOARDINT...
+2021/11/01 15:35:58.663  INFO: DEV_BOARDINT Connection Success
+2021/11/01 15:35:59.394  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:35:59.395  INFO: Log File Opened : /Users/norgaardc/Documents/cosmos_projects/dev_board/outputs/logs/2021_11_01_15_35_59_tlm.bin
+2021/11/01 15:36:00.399  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:01.404  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:02.408  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:03.413  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:04.417  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:05.422  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:06.426  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:07.430  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:08.435  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:09.440  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:10.446  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:11.450  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:12.453  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:13.458  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:14.462  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:15.467  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:16.472  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:17.476  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:18.481  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:19.485  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:20.491  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:21.495  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:22.499  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:23.504  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:24.508  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:25.513  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:26.518  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:27.522  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:28.527  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:29.531  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:30.536  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:31.540  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:32.545  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:33.549  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:34.554  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:35.559  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:36.565  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:37.568  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:38.572  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:39.577  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:40.582  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:41.585  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:42.590  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:43.595  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:44.599  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:45.604  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:46.608  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:47.613  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:48.617  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:49.622  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:50.626  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:51.631  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:52.635  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:53.640  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:54.645  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:55.650  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:56.654  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:57.659  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:58.666  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:36:59.668  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:00.673  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:01.677  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:02.681  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:03.686  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:04.691  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:05.695  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:06.700  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:07.704  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:08.709  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:09.713  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:10.718  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:11.722  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:12.727  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:13.731  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:14.736  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:15.740  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:16.745  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:17.749  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:18.754  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:19.759  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:20.763  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:21.770  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:22.772  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:23.777  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:24.782  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:25.786  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:26.790  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:27.795  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:28.800  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:29.804  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:30.809  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:31.814  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:32.818  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:33.823  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:34.827  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:35.832  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:36.837  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:37.841  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:38.846  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:39.850  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:40.855  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:41.859  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:42.864  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:43.868  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:44.873  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:45.878  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:46.883  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:47.888  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:48.895  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:49.898  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:50.903  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:51.908  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:52.914  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:53.919  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:54.924  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:55.930  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:56.934  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:57.939  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:58.944  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:37:59.952  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:38:00.953  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:38:01.959  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:38:02.963  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:38:03.969  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:38:04.973  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:38:05.977  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:38:06.982  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:38:07.987  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:38:08.992  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:38:09.997  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:38:11.001  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:38:12.006  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:38:13.011  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:38:14.016  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:38:15.020  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:38:16.025  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:38:17.029  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:38:18.034  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:38:19.039  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:38:20.044  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:38:21.049  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:38:22.053  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:38:23.058  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:38:24.062  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:38:25.067  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:38:26.071  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:38:27.076  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:38:28.080  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:38:29.085  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:38:30.091  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:38:31.095  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:38:32.099  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:38:33.104  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:38:34.108  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:38:35.113  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:38:36.118  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:38:37.123  ERROR: DEV_BOARD BEACON received with actual packet length of 48 but defined length of 35
+2021/11/01 15:38:37.709  INFO: User disconnecting interface DEV_BOARDINT
+2021/11/01 15:38:37.709  INFO: Killing thread for interface DEV_BOARDINT
+2021/11/01 15:38:37.709  ERROR: Error reading from interface : DEV_BOARDINT
+2021/11/01 15:38:37.710  INFO: Connection Lost for DEV_BOARDINT: EBADF : Bad file descriptor
+2021/11/01 15:38:37.710  INFO: Stopped packet reading for DEV_BOARDINT
+2021/11/01 15:38:37.749  INFO: Disconnected from interface DEV_BOARDINT
+2021/11/01 15:49:23.567  INFO: Log File Closed : /Users/norgaardc/Documents/cosmos_projects/dev_board/outputs/logs/2021_11_01_15_35_59_tlm.bin
+2021/11/01 15:49:23.670  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/11/01 15:49:23.670  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/11/01 15:49:23.670  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/11/01 15:49:23.761  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/11/01 15:49:23.771  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/11/01 15:49:23.771  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/11/01 15:49:23.771  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/11/01 15:49:23.868  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/11/01 15:49:23.879  INFO: Disconnected from interface DEV_BOARDINT

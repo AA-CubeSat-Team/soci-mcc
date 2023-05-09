@@ -1,0 +1,330 @@
+2021/11/29 10:27:34.002  INFO: COSMOS Version: 4.5.0
+2021/11/29 10:27:34.002  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/mock/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/11/29 10:27:34.181  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/mock/config/targets/MOCK/cmd_tlm_server.txt
+2021/11/29 10:27:34.294  INFO: Marshal file does not exist: /Users/norgaardc/Documents/cosmos_projects/mock/outputs/tmp/marshal_2c65b862d2d727c16b97c66bce6b1836.bin
+2021/11/29 10:27:34.554  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/11/29 10:27:34.554  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/11/29 10:27:34.554  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/11/29 10:27:34.555  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/11/29 10:27:34.562  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/11/29 10:27:34.562  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/11/29 10:27:34.562  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/11/29 10:27:34.563  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/11/29 10:27:34.563  INFO: Creating thread for interface MOCKINT
+2021/11/29 10:27:34.642  INFO: Starting packet reading for MOCKINT
+2021/11/29 10:27:34.642  INFO: Connecting to MOCKINT...
+2021/11/29 10:27:34.646  INFO: MOCKINT Connection Success
+2021/11/29 10:27:36.679  INFO: Log File Opened : /Users/norgaardc/Documents/cosmos_projects/mock/outputs/logs/2021_11_29_10_27_36_tlm.bin
+2021/11/29 10:27:36.687  ERROR: MOCK GNC_SOH GYRO_VALID = NO is RED (2021/11/29 10:27:36.686)
+2021/11/29 10:27:36.687  ERROR: MOCK GNC_SOH RCTWHL_VALID = NO is RED (2021/11/29 10:27:36.686)
+2021/11/29 10:27:36.703  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:27:37.203  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:27:37.702  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:27:38.206  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:27:38.705  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:27:39.205  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:27:39.709  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:27:40.209  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:27:40.709  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:27:41.212  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:27:41.713  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:27:42.211  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:27:42.715  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:27:43.215  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:27:43.715  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:27:44.218  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:27:44.718  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:27:45.218  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:27:45.722  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:27:46.221  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:27:46.721  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:27:47.225  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:27:47.724  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:27:48.225  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:27:48.728  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:27:49.227  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:27:49.731  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:27:50.231  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:27:50.731  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:27:51.235  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:27:51.734  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:27:52.234  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:27:52.738  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:27:53.237  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:27:53.737  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:27:54.241  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:27:54.740  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:27:55.240  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:27:55.744  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:27:56.243  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:27:56.743  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:27:57.247  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:27:57.746  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:27:58.246  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:27:58.750  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:27:59.250  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:27:59.750  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:00.257  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:00.753  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:01.253  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:01.756  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:02.256  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:02.756  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:03.259  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:03.759  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:04.263  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:04.763  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:05.263  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:05.766  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:06.266  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:06.765  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:07.269  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:07.769  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:08.269  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:08.772  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:09.272  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:09.772  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:10.275  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:10.775  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:11.275  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:11.779  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:12.279  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:12.778  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:13.282  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:13.782  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:14.281  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:14.785  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:15.285  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:15.785  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:16.288  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:16.788  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:17.287  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:17.791  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:18.291  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:18.795  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:19.294  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:19.794  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:20.298  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:20.798  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:21.297  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:21.801  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:22.301  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:22.800  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:23.304  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:23.804  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:24.304  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:24.809  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:25.307  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:25.807  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:26.310  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:26.810  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:27.310  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:27.814  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:28.313  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:28.813  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:29.317  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:29.816  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:30.316  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:30.820  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:31.320  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:31.819  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:32.323  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:32.823  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:33.326  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:33.826  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:34.326  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:34.830  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:35.329  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:35.829  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:36.333  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:36.832  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:37.332  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:37.836  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:38.335  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:38.835  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:39.339  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:39.839  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:40.338  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:40.842  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:41.342  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:41.842  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:42.345  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:42.845  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:43.345  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:43.849  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:44.348  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:44.848  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:45.352  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:45.851  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:46.355  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:46.855  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:47.354  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:47.858  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:48.358  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:48.857  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:49.362  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:49.861  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:50.365  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:50.865  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:51.364  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:51.864  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:52.367  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:52.867  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:53.367  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:53.871  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:54.371  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:54.870  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:55.374  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:55.873  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:56.374  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:56.877  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:57.377  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:57.876  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:58.380  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:58.880  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:59.380  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:28:59.883  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:00.383  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:00.887  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:01.386  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:01.886  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:02.390  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:02.889  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:03.389  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:03.893  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:04.393  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:04.892  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:05.396  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:05.896  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:06.396  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:06.899  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:07.399  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:07.899  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:08.403  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:08.902  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:09.402  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:09.905  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:10.405  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:10.905  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:11.409  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:11.909  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:12.408  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:12.912  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:13.411  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:13.911  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:14.415  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:14.915  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:15.418  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:15.918  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:16.418  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:16.922  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:17.421  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:17.921  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:18.425  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:18.924  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:19.424  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:19.928  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:20.427  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:20.927  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:21.431  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:21.931  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:22.430  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:22.934  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:23.434  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:23.933  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:24.437  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:24.942  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:25.437  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:25.940  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:26.440  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:26.940  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:27.444  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:27.943  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:28.447  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:28.947  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:29.447  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:29.950  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:30.450  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:30.950  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:31.453  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:31.953  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:32.453  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:32.956  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:33.456  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:33.956  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:34.460  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:34.959  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:35.459  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:35.963  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:36.462  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:36.962  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:37.466  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:37.965  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:38.465  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:38.969  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:39.469  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:39.968  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:40.472  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:40.972  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:41.475  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:41.975  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:42.475  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:42.979  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:43.478  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:43.978  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:44.487  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:44.983  ERROR: MOCK GNC_SENSORS received with actual packet length of 12 but defined length of 30
+2021/11/29 10:29:45.046  INFO: User disconnecting interface MOCKINT
+2021/11/29 10:29:45.046  INFO: Killing thread for interface MOCKINT
+2021/11/29 10:29:45.047  ERROR: Error reading from interface : MOCKINT
+2021/11/29 10:29:45.047  INFO: Connection Lost for MOCKINT: EBADF : Bad file descriptor
+2021/11/29 10:29:45.047  INFO: Stopped packet reading for MOCKINT
+2021/11/29 10:29:45.047  INFO: Disconnected from interface MOCKINT
+2021/11/29 10:29:57.327  INFO: User connecting interface MOCKINT
+2021/11/29 10:29:57.327  INFO: Creating thread for interface MOCKINT
+2021/11/29 10:29:57.330  INFO: Starting packet reading for MOCKINT
+2021/11/29 10:29:57.330  INFO: Connecting to MOCKINT...
+2021/11/29 10:29:57.336  INFO: MOCKINT Connection Success
+2021/11/29 10:30:51.084  INFO: User disconnecting interface MOCKINT
+2021/11/29 10:30:51.084  INFO: Killing thread for interface MOCKINT
+2021/11/29 10:30:51.084  ERROR: Error reading from interface : MOCKINT
+2021/11/29 10:30:51.084  INFO: Connection Lost for MOCKINT: EBADF : Bad file descriptor
+2021/11/29 10:30:51.085  INFO: Stopped packet reading for MOCKINT
+2021/11/29 10:30:51.085  INFO: Disconnected from interface MOCKINT
+2021/11/29 10:30:55.327  INFO: Log File Closed : /Users/norgaardc/Documents/cosmos_projects/mock/outputs/logs/2021_11_29_10_27_36_tlm.bin
+2021/11/29 10:30:55.429  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/11/29 10:30:55.429  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/11/29 10:30:55.429  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/11/29 10:30:55.508  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/11/29 10:30:55.513  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/11/29 10:30:55.513  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/11/29 10:30:55.513  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/11/29 10:30:55.589  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/11/29 10:30:55.599  INFO: Disconnected from interface MOCKINT
+2021/11/29 10:30:56.633  WARN: Failed to gracefully kill thread:
+  Caller Backtrace:
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:472:in `block in stop_callback'
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/qtbindings-4.8.6.5/lib/Qt4.rb:114:in `execute_in_main_thread'
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:468:in `stop_callback'
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server.rb:293:in `call'
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server.rb:293:in `stop'
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:388:in `stop_threads'
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:414:in `closeEvent'
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/qtbindings-4.8.6.5/lib/Qt/qtruby4.rb:479:in `method_missing'
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/qtbindings-4.8.6.5/lib/Qt/qtruby4.rb:479:in `exec'
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/gui/qt_tool.rb:323:in `block in run'
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:741:in `set_working_dir'
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/gui/qt_tool.rb:304:in `run'
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:646:in `block in run'
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:556:in `catch_fatal_exception'
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:608:in `run'
+  /Users/norgaardc/Documents/cosmos_projects/mock/tools/mac/CmdTlmServer.app/Contents/MacOS/CmdTlmServer.rb:15:in `block in <main>'
+  /Users/norgaardc/Documents/cosmos_projects/mock/tools/mac/CmdTlmServer.app/Contents/MacOS/tool_launch.rb:16:in `tool_launch'
+  /Users/norgaardc/Documents/cosmos_projects/mock/tools/mac/CmdTlmServer.app/Contents/MacOS/CmdTlmServer.rb:13:in `<main>'
+  
+  Thread Backtrace:
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/qtbindings-4.8.6.5/lib/Qt4.rb:107:in `sleep'
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/qtbindings-4.8.6.5/lib/Qt4.rb:107:in `execute_in_main_thread'
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:446:in `handle_string_output'
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/cmd_tlm_server_gui.rb:431:in `block in process_server_messages'
+

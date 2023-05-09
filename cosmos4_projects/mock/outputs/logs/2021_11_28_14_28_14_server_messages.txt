@@ -1,0 +1,33 @@
+2021/11/28 14:28:13.276  INFO: COSMOS Version: 4.5.0
+2021/11/28 14:28:13.276  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/mock/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/11/28 14:28:13.409  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/mock/config/targets/MOCK/cmd_tlm_server.txt
+2021/11/28 14:28:13.418  INFO: Marshal load success: /Users/norgaardc/Documents/cosmos_projects/mock/outputs/tmp/marshal_09ffda757985b3f72daae42213589072.bin
+2021/11/28 14:28:13.736  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/11/28 14:28:13.737  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/11/28 14:28:13.737  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/11/28 14:28:13.737  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/11/28 14:28:13.737  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/11/28 14:28:13.738  INFO: Creating thread for interface MOCKINT
+2021/11/28 14:28:13.739  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/11/28 14:28:13.739  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/11/28 14:28:13.747  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/11/28 14:28:13.747  INFO: Starting packet reading for MOCKINT
+2021/11/28 14:28:13.747  INFO: Connecting to MOCKINT...
+2021/11/28 14:28:13.817  INFO: MOCKINT Connection Success
+2021/11/28 14:28:14.782  INFO: Log File Opened : /Users/norgaardc/Documents/cosmos_projects/mock/outputs/logs/2021_11_28_14_28_14_tlm.bin
+2021/11/28 14:28:14.794  ERROR: MOCK GNC_SOH GYRO_VALID = NO is RED (2021/11/28 14:28:14.793)
+2021/11/28 14:28:14.794  ERROR: MOCK GNC_SOH RCTWHL_VALID = NO is RED (2021/11/28 14:28:14.793)
+2021/11/28 14:29:37.488  INFO: Log File Closed : /Users/norgaardc/Documents/cosmos_projects/mock/outputs/logs/2021_11_28_14_28_14_tlm.bin
+2021/11/28 14:29:37.789  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/11/28 14:29:37.789  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/11/28 14:29:37.789  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/11/28 14:29:37.869  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/11/28 14:29:37.878  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/11/28 14:29:37.878  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/11/28 14:29:37.878  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/11/28 14:29:37.922  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/11/28 14:29:37.933  INFO: Killing thread for interface MOCKINT
+2021/11/28 14:29:37.933  ERROR: Error reading from interface : MOCKINT
+2021/11/28 14:29:37.933  INFO: Connection Lost for MOCKINT: EBADF : Bad file descriptor
+2021/11/28 14:29:37.933  INFO: Stopped packet reading for MOCKINT
+2021/11/28 14:29:37.934  INFO: Disconnected from interface MOCKINT

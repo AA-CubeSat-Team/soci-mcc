@@ -1,0 +1,58 @@
+2021/11/01 14:23:24.952  INFO: COSMOS Version: 4.5.0
+2021/11/01 14:23:24.952  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/dev_board/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/11/01 14:23:25.094  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/dev_board/config/targets/DEV_BOARD/cmd_tlm_server.txt
+2021/11/01 14:23:25.096  INFO: Marshal load success: /Users/norgaardc/Documents/cosmos_projects/dev_board/outputs/tmp/marshal_23f6760c40d9cbb4464a161deb4583b7.bin
+2021/11/01 14:23:25.316  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/11/01 14:23:25.317  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/11/01 14:23:25.317  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/11/01 14:23:25.317  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/11/01 14:23:25.317  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/11/01 14:23:25.317  INFO: Creating thread for interface DEV_BOARDINT
+2021/11/01 14:23:25.318  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/11/01 14:23:25.318  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/11/01 14:23:25.324  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/11/01 14:23:25.324  INFO: Starting packet reading for DEV_BOARDINT
+2021/11/01 14:23:25.324  INFO: Connecting to DEV_BOARDINT...
+2021/11/01 14:23:25.403  INFO: DEV_BOARDINT Connection Success
+2021/11/01 14:23:26.970  ERROR: DEV_BOARD BEACON received with actual packet length of 40 but defined length of 29
+2021/11/01 14:23:26.970  ERROR: DEV_BOARD BEACON FLT_COMP_ST = CRIT_POWER_MODE is RED (2021/11/01 14:23:26.970)
+2021/11/01 14:23:26.971  INFO: Log File Opened : /Users/norgaardc/Documents/cosmos_projects/dev_board/outputs/logs/2021_11_01_14_23_26_tlm.bin
+2021/11/01 14:23:26.971  ERROR: Error reading from interface : DEV_BOARDINT
+2021/11/01 14:23:27.010  INFO: Connection Lost for DEV_BOARDINT: RuntimeError : Calculated packet length of 0 bits < (offset:0 + size:8)
+2021/11/01 14:23:27.010  ERROR: RuntimeError : Calculated packet length of 0 bits < (offset:0 + size:8)
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/protocols/length_protocol.rb:141:in `reduce_to_single_packet'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/protocols/burst_protocol.rb:54:in `read_data'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/interface.rb:202:in `block (2 levels) in read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/interface.rb:201:in `each'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/interface.rb:201:in `block in read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/interface.rb:188:in `loop'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/interface.rb:188:in `read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2021/11/01 14:23:32.013  INFO: Connecting to DEV_BOARDINT...
+2021/11/01 14:23:32.019  INFO: DEV_BOARDINT Connection Success
+2021/11/01 14:23:33.027  ERROR: DEV_BOARD BEACON received with actual packet length of 40 but defined length of 29
+2021/11/01 14:23:33.028  ERROR: Error reading from interface : DEV_BOARDINT
+2021/11/01 14:23:33.065  INFO: Connection Lost for DEV_BOARDINT: RuntimeError : Calculated packet length of 0 bits < (offset:0 + size:8)
+2021/11/01 14:23:33.066  ERROR: RuntimeError : Calculated packet length of 0 bits < (offset:0 + size:8)
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/protocols/length_protocol.rb:141:in `reduce_to_single_packet'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/protocols/burst_protocol.rb:54:in `read_data'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/interface.rb:202:in `block (2 levels) in read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/interface.rb:201:in `each'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/interface.rb:201:in `block in read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/interface.rb:188:in `loop'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/interface.rb:188:in `read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2021/11/01 14:23:37.363  INFO: User disconnecting interface DEV_BOARDINT
+2021/11/01 14:23:37.364  INFO: Killing thread for interface DEV_BOARDINT
+2021/11/01 14:23:37.364  INFO: Stopped packet reading for DEV_BOARDINT
+2021/11/01 14:23:37.374  INFO: Disconnected from interface DEV_BOARDINT
+2021/11/01 14:30:15.416  INFO: Log File Closed : /Users/norgaardc/Documents/cosmos_projects/dev_board/outputs/logs/2021_11_01_14_23_26_tlm.bin
+2021/11/01 14:30:15.517  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/11/01 14:30:15.517  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/11/01 14:30:15.517  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/11/01 14:30:15.563  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/11/01 14:30:15.571  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/11/01 14:30:15.571  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/11/01 14:30:15.571  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/11/01 14:30:15.671  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/11/01 14:30:15.682  INFO: Disconnected from interface DEV_BOARDINT

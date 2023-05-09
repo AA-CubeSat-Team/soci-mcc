@@ -1,0 +1,144 @@
+Exception:
+SignalException : SIGHUP
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/qtbindings-4.8.6.5/lib/Qt/qtruby4.rb:2676:in `find_class'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/qtbindings-4.8.6.5/lib/Qt/qtruby4.rb:462:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/qtbindings-4.8.6.5/lib/Qt/qtruby4.rb:462:in `initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/qtbindings-4.8.6.5/lib/Qt/qtruby4.rb:2684:in `call'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/qtbindings-4.8.6.5/lib/Qt/qtruby4.rb:2684:in `block in try_initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/qtbindings-4.8.6.5/lib/Qt/qtruby4.rb:2683:in `catch'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/qtbindings-4.8.6.5/lib/Qt/qtruby4.rb:2683:in `try_initialize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/gui/qt_tool.rb:311:in `new'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/gui/qt_tool.rb:311:in `block in run'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:741:in `set_working_dir'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/gui/qt_tool.rb:304:in `run'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/launcher/launcher.rb:191:in `block in run'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:556:in `catch_fatal_exception'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/launcher/launcher.rb:180:in `run'
+launcher:15:in `block in <main>'
+/Users/norgaardc/Documents/cosmos_projects/dev_board/tools/tool_launch.rb:16:in `tool_launch'
+launcher:13:in `<main>'
+
+Caller Backtrace:
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:455:in `block (2 levels) in create_log_file'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:452:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:452:in `block in create_log_file'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:741:in `set_working_dir'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:425:in `create_log_file'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:482:in `write_exception_file'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:572:in `handle_fatal_exception'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/gui/qt_tool.rb:326:in `rescue in block in run'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/gui/qt_tool.rb:310:in `block in run'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:741:in `set_working_dir'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/gui/qt_tool.rb:304:in `run'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/launcher/launcher.rb:191:in `block in run'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:556:in `catch_fatal_exception'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/launcher/launcher.rb:180:in `run'
+launcher:15:in `block in <main>'
+/Users/norgaardc/Documents/cosmos_projects/dev_board/tools/tool_launch.rb:16:in `tool_launch'
+launcher:13:in `<main>'
+
+Ruby Version: ruby 2.5.7 (2019-10-01 patchlevel 206) [x86_64-darwin17]
+Rubygems Version: 2.7.6.2
+Cosmos Version: 4.5.0
+Cosmos::PATH: /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0
+Cosmos::USERPATH: /Users/norgaardc/Documents/cosmos_projects/dev_board
+
+Environment:
+RUBYOPT: -r/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/bundler-2.1.4/lib/bundler/setup
+RUBYLIB: /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/bundler-2.1.4/lib:/usr/local/Cellar/rbenv/1.1.2/rbenv.d/exec/gem-rehash
+GEM_PATH: /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0:/Users/norgaardc/.gem/ruby/2.5.0
+GEMRC: 
+RI_DEVKIT: 
+GEM_HOME: /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0
+PATH: /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/../bin:/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/bin:/Users/norgaardc/.rbenv/versions/2.5.7/bin:/usr/local/Cellar/rbenv/1.1.2/libexec:/opt/anaconda3/bin:/opt/anaconda3/condabin:/Users/norgaardc/.rbenv/shims:/usr/local/opt/ruby/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Postgres.app/Contents/Versions/latest/bin
+
+Ruby Path:
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/uuidtools-2.2.0/lib
+  /Users/norgaardc/Documents/cosmos_projects/dev_board/lib
+  /usr/local/Cellar/rbenv/1.1.2/rbenv.d/exec/gem-rehash
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/bundler-2.1.4/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/ruby-termios-1.0.2/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/extensions/x86_64-darwin-17/2.5.0/ruby-termios-1.0.2
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/extensions/x86_64-darwin-17/2.5.0/cosmos-4.5.0
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/uuidtools-2.2.0/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/snmp-1.3.2/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/rubyzip-1.3.0/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/rdoc-6.3.0/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/rack-2.2.3/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/qtbindings-4.8.6.5/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/extensions/x86_64-darwin-17/2.5.0/qtbindings-4.8.6.5
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/puma-3.12.6/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/extensions/x86_64-darwin-17/2.5.0/puma-3.12.6
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/pry-doc-0.13.5/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/yard-0.9.26/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/pry-0.14.0/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/method_source-1.0.0/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/opengl-bindings-1.6.10/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/nokogiri-1.11.3-x86_64-darwin/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/racc-1.5.2/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/extensions/x86_64-darwin-17/2.5.0/racc-1.5.2
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/json-2.5.1/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/extensions/x86_64-darwin-17/2.5.0/json-2.5.1
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/coderay-1.1.3/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/rake-13.0.3/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/site_ruby/2.5.0
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/site_ruby/2.5.0/x86_64-darwin17
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/site_ruby
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/vendor_ruby/2.5.0
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/vendor_ruby/2.5.0/x86_64-darwin17
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/vendor_ruby
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/x86_64-darwin17
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/qtbindings-4.8.6.5/lib/../lib/2.5
+
+Gems:
+did_you_mean 1.2.0 ruby
+bundler 2.1.4 ruby
+rake 13.0.3 ruby
+coderay 1.1.3 ruby
+httpclient 2.8.3 ruby
+json 2.5.1 ruby
+racc 1.5.2 ruby
+nokogiri 1.11.3 x86_64-darwin
+opengl-bindings 1.6.10 ruby
+method_source 1.0.0 ruby
+pry 0.14.0 ruby
+yard 0.9.26 ruby
+pry-doc 0.13.5 ruby
+puma 3.12.6 ruby
+qtbindings 4.8.6.5 ruby
+rack 2.2.3 ruby
+rdoc 6.3.0 ruby
+rubyzip 1.3.0 ruby
+snmp 1.3.2 ruby
+uuidtools 2.2.0 ruby
+cosmos 4.5.0 ruby
+ruby-termios 1.0.2 ruby
+
+All Threads Backtraces:
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:518:in `backtrace'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:518:in `block (2 levels) in write_exception_file'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:517:in `each'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:517:in `block in write_exception_file'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:455:in `block (2 levels) in create_log_file'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:452:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:452:in `block in create_log_file'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:741:in `set_working_dir'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:425:in `create_log_file'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:482:in `write_exception_file'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:572:in `handle_fatal_exception'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/gui/qt_tool.rb:326:in `rescue in block in run'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/gui/qt_tool.rb:310:in `block in run'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:741:in `set_working_dir'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/gui/qt_tool.rb:304:in `run'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/launcher/launcher.rb:191:in `block in run'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:556:in `catch_fatal_exception'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/launcher/launcher.rb:180:in `run'
+launcher:15:in `block in <main>'
+/Users/norgaardc/Documents/cosmos_projects/dev_board/tools/tool_launch.rb:16:in `tool_launch'
+launcher:13:in `<main>'
+
+
+

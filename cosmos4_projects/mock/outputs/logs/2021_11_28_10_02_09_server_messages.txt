@@ -1,0 +1,359 @@
+2021/11/28 10:02:07.996  INFO: COSMOS Version: 4.5.0
+2021/11/28 10:02:07.996  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/mock/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/11/28 10:02:08.157  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/mock/config/targets/MOCK/cmd_tlm_server.txt
+2021/11/28 10:02:08.251  INFO: Marshal file does not exist: /Users/norgaardc/Documents/cosmos_projects/mock/outputs/tmp/marshal_5caab4ea690de8175b26da120b6fe823.bin
+2021/11/28 10:02:08.497  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/11/28 10:02:08.498  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/11/28 10:02:08.498  INFO: Creating thread for interface MOCKINT
+2021/11/28 10:02:08.498  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/11/28 10:02:08.499  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/11/28 10:02:08.507  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/11/28 10:02:08.507  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/11/28 10:02:08.507  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/11/28 10:02:08.507  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/11/28 10:02:08.507  INFO: Starting packet reading for MOCKINT
+2021/11/28 10:02:08.507  INFO: Connecting to MOCKINT...
+2021/11/28 10:02:08.531  INFO: MOCKINT Connection Success
+2021/11/28 10:02:10.542  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:10.543  INFO: Log File Opened : /Users/norgaardc/Documents/cosmos_projects/mock/outputs/logs/2021_11_28_10_02_10_tlm.bin
+2021/11/28 10:02:11.041  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:11.545  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:12.044  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:12.544  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:13.048  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:13.548  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:14.062  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:14.551  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:15.051  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:15.550  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:16.050  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:16.554  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:17.053  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:17.553  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:18.057  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:18.557  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:19.056  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:19.556  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:20.060  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:20.559  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:21.059  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:21.564  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:22.062  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:22.562  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:23.066  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:23.566  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:24.066  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:24.565  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:25.069  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:25.569  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:26.068  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:26.572  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:27.072  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:27.571  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:28.072  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:28.575  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:29.075  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:29.574  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:30.078  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:30.578  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:31.078  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:31.582  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:32.081  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:32.581  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:33.080  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:33.585  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:34.084  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:34.584  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:35.087  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:35.587  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:36.087  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:36.586  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:37.096  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:37.625  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:38.089  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:38.594  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:39.093  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:39.593  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:40.097  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:40.596  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:41.096  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:41.596  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:42.099  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:42.599  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:43.099  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:43.603  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:44.102  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:44.602  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:45.101  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:45.605  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:46.105  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:46.605  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:47.108  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:47.608  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:48.108  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:48.612  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:49.111  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:49.611  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:50.111  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:50.614  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:51.114  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:51.614  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:52.118  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:52.617  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:53.117  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:53.621  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:54.121  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:54.620  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:55.120  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:55.623  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:56.123  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:56.623  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:57.127  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:57.626  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:58.126  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:58.625  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:59.129  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:02:59.629  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:00.129  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:00.632  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:01.132  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:01.632  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:02.136  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:02.635  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:03.135  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:03.635  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:04.139  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:04.638  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:05.138  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:05.642  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:06.141  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:06.641  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:07.141  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:07.645  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:08.144  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:08.644  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:09.148  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:09.647  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:10.147  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:10.651  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:11.151  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:11.650  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:12.150  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:12.653  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:13.153  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:13.653  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:14.157  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:14.657  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:15.156  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:15.660  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:16.160  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:16.659  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:17.159  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:17.663  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:18.162  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:18.662  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:19.166  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:19.665  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:20.166  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:20.665  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:21.168  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:21.668  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:22.168  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:22.672  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:23.171  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:23.671  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:24.177  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:24.675  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:25.175  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:25.674  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:26.178  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:26.677  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:27.177  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:27.681  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:28.181  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:28.680  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:29.180  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:29.683  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:30.184  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:30.683  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:31.187  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:31.687  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:32.186  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:32.690  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:33.190  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:33.690  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:34.190  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:34.693  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:35.193  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:35.692  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:36.196  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:36.696  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:37.195  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:37.700  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:38.199  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:38.699  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:39.198  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:39.702  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:40.202  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:40.701  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:41.205  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:41.705  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:42.204  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:42.704  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:43.208  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:43.708  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:44.207  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:44.711  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:45.211  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:45.710  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:46.214  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:46.714  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:47.213  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:47.713  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:48.217  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:48.717  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:49.216  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:49.720  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:50.220  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:50.720  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:51.219  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:51.723  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:52.223  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:52.723  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:53.226  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:53.726  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:54.226  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:54.729  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:55.230  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:55.729  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:56.228  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:56.732  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:57.232  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:57.731  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:58.235  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:58.735  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:59.235  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:03:59.738  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:00.238  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:00.740  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:01.237  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:01.743  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:02.241  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:02.741  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:03.245  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:03.744  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:04.244  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:04.744  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:05.247  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:05.747  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:06.247  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:06.750  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:07.250  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:07.750  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:08.253  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:08.753  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:09.253  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:09.753  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:10.257  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:10.756  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:11.256  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:11.759  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:12.259  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:12.759  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:13.263  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:13.762  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:14.262  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:14.762  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:15.265  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:15.765  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:16.265  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:16.769  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:17.268  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:17.768  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:18.267  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:18.771  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:19.271  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:19.771  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:20.275  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:20.774  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:21.274  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:21.778  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:22.277  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:22.777  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:23.277  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:23.780  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:24.280  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:24.780  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:25.284  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:25.783  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:26.284  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:26.783  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:27.287  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:27.786  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:28.286  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:28.790  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:29.289  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:29.789  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:30.293  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:30.793  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:31.292  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:31.792  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:32.296  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:32.795  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:33.295  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:33.799  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:34.299  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:34.798  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:35.302  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:35.801  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:36.301  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:36.801  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:37.305  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:37.804  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:38.307  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:38.808  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:39.307  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:39.807  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:40.307  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:40.811  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:41.310  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:41.811  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:42.314  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:42.813  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:43.305  ERROR: Error reading from interface : MOCKINT
+2021/11/28 10:04:43.305  INFO: Connection Lost for MOCKINT: RuntimeError : Calculated packet length of 0 bits < (offset:0 + size:8)
+2021/11/28 10:04:43.305  ERROR: RuntimeError : Calculated packet length of 0 bits < (offset:0 + size:8)
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/protocols/length_protocol.rb:141:in `reduce_to_single_packet'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/protocols/burst_protocol.rb:54:in `read_data'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/interface.rb:202:in `block (2 levels) in read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/interface.rb:201:in `each'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/interface.rb:201:in `block in read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/interface.rb:188:in `loop'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/interface.rb:188:in `read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2021/11/28 10:04:48.310  INFO: Connecting to MOCKINT...
+2021/11/28 10:04:48.315  INFO: MOCKINT Connection Success
+2021/11/28 10:04:50.346  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:50.845  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:51.349  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:51.849  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:52.348  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:52.868  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:53.352  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:53.854  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:54.351  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:54.669  INFO: Log File Closed : /Users/norgaardc/Documents/cosmos_projects/mock/outputs/logs/2021_11_28_10_02_10_tlm.bin
+2021/11/28 10:04:54.770  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/11/28 10:04:54.771  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/11/28 10:04:54.771  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/11/28 10:04:54.826  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/11/28 10:04:54.837  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/11/28 10:04:54.838  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/11/28 10:04:54.838  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/11/28 10:04:54.855  ERROR: MOCK BEACON received with actual packet length of 8 but defined length of 7
+2021/11/28 10:04:54.936  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/11/28 10:04:54.947  INFO: Killing thread for interface MOCKINT
+2021/11/28 10:04:54.947  ERROR: Error reading from interface : MOCKINT
+2021/11/28 10:04:54.947  INFO: Connection Lost for MOCKINT: EBADF : Bad file descriptor
+2021/11/28 10:04:54.947  INFO: Stopped packet reading for MOCKINT
+2021/11/28 10:04:54.948  INFO: Disconnected from interface MOCKINT

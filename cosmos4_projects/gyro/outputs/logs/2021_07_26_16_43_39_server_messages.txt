@@ -1,0 +1,62 @@
+2021/07/26 16:43:38.719  INFO: COSMOS Version: 4.5.0
+2021/07/26 16:43:38.719  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/gyro/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/07/26 16:43:38.854  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/gyro/config/targets/GYRO/cmd_tlm_server.txt
+2021/07/26 16:43:38.858  INFO: Marshal load success: /Users/norgaardc/Documents/cosmos_projects/gyro/outputs/tmp/marshal_01f7c122d390dcbf9b94f6835c6db2a4.bin
+2021/07/26 16:43:39.074  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/07/26 16:43:39.075  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/07/26 16:43:39.075  INFO: Creating thread for interface GYROINT
+2021/07/26 16:43:39.075  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/07/26 16:43:39.075  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/07/26 16:43:39.076  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/07/26 16:43:39.076  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/07/26 16:43:39.076  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/07/26 16:43:39.084  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/07/26 16:43:39.084  INFO: Starting packet reading for GYROINT
+2021/07/26 16:43:39.084  INFO: Connecting to GYROINT...
+2021/07/26 16:43:39.157  INFO: GYROINT Connection Success
+2021/07/26 16:43:40.365  ERROR: GYRO GYRO1 received with actual packet length of 19 but defined length of 6
+2021/07/26 16:43:40.366  INFO: Log File Opened : /Users/norgaardc/Documents/cosmos_projects/gyro/outputs/logs/2021_07_26_16_43_40_tlm.bin
+2021/07/26 16:43:40.614  ERROR: GYRO GYRO1 received with actual packet length of 19 but defined length of 6
+2021/07/26 16:43:40.868  ERROR: GYRO GYRO1 received with actual packet length of 19 but defined length of 6
+2021/07/26 16:43:41.122  ERROR: GYRO GYRO1 received with actual packet length of 19 but defined length of 6
+2021/07/26 16:43:41.372  ERROR: GYRO GYRO1 received with actual packet length of 19 but defined length of 6
+2021/07/26 16:43:41.626  ERROR: GYRO GYRO1 received with actual packet length of 19 but defined length of 6
+2021/07/26 16:43:41.879  ERROR: GYRO GYRO1 received with actual packet length of 19 but defined length of 6
+2021/07/26 16:43:42.129  ERROR: GYRO GYRO1 received with actual packet length of 19 but defined length of 6
+2021/07/26 16:43:42.380  ERROR: GYRO GYRO1 received with actual packet length of 19 but defined length of 6
+2021/07/26 16:43:42.633  ERROR: GYRO GYRO1 received with actual packet length of 19 but defined length of 6
+2021/07/26 16:43:42.883  ERROR: GYRO GYRO1 received with actual packet length of 19 but defined length of 6
+2021/07/26 16:43:43.137  ERROR: GYRO GYRO1 received with actual packet length of 19 but defined length of 6
+2021/07/26 16:43:43.387  ERROR: GYRO GYRO1 received with actual packet length of 19 but defined length of 6
+2021/07/26 16:43:43.641  ERROR: GYRO GYRO1 received with actual packet length of 19 but defined length of 6
+2021/07/26 16:43:43.891  ERROR: GYRO GYRO1 received with actual packet length of 19 but defined length of 6
+2021/07/26 16:43:44.144  ERROR: GYRO GYRO1 received with actual packet length of 19 but defined length of 6
+2021/07/26 16:43:44.394  ERROR: GYRO GYRO1 received with actual packet length of 19 but defined length of 6
+2021/07/26 16:43:44.648  ERROR: GYRO GYRO1 received with actual packet length of 19 but defined length of 6
+2021/07/26 16:43:44.898  ERROR: GYRO GYRO1 received with actual packet length of 19 but defined length of 6
+2021/07/26 16:43:45.152  ERROR: GYRO GYRO1 received with actual packet length of 19 but defined length of 6
+2021/07/26 16:43:45.402  ERROR: GYRO GYRO1 received with actual packet length of 19 but defined length of 6
+2021/07/26 16:43:45.656  ERROR: GYRO GYRO1 received with actual packet length of 19 but defined length of 6
+2021/07/26 16:43:45.910  ERROR: GYRO GYRO1 received with actual packet length of 19 but defined length of 6
+2021/07/26 16:43:46.160  ERROR: GYRO GYRO1 received with actual packet length of 19 but defined length of 6
+2021/07/26 16:43:46.414  ERROR: GYRO GYRO1 received with actual packet length of 19 but defined length of 6
+2021/07/26 16:43:46.665  ERROR: GYRO GYRO1 received with actual packet length of 19 but defined length of 6
+2021/07/26 16:43:46.919  ERROR: GYRO GYRO1 received with actual packet length of 19 but defined length of 6
+2021/07/26 16:43:47.167  ERROR: GYRO GYRO1 received with actual packet length of 19 but defined length of 6
+2021/07/26 16:43:47.421  ERROR: GYRO GYRO1 received with actual packet length of 19 but defined length of 6
+2021/07/26 16:43:47.441  INFO: User disconnecting interface GYROINT
+2021/07/26 16:43:47.441  INFO: Killing thread for interface GYROINT
+2021/07/26 16:43:47.442  ERROR: Error reading from interface : GYROINT
+2021/07/26 16:43:47.442  INFO: Connection Lost for GYROINT: EBADF : Bad file descriptor
+2021/07/26 16:43:47.442  INFO: Stopped packet reading for GYROINT
+2021/07/26 16:43:47.442  INFO: Disconnected from interface GYROINT
+2021/07/26 16:44:14.222  INFO: Log File Closed : /Users/norgaardc/Documents/cosmos_projects/gyro/outputs/logs/2021_07_26_16_43_40_tlm.bin
+2021/07/26 16:44:14.324  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/07/26 16:44:14.324  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/07/26 16:44:14.324  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/07/26 16:44:14.345  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/07/26 16:44:14.345  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/07/26 16:44:14.345  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/07/26 16:44:14.345  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/07/26 16:44:14.443  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/07/26 16:44:14.454  INFO: Disconnected from interface GYROINT

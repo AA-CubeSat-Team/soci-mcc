@@ -1,0 +1,185 @@
+2021/07/26 13:54:01.707  INFO: COSMOS Version: 4.5.0
+2021/07/26 13:54:01.707  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/gyro/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/07/26 13:54:01.852  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/gyro/config/targets/GYRO/cmd_tlm_server.txt
+2021/07/26 13:54:01.857  INFO: Marshal file does not exist: /Users/norgaardc/Documents/cosmos_projects/gyro/outputs/tmp/marshal_4ea80b260362594a543bf8bba3ac3af0.bin
+2021/07/26 13:54:02.183  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/07/26 13:54:02.184  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/07/26 13:54:02.184  INFO: Creating thread for interface GYROINT
+2021/07/26 13:54:02.184  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/07/26 13:54:02.184  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/07/26 13:54:02.192  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/07/26 13:54:02.192  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/07/26 13:54:02.192  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/07/26 13:54:02.192  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/07/26 13:54:02.192  INFO: Starting packet reading for GYROINT
+2021/07/26 13:54:02.192  INFO: Connecting to GYROINT...
+2021/07/26 13:54:02.261  INFO: GYROINT Connection Success
+2021/07/26 13:54:03.261  ERROR: GYROINT - Unknown 3 byte packet starting: 030028
+2021/07/26 13:54:03.263  INFO: Log File Opened : /Users/norgaardc/Documents/cosmos_projects/gyro/outputs/logs/2021_07_26_13_54_03_tlm.bin
+2021/07/26 13:54:03.327  ERROR: GYROINT - Unknown 3 byte packet starting: 030040
+2021/07/26 13:54:03.368  ERROR: GYROINT - Unknown 3 byte packet starting: 030008
+2021/07/26 13:54:03.462  ERROR: GYROINT - Unknown 3 byte packet starting: 030060
+2021/07/26 13:54:03.609  ERROR: GYROINT - Unknown 3 byte packet starting: 030090
+2021/07/26 13:54:03.675  ERROR: GYROINT - Unknown 3 byte packet starting: 030040
+2021/07/26 13:54:03.872  ERROR: GYROINT - Unknown 3 byte packet starting: 0300C4
+2021/07/26 13:54:04.019  ERROR: GYROINT - Unknown 3 byte packet starting: 030090
+2021/07/26 13:54:04.162  ERROR: GYROINT - Unknown 3 byte packet starting: 030090
+2021/07/26 13:54:04.261  ERROR: GYROINT - Unknown 3 byte packet starting: 030060
+2021/07/26 13:54:04.424  ERROR: GYROINT - Unknown 3 byte packet starting: 0300A0
+2021/07/26 13:54:04.666  ERROR: GYROINT - Unknown 3 byte packet starting: 0300F0
+2021/07/26 13:54:04.834  ERROR: GYROINT - Unknown 3 byte packet starting: 0300A8
+2021/07/26 13:54:04.986  ERROR: GYROINT - Unknown 3 byte packet starting: 030094
+2021/07/26 13:54:05.195  ERROR: GYROINT - Unknown 3 byte packet starting: 0300D0
+2021/07/26 13:54:05.235  ERROR: GYROINT - Unknown 3 byte packet starting: 030028
+2021/07/26 13:54:05.301  ERROR: GYROINT - Unknown 3 byte packet starting: 030040
+2021/07/26 13:54:05.350  ERROR: GYROINT - Unknown 3 byte packet starting: 030030
+2021/07/26 13:54:05.424  ERROR: GYROINT - Unknown 3 byte packet starting: 030048
+2021/07/26 13:54:05.633  ERROR: GYROINT - Unknown 3 byte packet starting: 0300D0
+2021/07/26 13:54:05.780  ERROR: GYROINT - Unknown 3 byte packet starting: 030090
+2021/07/26 13:54:05.821  ERROR: GYROINT - Unknown 3 byte packet starting: 030018
+2021/07/26 13:54:05.911  ERROR: GYROINT - Unknown 3 byte packet starting: 030058
+2021/07/26 13:54:06.071  ERROR: GYROINT - Unknown 3 byte packet starting: 0300A0
+2021/07/26 13:54:06.112  ERROR: GYROINT - Unknown 3 byte packet starting: 030000
+2021/07/26 13:54:06.259  ERROR: GYROINT - Unknown 3 byte packet starting: 030090
+2021/07/26 13:54:06.390  ERROR: GYROINT - Unknown 3 byte packet starting: 030084
+2021/07/26 13:54:06.505  ERROR: GYROINT - Unknown 3 byte packet starting: 030070
+2021/07/26 13:54:06.653  ERROR: GYROINT - Unknown 3 byte packet starting: 030090
+2021/07/26 13:54:06.718  ERROR: GYROINT - Unknown 3 byte packet starting: 030040
+2021/07/26 13:54:06.784  ERROR: GYROINT - Unknown 3 byte packet starting: 030040
+2021/07/26 13:54:06.820  ERROR: GYROINT - Unknown 3 byte packet starting: 030010
+2021/07/26 13:54:06.972  ERROR: GYROINT - Unknown 3 byte packet starting: 030094
+2021/07/26 13:54:07.222  ERROR: GYROINT - Unknown 3 byte packet starting: 0300F8
+2021/07/26 13:54:07.263  ERROR: GYROINT - Unknown 3 byte packet starting: 030000
+2021/07/26 13:54:07.353  ERROR: GYROINT - Unknown 3 byte packet starting: 030058
+2021/07/26 13:54:07.402  ERROR: GYROINT - Unknown 3 byte packet starting: 030030
+2021/07/26 13:54:07.476  ERROR: GYROINT - Unknown 3 byte packet starting: 030048
+2021/07/26 13:54:07.541  ERROR: GYROINT - Unknown 3 byte packet starting: 030040
+2021/07/26 13:54:07.578  ERROR: GYROINT - Unknown 3 byte packet starting: 030000
+2021/07/26 13:54:07.652  ERROR: GYROINT - Unknown 3 byte packet starting: 030048
+2021/07/26 13:54:07.799  ERROR: GYROINT - Unknown 3 byte packet starting: 030090
+2021/07/26 13:54:07.959  ERROR: GYROINT - Unknown 3 byte packet starting: 0300A0
+2021/07/26 13:54:08.098  ERROR: GYROINT - Unknown 3 byte packet starting: 030088
+2021/07/26 13:54:08.262  ERROR: GYROINT - Unknown 3 byte packet starting: 0300A0
+2021/07/26 13:54:08.299  ERROR: GYROINT - Unknown 3 byte packet starting: 030000
+2021/07/26 13:54:08.459  ERROR: GYROINT - Unknown 3 byte packet starting: 03009C
+2021/07/26 13:54:08.500  ERROR: GYROINT - Unknown 3 byte packet starting: 030028
+2021/07/26 13:54:08.614  ERROR: GYROINT - Unknown 3 byte packet starting: 030070
+2021/07/26 13:54:08.688  ERROR: GYROINT - Unknown 3 byte packet starting: 030048
+2021/07/26 13:54:08.729  ERROR: GYROINT - Unknown 3 byte packet starting: 030018
+2021/07/26 13:54:08.840  ERROR: GYROINT - Unknown 3 byte packet starting: 030070
+2021/07/26 13:54:08.999  ERROR: GYROINT - Unknown 3 byte packet starting: 03009C
+2021/07/26 13:54:09.180  ERROR: GYROINT - Unknown 3 byte packet starting: 0300B4
+2021/07/26 13:54:09.389  ERROR: GYROINT - Unknown 3 byte packet starting: 0300D0
+2021/07/26 13:54:09.585  ERROR: GYROINT - Unknown 3 byte packet starting: 0300C0
+2021/07/26 13:54:09.782  ERROR: GYROINT - Unknown 3 byte packet starting: 0300C4
+2021/07/26 13:54:09.823  ERROR: GYROINT - Unknown 3 byte packet starting: 030000
+2021/07/26 13:54:10.064  ERROR: GYROINT - Unknown 3 byte packet starting: 0300F0
+2021/07/26 13:54:10.236  ERROR: GYROINT - Unknown 3 byte packet starting: 0300AC
+2021/07/26 13:54:10.396  ERROR: GYROINT - Unknown 3 byte packet starting: 03009C
+2021/07/26 13:54:10.437  ERROR: GYROINT - Unknown 3 byte packet starting: 030000
+2021/07/26 13:54:10.503  ERROR: GYROINT - Unknown 3 byte packet starting: 030040
+2021/07/26 13:54:10.712  ERROR: GYROINT - Unknown 3 byte packet starting: 0300D0
+2021/07/26 13:54:10.785  ERROR: GYROINT - Unknown 3 byte packet starting: 030048
+2021/07/26 13:54:10.851  ERROR: GYROINT - Unknown 3 byte packet starting: 030040
+2021/07/26 13:54:11.092  ERROR: GYROINT - Unknown 3 byte packet starting: 0300F0
+2021/07/26 13:54:11.133  ERROR: GYROINT - Unknown 3 byte packet starting: 030000
+2021/07/26 13:54:11.170  ERROR: GYROINT - Unknown 3 byte packet starting: 030000
+2021/07/26 13:54:11.412  ERROR: GYROINT - Unknown 3 byte packet starting: 0300F0
+2021/07/26 13:54:11.453  ERROR: GYROINT - Unknown 3 byte packet starting: 030010
+2021/07/26 13:54:11.604  ERROR: GYROINT - Unknown 3 byte packet starting: 030094
+2021/07/26 13:54:11.785  ERROR: GYROINT - Unknown 3 byte packet starting: 0300B4
+2021/07/26 13:54:11.834  ERROR: GYROINT - Unknown 3 byte packet starting: 030030
+2021/07/26 13:54:12.076  ERROR: GYROINT - Unknown 3 byte packet starting: 0300F0
+2021/07/26 13:54:12.247  ERROR: GYROINT - Unknown 3 byte packet starting: 0300A8
+2021/07/26 13:54:12.293  ERROR: GYROINT - Unknown 3 byte packet starting: 030028
+2021/07/26 13:54:12.448  ERROR: GYROINT - Unknown 3 byte packet starting: 0300A0
+2021/07/26 13:54:12.613  ERROR: GYROINT - Unknown 3 byte packet starting: 0300A0
+2021/07/26 13:54:12.710  ERROR: GYROINT - Unknown 3 byte packet starting: 030060
+2021/07/26 13:54:12.784  ERROR: GYROINT - Unknown 3 byte packet starting: 030048
+2021/07/26 13:54:12.916  ERROR: GYROINT - Unknown 3 byte packet starting: 030060
+2021/07/26 13:54:12.948  ERROR: GYROINT - Unknown 3 byte packet starting: 030040
+2021/07/26 13:54:12.985  ERROR: GYROINT - Unknown 3 byte packet starting: 030018
+2021/07/26 13:54:13.030  ERROR: GYROINT - Unknown 3 byte packet starting: 030028
+2021/07/26 13:54:13.185  ERROR: GYROINT - Unknown 3 byte packet starting: 03009C
+2021/07/26 13:54:13.349  ERROR: GYROINT - Unknown 3 byte packet starting: 0300A0
+2021/07/26 13:54:13.415  ERROR: GYROINT - Unknown 3 byte packet starting: 030040
+2021/07/26 13:54:13.558  ERROR: GYROINT - Unknown 3 byte packet starting: 030090
+2021/07/26 13:54:13.623  ERROR: GYROINT - Unknown 3 byte packet starting: 030040
+2021/07/26 13:54:13.816  ERROR: GYROINT - Unknown 3 byte packet starting: 0300C0
+2021/07/26 13:54:14.058  ERROR: GYROINT - Unknown 3 byte packet starting: 0300F0
+2021/07/26 13:54:14.193  ERROR: GYROINT - Unknown 3 byte packet starting: 030084
+2021/07/26 13:54:14.235  ERROR: GYROINT - Unknown 3 byte packet starting: 030000
+2021/07/26 13:54:14.478  ERROR: GYROINT - Unknown 3 byte packet starting: 0300A0
+2021/07/26 13:54:14.478  ERROR: GYROINT - Unknown 3 byte packet starting: 030018
+2021/07/26 13:54:14.676  ERROR: GYROINT - Unknown 3 byte packet starting: 0300F0
+2021/07/26 13:54:14.725  ERROR: GYROINT - Unknown 3 byte packet starting: 030030
+2021/07/26 13:54:14.766  ERROR: GYROINT - Unknown 3 byte packet starting: 030000
+2021/07/26 13:54:14.865  ERROR: GYROINT - Unknown 3 byte packet starting: 030060
+2021/07/26 13:54:15.106  ERROR: GYROINT - Unknown 3 byte packet starting: 0300F0
+2021/07/26 13:54:15.147  ERROR: GYROINT - Unknown 3 byte packet starting: 030000
+2021/07/26 13:54:15.221  ERROR: GYROINT - Unknown 3 byte packet starting: 030048
+2021/07/26 13:54:15.383  ERROR: GYROINT - Unknown 3 byte packet starting: 0300A0
+2021/07/26 13:54:15.577  ERROR: GYROINT - Unknown 3 byte packet starting: 0300C0
+2021/07/26 13:54:15.697  ERROR: GYROINT - Unknown 3 byte packet starting: 030078
+2021/07/26 13:54:15.794  ERROR: GYROINT - Unknown 3 byte packet starting: 030060
+2021/07/26 13:54:15.868  ERROR: GYROINT - Unknown 3 byte packet starting: 030048
+2021/07/26 13:54:15.909  ERROR: GYROINT - Unknown 3 byte packet starting: 030000
+2021/07/26 13:54:16.151  ERROR: GYROINT - Unknown 3 byte packet starting: 0300F0
+2021/07/26 13:54:16.200  ERROR: GYROINT - Unknown 3 byte packet starting: 030030
+2021/07/26 13:54:16.392  ERROR: GYROINT - Unknown 3 byte packet starting: 0300C0
+2021/07/26 13:54:16.614  ERROR: GYROINT - Unknown 3 byte packet starting: 0300D8
+2021/07/26 13:54:16.663  ERROR: GYROINT - Unknown 3 byte packet starting: 030030
+2021/07/26 13:54:16.712  ERROR: GYROINT - Unknown 3 byte packet starting: 030030
+2021/07/26 13:54:16.880  ERROR: GYROINT - Unknown 3 byte packet starting: 0300A8
+2021/07/26 13:54:17.121  ERROR: GYROINT - Unknown 3 byte packet starting: 0300F0
+2021/07/26 13:54:17.285  ERROR: GYROINT - Unknown 3 byte packet starting: 0300A0
+2021/07/26 13:54:17.416  ERROR: GYROINT - Unknown 3 byte packet starting: 030084
+2021/07/26 13:54:17.468  ERROR: GYROINT - Unknown 3 byte packet starting: 030030
+2021/07/26 13:54:17.506  ERROR: GYROINT - Unknown 3 byte packet starting: 030018
+2021/07/26 13:54:17.613  ERROR: GYROINT - Unknown 3 byte packet starting: 030068
+2021/07/26 13:54:17.822  ERROR: GYROINT - Unknown 3 byte packet starting: 0300D0
+2021/07/26 13:54:17.969  ERROR: GYROINT - Unknown 3 byte packet starting: 030090
+2021/07/26 13:54:18.112  ERROR: GYROINT - Unknown 3 byte packet starting: 030090
+2021/07/26 13:54:18.203  ERROR: GYROINT - Unknown 3 byte packet starting: 030058
+2021/07/26 13:54:18.368  ERROR: GYROINT - Unknown 3 byte packet starting: 030094
+2021/07/26 13:54:18.403  ERROR: GYROINT - Unknown 3 byte packet starting: 030030
+2021/07/26 13:54:18.445  ERROR: GYROINT - Unknown 3 byte packet starting: 030010
+2021/07/26 13:54:18.542  ERROR: GYROINT - Unknown 3 byte packet starting: 030060
+2021/07/26 13:54:18.580  ERROR: GYROINT - Unknown 3 byte packet starting: 030010
+2021/07/26 13:54:18.739  ERROR: GYROINT - Unknown 3 byte packet starting: 03009C
+2021/07/26 13:54:18.829  ERROR: GYROINT - Unknown 3 byte packet starting: 030058
+2021/07/26 13:54:18.973  ERROR: GYROINT - Unknown 3 byte packet starting: 030090
+2021/07/26 13:54:19.022  ERROR: GYROINT - Unknown 3 byte packet starting: 030030
+2021/07/26 13:54:19.170  ERROR: GYROINT - Unknown 3 byte packet starting: 030090
+2021/07/26 13:54:19.210  ERROR: GYROINT - Unknown 3 byte packet starting: 030010
+2021/07/26 13:54:19.341  ERROR: GYROINT - Unknown 3 byte packet starting: 030084
+2021/07/26 13:54:19.518  ERROR: GYROINT - Unknown 3 byte packet starting: 030088
+2021/07/26 13:54:19.552  ERROR: GYROINT - Unknown 3 byte packet starting: 030040
+2021/07/26 13:54:19.595  ERROR: GYROINT - Unknown 3 byte packet starting: 030030
+2021/07/26 13:54:19.660  ERROR: GYROINT - Unknown 3 byte packet starting: 030040
+2021/07/26 13:54:19.775  ERROR: GYROINT - Unknown 3 byte packet starting: 030070
+2021/07/26 13:54:19.935  ERROR: GYROINT - Unknown 3 byte packet starting: 0300A0
+2021/07/26 13:54:19.976  ERROR: GYROINT - Unknown 3 byte packet starting: 030000
+2021/07/26 13:54:20.099  ERROR: GYROINT - Unknown 3 byte packet starting: 030078
+2021/07/26 13:54:20.168  ERROR: GYROINT - Unknown 3 byte packet starting: 030040
+2021/07/26 13:54:20.205  ERROR: GYROINT - Unknown 3 byte packet starting: 030028
+2021/07/26 13:54:20.246  ERROR: GYROINT - Unknown 3 byte packet starting: 030000
+2021/07/26 13:54:20.478  ERROR: GYROINT - Unknown 3 byte packet starting: 0300D0
+2021/07/26 13:54:20.543  ERROR: GYROINT - Unknown 3 byte packet starting: 030048
+2021/07/26 13:54:20.554  INFO: Log File Closed : /Users/norgaardc/Documents/cosmos_projects/gyro/outputs/logs/2021_07_26_13_54_03_tlm.bin
+2021/07/26 13:54:20.570  ERROR: GYROINT - Unknown 3 byte packet starting: 030000
+2021/07/26 13:54:20.611  ERROR: GYROINT - Unknown 3 byte packet starting: 030010
+2021/07/26 13:54:20.655  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/07/26 13:54:20.656  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/07/26 13:54:20.656  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/07/26 13:54:20.766  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/07/26 13:54:20.771  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/07/26 13:54:20.771  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/07/26 13:54:20.771  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/07/26 13:54:20.852  ERROR: GYROINT - Unknown 3 byte packet starting: 0300F0
+2021/07/26 13:54:20.870  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/07/26 13:54:20.881  INFO: Killing thread for interface GYROINT
+2021/07/26 13:54:20.881  ERROR: Error reading from interface : GYROINT
+2021/07/26 13:54:20.882  INFO: Connection Lost for GYROINT: EBADF : Bad file descriptor
+2021/07/26 13:54:20.882  INFO: Stopped packet reading for GYROINT
+2021/07/26 13:54:20.882  INFO: Disconnected from interface GYROINT

@@ -1,0 +1,37 @@
+2021/03/25 16:14:40.666  INFO: COSMOS Version: 4.4.2
+2021/03/25 16:14:40.666  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/analog/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/03/25 16:14:40.802  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/analog/config/targets/ANALOG/cmd_tlm_server.txt
+2021/03/25 16:14:40.889  INFO: Marshal load success: /Users/norgaardc/Documents/cosmos_projects/analog/outputs/tmp/marshal_cd16eae6f0b5940119a0fe92dd387606.bin
+2021/03/25 16:14:41.096  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/03/25 16:14:41.096  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/03/25 16:14:41.097  INFO: Creating thread for interface ANALOGINT
+2021/03/25 16:14:41.169  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/03/25 16:14:41.169  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/03/25 16:14:41.169  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/03/25 16:14:41.169  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/03/25 16:14:41.169  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/03/25 16:14:41.179  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/03/25 16:14:41.179  INFO: Starting packet reading for ANALOGINT
+2021/03/25 16:14:41.179  INFO: Connecting to ANALOGINT...
+2021/03/25 16:14:41.198  INFO: ANALOGINT Connection Success
+2021/03/25 16:14:43.714  INFO: Log File Opened : /Users/norgaardc/Documents/cosmos_projects/analog/outputs/logs/2021_03_25_16_14_43_tlm.bin
+2021/03/25 16:18:33.719  INFO: cmd("ANALOG READANALOGPIN with READANALOGPIN 2")
+2021/03/25 16:18:33.720  INFO: Log File Opened : /Users/norgaardc/Documents/cosmos_projects/analog/outputs/logs/2021_03_25_16_18_33_cmd.bin
+2021/03/25 16:19:09.892  INFO: cmd("ANALOG READANALOGPIN with READANALOGPIN 3")
+2021/03/25 16:19:34.643  INFO: cmd("ANALOG READANALOGPIN with READANALOGPIN 0")
+2021/03/25 16:20:01.077  INFO: cmd("ANALOG READANALOGPIN with READANALOGPIN 6")
+2021/03/25 16:22:06.833  INFO: Log File Closed : /Users/norgaardc/Documents/cosmos_projects/analog/outputs/logs/2021_03_25_16_18_33_cmd.bin
+2021/03/25 16:22:06.834  INFO: Log File Closed : /Users/norgaardc/Documents/cosmos_projects/analog/outputs/logs/2021_03_25_16_14_43_tlm.bin
+2021/03/25 16:22:06.935  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/03/25 16:22:06.935  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/03/25 16:22:06.935  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/03/25 16:22:06.948  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/03/25 16:22:06.957  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/03/25 16:22:06.957  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/03/25 16:22:06.957  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/03/25 16:22:06.979  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/03/25 16:22:06.990  INFO: Killing thread for interface ANALOGINT
+2021/03/25 16:22:06.990  ERROR: Error reading from interface : ANALOGINT
+2021/03/25 16:22:06.990  INFO: Connection Lost for ANALOGINT: EBADF : Bad file descriptor
+2021/03/25 16:22:06.990  INFO: Stopped packet reading for ANALOGINT
+2021/03/25 16:22:06.991  INFO: Disconnected from interface ANALOGINT

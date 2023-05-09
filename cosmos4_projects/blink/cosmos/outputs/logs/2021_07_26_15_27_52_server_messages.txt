@@ -1,0 +1,36 @@
+2021/07/26 15:27:51.539  INFO: COSMOS Version: 4.4.2
+2021/07/26 15:27:51.540  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/blink/cosmos/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/07/26 15:27:51.733  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/blink/cosmos/config/targets/BLINK/cmd_tlm_server.txt
+2021/07/26 15:27:51.837  INFO: Marshal file does not exist: /Users/norgaardc/Documents/cosmos_projects/blink/cosmos/outputs/tmp/marshal_b18f7a3abb2fe748dbd5747896204776.bin
+2021/07/26 15:27:52.147  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/07/26 15:27:52.147  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/07/26 15:27:52.155  INFO: Creating thread for interface BLINKINT
+2021/07/26 15:27:52.156  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/07/26 15:27:52.156  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/07/26 15:27:52.156  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/07/26 15:27:52.157  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/07/26 15:27:52.157  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/07/26 15:27:52.157  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/07/26 15:27:52.157  INFO: Starting packet reading for BLINKINT
+2021/07/26 15:27:52.157  INFO: Connecting to BLINKINT...
+2021/07/26 15:27:52.244  INFO: BLINKINT Connection Success
+2021/07/26 15:27:52.690  INFO: Log File Opened : /Users/norgaardc/Documents/cosmos_projects/blink/cosmos/outputs/logs/2021_07_26_15_27_52_tlm.bin
+2021/07/26 15:27:52.691  ERROR: BLINK SOH DELAY = 250 is RED_HIGH (2021/07/26 15:27:52.690)
+2021/07/26 15:27:52.691  INFO: cmd("BLINK DELAY with DELAY 149")
+2021/07/26 15:27:52.692  INFO: Log File Opened : /Users/norgaardc/Documents/cosmos_projects/blink/cosmos/outputs/logs/2021_07_26_15_27_52_cmd.bin
+2021/07/26 15:27:52.773  INFO: BLINK SOH DELAY = 149 is GREEN (2021/07/26 15:27:52.773)
+2021/07/26 15:28:27.732  INFO: Log File Closed : /Users/norgaardc/Documents/cosmos_projects/blink/cosmos/outputs/logs/2021_07_26_15_27_52_cmd.bin
+2021/07/26 15:28:27.733  INFO: Log File Closed : /Users/norgaardc/Documents/cosmos_projects/blink/cosmos/outputs/logs/2021_07_26_15_27_52_tlm.bin
+2021/07/26 15:28:27.834  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/07/26 15:28:27.835  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/07/26 15:28:27.835  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/07/26 15:28:27.857  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/07/26 15:28:27.867  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/07/26 15:28:27.867  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/07/26 15:28:27.867  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/07/26 15:28:27.953  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/07/26 15:28:27.964  INFO: Killing thread for interface BLINKINT
+2021/07/26 15:28:27.964  ERROR: Error reading from interface : BLINKINT
+2021/07/26 15:28:27.965  INFO: Connection Lost for BLINKINT: IOError : closed stream
+2021/07/26 15:28:27.965  INFO: Stopped packet reading for BLINKINT
+2021/07/26 15:28:27.965  INFO: Disconnected from interface BLINKINT

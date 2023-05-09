@@ -1,0 +1,273 @@
+Exception:
+SignalException : SIGHUP
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/dart/processes/dart_stream_server.rb:26:in `sleep'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/dart/processes/dart_stream_server.rb:26:in `block in <main>'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:556:in `catch_fatal_exception'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/dart/processes/dart_stream_server.rb:16:in `<main>'
+
+Caller Backtrace:
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:455:in `block (2 levels) in create_log_file'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:452:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:452:in `block in create_log_file'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:741:in `set_working_dir'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:425:in `create_log_file'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:482:in `write_exception_file'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:572:in `handle_fatal_exception'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:560:in `rescue in catch_fatal_exception'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:554:in `catch_fatal_exception'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/dart/processes/dart_stream_server.rb:16:in `<main>'
+
+Ruby Version: ruby 2.5.7 (2019-10-01 patchlevel 206) [x86_64-darwin17]
+Rubygems Version: 2.7.6.2
+Cosmos Version: 4.5.0
+Cosmos::PATH: /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0
+Cosmos::USERPATH: /Users/norgaardc/Documents/cosmos_projects/analog
+
+Environment:
+RUBYOPT: -r/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/bundler-2.1.4/lib/bundler/setup
+RUBYLIB: /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/bundler-2.1.4/lib:/usr/local/Cellar/rbenv/1.1.2/rbenv.d/exec/gem-rehash
+GEM_PATH: /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0:/Users/norgaardc/.gem/ruby/2.5.0
+GEMRC: 
+RI_DEVKIT: 
+GEM_HOME: /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0
+PATH: /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/../bin:/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/bin:/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/../bin:/Users/norgaardc/.rbenv/versions/2.5.7/bin:/usr/local/Cellar/rbenv/1.1.2/libexec:/opt/anaconda3/bin:/opt/anaconda3/condabin:/Users/norgaardc/.rbenv/shims:/usr/local/opt/ruby/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Applications/Postgres.app/Contents/Versions/latest/bin
+
+Ruby Path:
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/dart/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/dart/app/assets
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/dart/app/channels
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/dart/app/controllers
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/dart/app/jobs
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/dart/app/mailers
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/dart/app/models
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/turbolinks-5.2.1/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/jquery-rails-4.4.0/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/jquery-rails-4.4.0/vendor
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/coffee-rails-4.2.2/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/actioncable-5.1.7/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/actionview-5.1.7/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/uuidtools-2.2.0/lib
+  /Users/norgaardc/Documents/cosmos_projects/analog/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/bundler-2.1.4/lib
+  /usr/local/Cellar/rbenv/1.1.2/rbenv.d/exec/gem-rehash
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/uglifier-4.2.0/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/turbolinks-source-5.2.0/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/sassc-rails-2.1.2/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/tilt-2.0.10/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/sassc-2.4.0/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/extensions/x86_64-darwin-17/2.5.0/sassc-2.4.0
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/ruby-termios-1.0.2/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/extensions/x86_64-darwin-17/2.5.0/ruby-termios-1.0.2
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/rest-client-2.1.0/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/rails-5.1.7/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/sprockets-rails-3.2.2/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/sprockets-4.0.2/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/pg-1.2.3/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/extensions/x86_64-darwin-17/2.5.0/pg-1.2.3
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/netrc-0.11.0/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/mime-types-3.3.1/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/mime-types-data-3.2021.0225/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/jbuilder-2.11.2/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/http-cookie-1.0.3/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/http-accept-1.7.0/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/ffi-1.15.0/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/extensions/x86_64-darwin-17/2.5.0/ffi-1.15.0
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/domain_name-0.5.20190701/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/unf-0.1.4/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/unf_ext-0.0.7.7/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/extensions/x86_64-darwin-17/2.5.0/unf_ext-0.0.7.7
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/extensions/x86_64-darwin-17/2.5.0/cosmos-4.5.0
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/snmp-1.3.2/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/rubyzip-1.3.0/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/rdoc-6.3.0/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/qtbindings-4.8.6.5/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/extensions/x86_64-darwin-17/2.5.0/qtbindings-4.8.6.5
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/puma-3.12.6/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/extensions/x86_64-darwin-17/2.5.0/puma-3.12.6
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/pry-doc-0.13.5/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/yard-0.9.26/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/pry-0.14.0/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/opengl-bindings-1.6.10/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/json-2.5.1/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/extensions/x86_64-darwin-17/2.5.0/json-2.5.1
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/railties-5.1.7/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/thor-1.1.0/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/method_source-1.0.0/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/coffee-script-2.4.1/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/execjs-2.7.0/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/coffee-script-source-1.12.2/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/coderay-1.1.3/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/childprocess-4.0.0/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/activerecord-5.1.7/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/arel-8.0.0/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/activemodel-5.1.7/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/actionmailer-5.1.7/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/mail-2.7.1/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/mini_mime-1.1.0/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/activejob-5.1.7/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/globalid-0.4.2/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/websocket-driver-0.6.5/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/extensions/x86_64-darwin-17/2.5.0/websocket-driver-0.6.5
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/websocket-extensions-0.1.5/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/nio4r-2.5.7/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/extensions/x86_64-darwin-17/2.5.0/nio4r-2.5.7
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/actionpack-5.1.7/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/rack-test-1.1.0/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/rack-2.2.3/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/rails-html-sanitizer-1.3.0/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/loofah-2.9.1/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/crass-1.0.6/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/rails-dom-testing-2.0.3/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/nokogiri-1.11.3-x86_64-darwin/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/racc-1.5.2/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/extensions/x86_64-darwin-17/2.5.0/racc-1.5.2
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/mini_portile2-2.5.0/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/erubi-1.10.0/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/builder-3.2.4/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/activesupport-5.1.7/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/tzinfo-1.2.9/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/thread_safe-0.3.6/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/minitest-5.14.4/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/i18n-1.8.10/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/concurrent-ruby-1.1.8/lib/concurrent-ruby
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/rake-13.0.3/lib
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/site_ruby/2.5.0
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/site_ruby/2.5.0/x86_64-darwin17
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/site_ruby
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/vendor_ruby/2.5.0
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/vendor_ruby/2.5.0/x86_64-darwin17
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/vendor_ruby
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0
+  /Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/x86_64-darwin17
+
+Gems:
+did_you_mean 1.2.0 ruby
+rake 13.0.3 ruby
+concurrent-ruby 1.1.8 ruby
+i18n 1.8.10 ruby
+minitest 5.14.4 ruby
+thread_safe 0.3.6 ruby
+tzinfo 1.2.9 ruby
+activesupport 5.1.7 ruby
+builder 3.2.4 ruby
+erubi 1.10.0 ruby
+mini_portile2 2.5.0 ruby
+racc 1.5.2 ruby
+nokogiri 1.11.3 x86_64-darwin
+rails-dom-testing 2.0.3 ruby
+crass 1.0.6 ruby
+loofah 2.9.1 ruby
+rails-html-sanitizer 1.3.0 ruby
+actionview 5.1.7 ruby
+rack 2.2.3 ruby
+rack-test 1.1.0 ruby
+actionpack 5.1.7 ruby
+nio4r 2.5.7 ruby
+websocket-extensions 0.1.5 ruby
+websocket-driver 0.6.5 ruby
+actioncable 5.1.7 ruby
+globalid 0.4.2 ruby
+activejob 5.1.7 ruby
+mini_mime 1.1.0 ruby
+mail 2.7.1 ruby
+actionmailer 5.1.7 ruby
+activemodel 5.1.7 ruby
+arel 8.0.0 ruby
+activerecord 5.1.7 ruby
+bundler 2.1.4 ruby
+childprocess 4.0.0 ruby
+coderay 1.1.3 ruby
+coffee-script-source 1.12.2 ruby
+execjs 2.7.0 ruby
+coffee-script 2.4.1 ruby
+method_source 1.0.0 ruby
+thor 1.1.0 ruby
+railties 5.1.7 ruby
+coffee-rails 4.2.2 ruby
+httpclient 2.8.3 ruby
+json 2.5.1 ruby
+opengl-bindings 1.6.10 ruby
+pry 0.14.0 ruby
+yard 0.9.26 ruby
+pry-doc 0.13.5 ruby
+puma 3.12.6 ruby
+qtbindings 4.8.6.5 ruby
+rdoc 6.3.0 ruby
+rubyzip 1.3.0 ruby
+snmp 1.3.2 ruby
+uuidtools 2.2.0 ruby
+cosmos 4.5.0 ruby
+unf_ext 0.0.7.7 ruby
+unf 0.1.4 ruby
+domain_name 0.5.20190701 ruby
+ffi 1.15.0 ruby
+http-accept 1.7.0 ruby
+http-cookie 1.0.3 ruby
+jbuilder 2.11.2 ruby
+jquery-rails 4.4.0 ruby
+mime-types-data 3.2021.0225 ruby
+mime-types 3.3.1 ruby
+netrc 0.11.0 ruby
+pg 1.2.3 ruby
+sprockets 4.0.2 ruby
+sprockets-rails 3.2.2 ruby
+rails 5.1.7 ruby
+rest-client 2.1.0 ruby
+ruby-termios 1.0.2 ruby
+sassc 2.4.0 ruby
+tilt 2.0.10 ruby
+sassc-rails 2.1.2 ruby
+turbolinks-source 5.2.0 ruby
+turbolinks 5.2.1 ruby
+uglifier 4.2.0 ruby
+
+All Threads Backtraces:
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:518:in `backtrace'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:518:in `block (2 levels) in write_exception_file'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:517:in `each'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:517:in `block in write_exception_file'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:455:in `block (2 levels) in create_log_file'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:452:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:452:in `block in create_log_file'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:741:in `set_working_dir'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:425:in `create_log_file'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:482:in `write_exception_file'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:572:in `handle_fatal_exception'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:560:in `rescue in catch_fatal_exception'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:554:in `catch_fatal_exception'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/dart/processes/dart_stream_server.rb:16:in `<main>'
+
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/utilities/sleeper.rb:27:in `select'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/utilities/sleeper.rb:27:in `sleep'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/dart/lib/dart_logging.rb:25:in `block in initialize'
+
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/tcpip_server_interface.rb:359:in `select'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/tcpip_server_interface.rb:359:in `rescue in listen_thread_body'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/tcpip_server_interface.rb:356:in `listen_thread_body'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/tcpip_server_interface.rb:345:in `block (2 levels) in start_listen_thread'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/tcpip_server_interface.rb:344:in `loop'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/tcpip_server_interface.rb:344:in `block in start_listen_thread'
+
+
+
+b:25:in `block in initialize'
+
+
+
+2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:452:in `block in create_log_file'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:741:in `set_working_dir'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:425:in `create_log_file'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:482:in `write_exception_file'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:572:in `handle_fatal_exception'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:560:in `rescue in catch_fatal_exception'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:554:in `catch_fatal_exception'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/dart/processes/dart_worker.rb:17:in `<main>'
+
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/utilities/sleeper.rb:27:in `select'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/utilities/sleeper.rb:27:in `sleep'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/dart/lib/dart_logging.rb:25:in `block in initialize'
+
+
+

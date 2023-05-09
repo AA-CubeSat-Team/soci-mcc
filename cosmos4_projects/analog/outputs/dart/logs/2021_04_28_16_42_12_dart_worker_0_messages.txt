@@ -1,0 +1,156 @@
+2021/04/28 16:42:11.938  INFO: Dart Worker Starting...
+2021/04/28 16:42:11.941  INFO: Marshal load success: /Users/norgaardc/Documents/cosmos_projects/analog/outputs/tmp/marshal_3fa5ee6bef19ce3c44156d58cdac553d.bin
+2021/04/28 16:42:23.309  INFO: Creating PacketConfig: 53cfe1495fddc8b6ce700e25ea0dfb3a...
+2021/04/28 16:42:23.367  INFO: Created Item:1:5:PACKET_TIMESECONDS
+2021/04/28 16:42:23.393  INFO: Created Item:2:5:PACKET_TIMEFORMATTED
+2021/04/28 16:42:23.407  INFO: Created Item:3:5:RECEIVED_TIMESECONDS
+2021/04/28 16:42:23.420  INFO: Created Item:4:5:RECEIVED_TIMEFORMATTED
+2021/04/28 16:42:23.432  INFO: Created Item:5:5:PKTID
+2021/04/28 16:42:23.444  INFO: Created Item:6:5:CONFIG
+2021/04/28 16:42:23.458  INFO: Created Item:7:5:COSMOS_VERSION
+2021/04/28 16:42:23.470  INFO: Created Item:8:5:USER_VERSION
+2021/04/28 16:42:23.482  INFO: Created Item:9:5:RUBY_VERSION
+2021/04/28 16:42:23.491  INFO: creating t1_0:i0
+2021/04/28 16:42:23.491  INFO: creating t1_0:i1
+2021/04/28 16:42:23.491  INFO: creating t1_0:i2
+2021/04/28 16:42:23.491  INFO: creating t1_0:i3
+2021/04/28 16:42:23.491  INFO: creating t1_0:i4
+2021/04/28 16:42:23.491  INFO: creating t1_0:i5
+2021/04/28 16:42:23.491  INFO: creating t1_0:i6
+2021/04/28 16:42:23.491  INFO: creating t1_0:i7
+2021/04/28 16:42:23.491  INFO: creating t1_0:i8
+2021/04/28 16:42:23.683  INFO: Successfully Created PacketConfig: 53cfe1495fddc8b6ce700e25ea0dfb3a
+2021/04/28 16:44:03.777  INFO: Waiting for PacketConfig:2...
+2021/04/28 16:50:43.393  ERROR: Failed to read at offset 16812 (file offset: 16837) with file size 23187
+2021/04/28 16:50:43.401  ERROR: PLE:427:NO_PACKET
+2021/04/28 16:50:43.402  ERROR: Failed to read at offset 17502 (file offset: 17527) with file size 23187
+2021/04/28 16:50:43.410  ERROR: PLE:428:NO_PACKET
+2021/04/28 16:50:43.615  ERROR: Failed to read at offset 18972 (file offset: 18997) with file size 23187
+2021/04/28 16:50:43.623  ERROR: PLE:449:NO_PACKET
+2021/04/28 16:50:43.826  ERROR: Failed to read at offset 20442 (file offset: 20467) with file size 23187
+2021/04/28 16:50:43.835  ERROR: PLE:470:NO_PACKET
+2021/04/28 16:52:19.387  ERROR: Failed to read at offset 23382 (file offset: 23407) with file size 30381
+2021/04/28 16:52:19.430  ERROR: PLE:512:NO_PACKET
+2021/04/28 16:53:55.596  ERROR: Failed to read at offset 30693 (file offset: 30718) with file size 37575
+2021/04/28 16:53:55.605  ERROR: PLE:616:NO_PACKET
+2021/04/28 16:53:55.856  ERROR: Failed to read at offset 32202 (file offset: 32227) with file size 37575
+2021/04/28 16:53:55.864  ERROR: PLE:638:NO_PACKET
+2021/04/28 16:53:56.109  ERROR: Failed to read at offset 33633 (file offset: 33658) with file size 37575
+2021/04/28 16:53:56.120  ERROR: PLE:658:NO_PACKET
+2021/04/28 16:53:56.387  ERROR: Failed to read at offset 35103 (file offset: 35128) with file size 37575
+2021/04/28 16:53:56.395  ERROR: PLE:679:NO_PACKET
+2021/04/28 16:53:56.604  ERROR: Failed to read at offset 36573 (file offset: 36598) with file size 37575
+2021/04/28 16:53:56.612  ERROR: PLE:700:NO_PACKET
+2021/04/28 16:55:32.068  ERROR: Failed to read at offset 38043 (file offset: 38068) with file size 44769
+2021/04/28 16:55:32.078  ERROR: PLE:721:NO_PACKET
+2021/04/28 16:55:32.370  ERROR: Failed to read at offset 39513 (file offset: 39538) with file size 44769
+2021/04/28 16:55:32.384  ERROR: PLE:742:NO_PACKET
+2021/04/28 16:55:33.015  ERROR: Failed to read at offset 42453 (file offset: 42478) with file size 44769
+2021/04/28 16:55:33.027  ERROR: PLE:784:NO_PACKET
+2021/04/28 16:55:33.291  ERROR: Failed to read at offset 43923 (file offset: 43948) with file size 44769
+2021/04/28 16:55:33.300  ERROR: PLE:805:NO_PACKET
+2021/04/28 16:57:08.003  ERROR: Failed to read at offset 45393 (file offset: 45418) with file size 51963
+2021/04/28 16:57:08.016  ERROR: PLE:826:NO_PACKET
+2021/04/28 16:57:09.125  ERROR: Failed to read at offset 51273 (file offset: 51298) with file size 51963
+2021/04/28 16:57:09.139  ERROR: PLE:910:NO_PACKET
+2021/04/28 16:58:45.412  ERROR: Failed to read at offset 52743 (file offset: 52768) with file size 58506
+2021/04/28 16:58:45.423  ERROR: PLE:931:NO_PACKET
+2021/04/28 16:58:45.681  ERROR: Failed to read at offset 54213 (file offset: 54238) with file size 58506
+2021/04/28 16:58:45.692  ERROR: PLE:952:NO_PACKET
+2021/04/28 16:58:45.937  ERROR: Failed to read at offset 55683 (file offset: 55708) with file size 58506
+2021/04/28 16:58:45.943  ERROR: PLE:973:NO_PACKET
+2021/04/28 16:58:46.217  ERROR: Failed to read at offset 57153 (file offset: 57178) with file size 58506
+2021/04/28 16:58:46.226  ERROR: PLE:994:NO_PACKET
+2021/04/28 17:00:21.737  ERROR: Failed to read at offset 61563 (file offset: 61588) with file size 65700
+2021/04/28 17:00:21.746  ERROR: PLE:1057:NO_PACKET
+2021/04/28 17:01:58.254  ERROR: Failed to read at offset 70383 (file offset: 70408) with file size 72894
+2021/04/28 17:01:58.264  ERROR: PLE:1183:NO_PACKET
+2021/04/28 17:01:58.530  ERROR: Failed to read at offset 71853 (file offset: 71878) with file size 72894
+2021/04/28 17:01:58.539  ERROR: PLE:1204:NO_PACKET
+2021/04/28 17:03:34.337  ERROR: Failed to read at offset 73284 (file offset: 73309) with file size 80088
+2021/04/28 17:03:34.352  ERROR: PLE:1224:NO_PACKET
+2021/04/28 17:03:34.821  ERROR: Failed to read at offset 74754 (file offset: 74779) with file size 80088
+2021/04/28 17:03:34.838  ERROR: PLE:1245:NO_PACKET
+2021/04/28 17:03:35.390  ERROR: Failed to read at offset 76224 (file offset: 76249) with file size 80088
+2021/04/28 17:03:35.405  ERROR: PLE:1266:NO_PACKET
+2021/04/28 17:03:35.749  ERROR: Failed to read at offset 77694 (file offset: 77719) with file size 80088
+2021/04/28 17:03:35.767  ERROR: PLE:1287:NO_PACKET
+2021/04/28 17:03:36.179  ERROR: Failed to read at offset 79164 (file offset: 79189) with file size 80088
+2021/04/28 17:03:36.201  ERROR: PLE:1308:NO_PACKET
+2021/04/28 17:05:09.981  ERROR: Failed to read at offset 80634 (file offset: 80659) with file size 87282
+2021/04/28 17:05:09.991  ERROR: PLE:1329:NO_PACKET
+2021/04/28 17:06:47.212  ERROR: Failed to read at offset 87984 (file offset: 88009) with file size 93825
+2021/04/28 17:06:47.224  ERROR: PLE:1434:NO_PACKET
+2021/04/28 17:06:47.615  ERROR: Failed to read at offset 89454 (file offset: 89479) with file size 93825
+2021/04/28 17:06:47.625  ERROR: PLE:1455:NO_PACKET
+2021/04/28 17:08:24.972  ERROR: Failed to read at offset 99744 (file offset: 99769) with file size 101019
+2021/04/28 17:08:24.985  ERROR: PLE:1602:NO_PACKET
+2021/04/28 17:09:59.307  ERROR: Failed to read at offset 101214 (file offset: 101239) with file size 108213
+2021/04/28 17:09:59.333  ERROR: PLE:1623:NO_PACKET
+2021/04/28 17:11:35.836  ERROR: Failed to read at offset 110034 (file offset: 110059) with file size 115407
+2021/04/28 17:11:35.853  ERROR: PLE:1749:NO_PACKET
+2021/04/28 17:11:36.112  ERROR: Failed to read at offset 111504 (file offset: 111529) with file size 115407
+2021/04/28 17:11:36.123  ERROR: PLE:1770:NO_PACKET
+2021/04/28 17:11:36.418  ERROR: Failed to read at offset 112974 (file offset: 112999) with file size 115407
+2021/04/28 17:11:36.428  ERROR: PLE:1791:NO_PACKET
+2021/04/28 17:11:36.667  ERROR: Failed to read at offset 114444 (file offset: 114469) with file size 115407
+2021/04/28 17:11:36.675  ERROR: PLE:1812:NO_PACKET
+2021/04/28 17:13:11.859  ERROR: Failed to read at offset 115914 (file offset: 115939) with file size 122601
+2021/04/28 17:13:11.867  ERROR: PLE:1833:NO_PACKET
+2021/04/28 17:13:12.151  ERROR: Failed to read at offset 117345 (file offset: 117370) with file size 122601
+2021/04/28 17:13:12.165  ERROR: PLE:1853:NO_PACKET
+2021/04/28 17:13:12.470  ERROR: Failed to read at offset 118815 (file offset: 118840) with file size 122601
+2021/04/28 17:13:12.478  ERROR: PLE:1874:NO_PACKET
+2021/04/28 17:14:48.682  ERROR: Failed to read at offset 123225 (file offset: 123250) with file size 129795
+2021/04/28 17:14:48.694  ERROR: PLE:1937:NO_PACKET
+2021/04/28 17:14:48.974  ERROR: Failed to read at offset 124695 (file offset: 124720) with file size 129795
+2021/04/28 17:14:48.983  ERROR: PLE:1958:NO_PACKET
+2021/04/28 17:14:49.855  ERROR: Failed to read at offset 129105 (file offset: 129130) with file size 129795
+2021/04/28 17:14:49.864  ERROR: PLE:2021:NO_PACKET
+2021/04/28 17:16:25.398  ERROR: Failed to read at offset 130575 (file offset: 130600) with file size 136338
+2021/04/28 17:16:25.409  ERROR: PLE:2042:NO_PACKET
+2021/04/28 17:16:25.709  ERROR: Failed to read at offset 132045 (file offset: 132070) with file size 136338
+2021/04/28 17:16:25.720  ERROR: PLE:2063:NO_PACKET
+2021/04/28 17:16:26.031  ERROR: Failed to read at offset 133515 (file offset: 133540) with file size 136338
+2021/04/28 17:16:26.085  ERROR: PLE:2084:NO_PACKET
+2021/04/28 17:16:26.417  ERROR: Failed to read at offset 134985 (file offset: 135010) with file size 136338
+2021/04/28 17:16:26.431  ERROR: PLE:2105:NO_PACKET
+2021/04/28 17:18:01.287  ERROR: Failed to read at offset 136455 (file offset: 136480) with file size 143532
+2021/04/28 17:18:01.299  ERROR: PLE:2126:NO_PACKET
+2021/04/28 17:18:01.650  ERROR: Failed to read at offset 137925 (file offset: 137950) with file size 143532
+2021/04/28 17:18:01.666  ERROR: PLE:2147:NO_PACKET
+2021/04/28 17:19:37.441  ERROR: Failed to read at offset 143805 (file offset: 143830) with file size 150726
+2021/04/28 17:19:37.453  ERROR: PLE:2231:NO_PACKET
+2021/04/28 17:19:37.895  ERROR: Failed to read at offset 145275 (file offset: 145300) with file size 150726
+2021/04/28 17:19:37.910  ERROR: PLE:2252:NO_PACKET
+2021/04/28 17:19:38.267  ERROR: Failed to read at offset 146745 (file offset: 146770) with file size 150726
+2021/04/28 17:19:38.280  ERROR: PLE:2273:NO_PACKET
+2021/04/28 17:21:16.023  ERROR: Failed to read at offset 157035 (file offset: 157060) with file size 157920
+2021/04/28 17:21:16.033  ERROR: PLE:2420:NO_PACKET
+2021/04/28 17:22:49.867  ERROR: Failed to read at offset 158505 (file offset: 158530) with file size 165114
+2021/04/28 17:22:49.878  ERROR: PLE:2441:NO_PACKET
+2021/04/28 17:24:08.254  FATAL: Fatal Exception! Exiting...
+2021/04/28 17:24:08.254  FATAL: SignalException : SIGHUP
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient/session.rb:805:in `gets'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient/session.rb:805:in `block in parse_header'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/timeout.rb:76:in `timeout'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient/session.rb:801:in `parse_header'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient/session.rb:784:in `read_header'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient/session.rb:561:in `get_header'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient.rb:1299:in `do_get_header'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient.rb:1245:in `do_get_block'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient.rb:1019:in `block in do_request'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient.rb:1133:in `protect_keep_alive_disconnected'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient.rb:1014:in `do_request'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient.rb:856:in `request'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient.rb:765:in `post'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/json_drb_object.rb:136:in `make_request'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/json_drb_object.rb:92:in `block (2 levels) in method_missing'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/json_drb_object.rb:88:in `loop'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/json_drb_object.rb:88:in `block in method_missing'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/json_drb_object.rb:86:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/json_drb_object.rb:86:in `method_missing'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/dart/lib/dart_decommutator.rb:65:in `run'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/dart/processes/dart_worker.rb:35:in `block in <main>'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:556:in `catch_fatal_exception'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/dart/processes/dart_worker.rb:17:in `<main>'

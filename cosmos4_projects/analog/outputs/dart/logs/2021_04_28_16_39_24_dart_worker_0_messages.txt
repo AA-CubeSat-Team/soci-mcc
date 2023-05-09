@@ -1,0 +1,39 @@
+2021/04/28 16:39:23.122  INFO: Dart Worker Starting...
+2021/04/28 16:39:23.163  INFO: Marshal load success: /Users/norgaardc/Documents/cosmos_projects/analog/outputs/tmp/marshal_3fa5ee6bef19ce3c44156d58cdac553d.bin
+2021/04/28 16:39:23.266  INFO: Created Target:1:UNKNOWN
+2021/04/28 16:39:23.335  INFO: Created Packet:1:1:UNKNOWN:true
+2021/04/28 16:39:23.345  INFO: Created Target:2:ANALOG
+2021/04/28 16:39:23.355  INFO: Created Packet:2:2:ANALOGVALUE:true
+2021/04/28 16:39:23.366  INFO: Created Target:3:DART
+2021/04/28 16:39:23.377  INFO: Created Packet:4:3:STATUS:true
+2021/04/28 16:39:23.388  INFO: Created Target:4:SYSTEM
+2021/04/28 16:39:23.398  INFO: Created Packet:5:4:META:true
+2021/04/28 16:39:23.408  INFO: Created Packet:7:1:UNKNOWN:false
+2021/04/28 16:39:23.419  INFO: Created Packet:9:2:READANALOGPIN:false
+2021/04/28 16:39:23.430  INFO: Created Packet:12:3:CLEAR_ERRORS:false
+2021/04/28 16:39:23.441  INFO: Created Packet:15:4:META:false
+2021/04/28 16:39:46.557  FATAL: Fatal Exception! Exiting...
+2021/04/28 16:39:46.558  FATAL: SignalException : SIGHUP
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient/session.rb:805:in `gets'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient/session.rb:805:in `block in parse_header'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/2.5.0/timeout.rb:76:in `timeout'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient/session.rb:801:in `parse_header'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient/session.rb:784:in `read_header'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient/session.rb:561:in `get_header'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient.rb:1299:in `do_get_header'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient.rb:1245:in `do_get_block'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient.rb:1019:in `block in do_request'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient.rb:1133:in `protect_keep_alive_disconnected'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient.rb:1014:in `do_request'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient.rb:856:in `request'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/httpclient-2.8.3/lib/httpclient.rb:765:in `post'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/json_drb_object.rb:136:in `make_request'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/json_drb_object.rb:92:in `block (2 levels) in method_missing'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/json_drb_object.rb:88:in `loop'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/json_drb_object.rb:88:in `block in method_missing'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/json_drb_object.rb:86:in `synchronize'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/io/json_drb_object.rb:86:in `method_missing'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/dart/lib/dart_decommutator.rb:65:in `run'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/dart/processes/dart_worker.rb:35:in `block in <main>'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:556:in `catch_fatal_exception'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/dart/processes/dart_worker.rb:17:in `<main>'

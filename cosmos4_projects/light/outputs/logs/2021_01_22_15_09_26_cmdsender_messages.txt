@@ -1,0 +1,2 @@
+2021/01/22 15:09:26.762  cmd("LIGHT COLLECT with LDR 0")
+2021/01/22 15:09:26.796  Error sending LIGHT COLLECT due to Target not mapped to an interface: LIGHT

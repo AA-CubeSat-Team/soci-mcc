@@ -1,0 +1,40 @@
+2021/07/20 20:21:15.137  INFO: COSMOS Version: 4.4.2
+2021/07/20 20:21:15.138  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/blink/cosmos/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/07/20 20:21:15.273  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/blink/cosmos/config/targets/BLINK/cmd_tlm_server.txt
+2021/07/20 20:21:15.282  INFO: Marshal load success: /Users/norgaardc/Documents/cosmos_projects/blink/cosmos/outputs/tmp/marshal_50db153a5760fc3dd976207db6d859da.bin
+2021/07/20 20:21:15.567  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/07/20 20:21:15.567  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/07/20 20:21:15.568  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/07/20 20:21:15.568  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/07/20 20:21:15.568  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/07/20 20:21:15.568  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/07/20 20:21:15.568  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/07/20 20:21:15.569  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/07/20 20:21:15.569  INFO: Creating thread for interface BLINKINT
+2021/07/20 20:21:15.648  INFO: Starting packet reading for BLINKINT
+2021/07/20 20:21:15.648  INFO: Connecting to BLINKINT...
+2021/07/20 20:21:15.653  INFO: BLINKINT Connection Success
+2021/07/20 20:21:28.199  ERROR: BLINKINT - Unknown 69 byte packet starting: 456E746572202773746172742720746F20626567696E20626C696E6B20746573742E0D0A
+2021/07/20 20:21:28.200  INFO: Log File Opened : /Users/norgaardc/Documents/cosmos_projects/blink/cosmos/outputs/logs/2021_07_20_20_21_28_tlm.bin
+2021/07/20 20:21:31.201  ERROR: BLINK SOH DELAY = 250 is RED_HIGH (2021/07/20 20:21:31.201)
+2021/07/20 20:21:31.202  INFO: cmd("BLINK DELAY with DELAY 149")
+2021/07/20 20:21:31.203  INFO: Log File Opened : /Users/norgaardc/Documents/cosmos_projects/blink/cosmos/outputs/logs/2021_07_20_20_21_31_cmd.bin
+2021/07/20 20:21:35.188  INFO: cmd("BLINK START_COLLECT with START_COLLECT 'start'")
+2021/07/20 20:21:57.676  ERROR: Command parameter 'BLINK DELAY DELAY' = 1000 not in valid range of 0 to 255
+2021/07/20 20:22:04.041  INFO: cmd("BLINK DELAY with DELAY 250")
+2021/07/20 20:22:21.219  INFO: cmd("BLINK START_COLLECT with START_COLLECT 'start'")
+2021/07/20 20:22:30.924  INFO: Log File Closed : /Users/norgaardc/Documents/cosmos_projects/blink/cosmos/outputs/logs/2021_07_20_20_21_31_cmd.bin
+2021/07/20 20:22:30.925  INFO: Log File Closed : /Users/norgaardc/Documents/cosmos_projects/blink/cosmos/outputs/logs/2021_07_20_20_21_28_tlm.bin
+2021/07/20 20:22:31.026  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/07/20 20:22:31.026  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/07/20 20:22:31.026  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/07/20 20:22:31.104  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/07/20 20:22:31.114  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/07/20 20:22:31.114  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/07/20 20:22:31.114  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/07/20 20:22:31.202  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/07/20 20:22:31.212  INFO: Killing thread for interface BLINKINT
+2021/07/20 20:22:31.212  ERROR: Error reading from interface : BLINKINT
+2021/07/20 20:22:31.212  INFO: Connection Lost for BLINKINT: EBADF : Bad file descriptor
+2021/07/20 20:22:31.213  INFO: Stopped packet reading for BLINKINT
+2021/07/20 20:22:31.213  INFO: Disconnected from interface BLINKINT

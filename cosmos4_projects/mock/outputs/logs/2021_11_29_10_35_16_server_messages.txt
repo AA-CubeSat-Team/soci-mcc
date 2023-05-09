@@ -1,0 +1,54 @@
+2021/11/29 10:35:15.465  INFO: COSMOS Version: 4.5.0
+2021/11/29 10:35:15.465  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/mock/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/11/29 10:35:15.602  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/mock/config/targets/MOCK/cmd_tlm_server.txt
+2021/11/29 10:35:15.604  INFO: Marshal file does not exist: /Users/norgaardc/Documents/cosmos_projects/mock/outputs/tmp/marshal_ee2133adaf42eaa52076c0f6d5a378b6.bin
+2021/11/29 10:35:15.934  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/11/29 10:35:15.934  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/11/29 10:35:15.934  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/11/29 10:35:15.935  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/11/29 10:35:15.943  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/11/29 10:35:15.944  INFO: Creating thread for interface MOCKINT
+2021/11/29 10:35:16.023  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/11/29 10:35:16.023  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/11/29 10:35:16.024  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/11/29 10:35:16.024  INFO: Starting packet reading for MOCKINT
+2021/11/29 10:35:16.024  INFO: Connecting to MOCKINT...
+2021/11/29 10:35:16.027  INFO: MOCKINT Connection Success
+2021/11/29 10:35:16.028  ERROR: MOCKINT - Unknown 111 byte packet starting: 6F41654F7741B8F837450801200A056302FA0B020001010100010100011E03AE47E13FEC
+2021/11/29 10:35:16.028  INFO: Log File Opened : /Users/norgaardc/Documents/cosmos_projects/mock/outputs/logs/2021_11_29_10_35_16_tlm.bin
+2021/11/29 10:35:18.613  ERROR: MOCKINT - Unknown 233 byte packet starting: E92F410A576B43486135429661094254E36F41654F7741B8F837450801200A056302FA0B
+2021/11/29 10:35:19.113  ERROR: MOCKINT - Unknown 65 byte packet starting: 41FED4D8401F8525412204CF57074379E92F410A576B43486135429661094254E36F4165
+2021/11/29 10:35:19.621  ERROR: MOCKINT - Unknown 71 byte packet starting: 47E13FEC516840DBF9EA408FC2134125060641FED4D8401F8525412204CF57074379E92F
+2021/11/29 10:35:19.621  ERROR: Error reading from interface : MOCKINT
+2021/11/29 10:35:19.622  INFO: Connection Lost for MOCKINT: RuntimeError : Calculated packet length of 0 bits < (offset:0 + size:8)
+2021/11/29 10:35:19.623  ERROR: RuntimeError : Calculated packet length of 0 bits < (offset:0 + size:8)
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/protocols/length_protocol.rb:141:in `reduce_to_single_packet'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/protocols/burst_protocol.rb:54:in `read_data'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/interface.rb:202:in `block (2 levels) in read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/interface.rb:201:in `each'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/interface.rb:201:in `block in read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/interface.rb:188:in `loop'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/interfaces/interface.rb:188:in `read'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/tools/cmd_tlm_server/interface_thread.rb:86:in `block in start'
+2021/11/29 10:35:24.627  INFO: Connecting to MOCKINT...
+2021/11/29 10:35:24.630  INFO: MOCKINT Connection Success
+2021/11/29 10:35:24.630  ERROR: MOCKINT - Unknown 10 byte packet starting: 0A576B43486135429661
+2021/11/29 10:35:24.631  ERROR: MOCKINT - Unknown 9 byte packet starting: 094254E36F41654F77
+2021/11/29 10:35:24.631  ERROR: MOCKINT - Unknown 65 byte packet starting: 41B8F837450801200A056302FA0B020001010100010100011E03AE47E13FEC516840DBF9
+2021/11/29 10:35:24.631  ERROR: MOCKINT - Unknown 87 byte packet starting: 576B43486135429661094254E36F41654F7741B8F83745060641FED4D8401F8525412204
+2021/11/29 10:35:26.674  ERROR: MOCK GNC_SOH GYRO_VALID = NO is RED (2021/11/29 10:35:26.674)
+2021/11/29 10:35:26.674  ERROR: MOCK GNC_SOH RCTWHL_VALID = NO is RED (2021/11/29 10:35:26.674)
+2021/11/29 10:36:24.205  INFO: Log File Closed : /Users/norgaardc/Documents/cosmos_projects/mock/outputs/logs/2021_11_29_10_35_16_tlm.bin
+2021/11/29 10:36:24.307  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/11/29 10:36:24.307  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/11/29 10:36:24.307  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/11/29 10:36:24.318  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/11/29 10:36:24.318  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/11/29 10:36:24.319  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/11/29 10:36:24.319  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/11/29 10:36:24.423  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/11/29 10:36:24.434  INFO: Killing thread for interface MOCKINT
+2021/11/29 10:36:24.434  ERROR: Error reading from interface : MOCKINT
+2021/11/29 10:36:24.434  INFO: Connection Lost for MOCKINT: EBADF : Bad file descriptor
+2021/11/29 10:36:24.434  INFO: Stopped packet reading for MOCKINT
+2021/11/29 10:36:24.435  INFO: Disconnected from interface MOCKINT

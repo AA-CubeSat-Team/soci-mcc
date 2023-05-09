@@ -1,0 +1,36 @@
+2021/07/20 20:56:06.085  INFO: COSMOS Version: 4.5.0
+2021/07/20 20:56:06.088  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/gyro/config/tools/cmd_tlm_server/cmd_tlm_server.txt
+2021/07/20 20:56:06.255  INFO: Processing CmdTlmServer configuration in file: /Users/norgaardc/Documents/cosmos_projects/gyro/config/targets/GYRO/cmd_tlm_server.txt
+2021/07/20 20:56:06.354  INFO: Marshal load success: /Users/norgaardc/Documents/cosmos_projects/gyro/outputs/tmp/marshal_6ac4a98a49f78e1f58c43394a0250162.bin
+2021/07/20 20:56:06.582  INFO: Creating thread for router PREIDENTIFIED_ROUTER
+2021/07/20 20:56:06.583  INFO: Creating thread for router PREIDENTIFIED_CMD_ROUTER
+2021/07/20 20:56:06.583  INFO: Creating thread for interface GYROINT
+2021/07/20 20:56:06.583  INFO: Starting packet reading for PREIDENTIFIED_ROUTER
+2021/07/20 20:56:06.583  INFO: Connecting to PREIDENTIFIED_ROUTER...
+2021/07/20 20:56:06.586  INFO: PREIDENTIFIED_ROUTER Connection Success
+2021/07/20 20:56:06.586  INFO: Starting connection maintenance for PREIDENTIFIED_CMD_ROUTER
+2021/07/20 20:56:06.586  INFO: Connecting to PREIDENTIFIED_CMD_ROUTER...
+2021/07/20 20:56:06.592  INFO: PREIDENTIFIED_CMD_ROUTER Connection Success
+2021/07/20 20:56:06.592  INFO: Starting packet reading for GYROINT
+2021/07/20 20:56:06.592  INFO: Connecting to GYROINT...
+2021/07/20 20:56:06.615  INFO: GYROINT Connection Success
+2021/07/20 20:56:19.150  ERROR: GYROINT - Unknown 13 byte packet starting: 0D0A0D0A0D0A0D0A0D0A0D0A0D
+2021/07/20 20:56:19.150  INFO: Log File Opened : /Users/norgaardc/Documents/cosmos_projects/gyro/outputs/logs/2021_07_20_20_56_19_tlm.bin
+2021/07/20 20:56:26.669  ERROR: GYROINT - Unknown 10 byte packet starting: 0A0D0A0D0A0D0A0D0A0D
+2021/07/20 20:56:34.189  ERROR: GYROINT - Unknown 10 byte packet starting: 0A0D0A0D0A0D0A0D0A0D
+2021/07/20 20:56:41.709  ERROR: GYROINT - Unknown 10 byte packet starting: 0A0D0A0D0A0D0A0D0A0D
+2021/07/20 20:56:49.230  ERROR: GYROINT - Unknown 10 byte packet starting: 0A0D0A0D0A0D0A0D0A0D
+2021/07/20 20:56:53.565  INFO: Log File Closed : /Users/norgaardc/Documents/cosmos_projects/gyro/outputs/logs/2021_07_20_20_56_19_tlm.bin
+2021/07/20 20:56:53.668  INFO: Killing thread for router PREIDENTIFIED_ROUTER
+2021/07/20 20:56:53.669  INFO: Clean disconnect from PREIDENTIFIED_ROUTER (returned nil)
+2021/07/20 20:56:53.669  INFO: Connection Lost for PREIDENTIFIED_ROUTER
+2021/07/20 20:56:53.692  INFO: Stopped packet reading for PREIDENTIFIED_ROUTER
+2021/07/20 20:56:53.701  INFO: Disconnected from router PREIDENTIFIED_ROUTER
+2021/07/20 20:56:53.701  INFO: Killing thread for router PREIDENTIFIED_CMD_ROUTER
+2021/07/20 20:56:53.701  INFO: Stopped packet reading for PREIDENTIFIED_CMD_ROUTER
+2021/07/20 20:56:53.788  INFO: Disconnected from router PREIDENTIFIED_CMD_ROUTER
+2021/07/20 20:56:53.799  INFO: Killing thread for interface GYROINT
+2021/07/20 20:56:53.799  ERROR: Error reading from interface : GYROINT
+2021/07/20 20:56:53.800  INFO: Connection Lost for GYROINT: EBADF : Bad file descriptor
+2021/07/20 20:56:53.800  INFO: Stopped packet reading for GYROINT
+2021/07/20 20:56:53.801  INFO: Disconnected from interface GYROINT

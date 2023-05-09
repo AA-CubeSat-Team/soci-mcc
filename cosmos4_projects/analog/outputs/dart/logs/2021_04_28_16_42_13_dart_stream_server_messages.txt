@@ -1,0 +1,7 @@
+2021/04/28 16:42:12.048  INFO: Dart Stream Server Started...
+2021/04/28 17:24:08.268  FATAL: Fatal Exception! Exiting...
+2021/04/28 17:24:08.269  FATAL: SignalException : SIGHUP
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/dart/processes/dart_stream_server.rb:26:in `sleep'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/dart/processes/dart_stream_server.rb:26:in `block in <main>'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/top_level.rb:556:in `catch_fatal_exception'
+/Users/norgaardc/.rbenv/versions/2.5.7/lib/ruby/gems/2.5.0/gems/cosmos-4.5.0/lib/cosmos/dart/processes/dart_stream_server.rb:16:in `<main>'
