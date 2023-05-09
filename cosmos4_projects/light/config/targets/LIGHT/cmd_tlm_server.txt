@@ -1,2 +1,0 @@
-INTERFACE LIGHTINT serial_interface.rb /dev/cu.usbmodem1421 /dev/cu.usbmodem1421 9600 NONE 1 10.0 nil LENGTH 0 8 0 1
-  TARGET LIGHT

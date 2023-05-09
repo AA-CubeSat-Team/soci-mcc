@@ -1,4 +1,0 @@
-2021/01/03 12:38:36.312  cmd("LIGHT VALUE")
-2021/01/03 12:38:36.359  Error sending LIGHT VALUE due to Target not mapped to an interface: LIGHT
-2021/01/03 12:39:32.970  cmd("LIGHT VALUE")
-2021/01/03 12:39:32.974  Error sending LIGHT VALUE due to Target not mapped to an interface: LIGHT

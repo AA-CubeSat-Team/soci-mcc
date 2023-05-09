@@ -1,5 +1,0 @@
-TELEMETRY RADIO RADIO_STATUS LITTLE_ENDIAN "Radio Status Telemetry"
-  APPEND_ITEM LENGTH 8 UINT "Length of the packet"
-  APPEND_ID_ITEM PKT_ID 8 UINT 3 "Packet ID"
-  APPEND_ARRAY_ITEM RX_BUFFER 8 UINT 32 "Rx buffer sent from radio"
-

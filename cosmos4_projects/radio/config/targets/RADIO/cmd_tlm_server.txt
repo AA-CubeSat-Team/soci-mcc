@@ -1,2 +1,0 @@
-INTERFACE RADIOINT serial_interface.rb /dev/tty.usbmodem1422 /dev/tty.usbmodem1422 38400 NONE 1 10.0 nil LENGTH 0 8 0 1 LITTLE_ENDIAN
-  TARGET RADIO

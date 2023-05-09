@@ -1,4 +1,0 @@
-2021/07/27 08:43:07.735  cmd("GYRO DELAY with DELAY 500")
-2021/07/27 08:43:07.740  Error sending GYRO DELAY due to Command parameter 'GYRO DELAY DELAY' = 500 not in valid range of 0 to 255
-2021/07/27 08:43:24.330  cmd("GYRO DELAY with DELAY 100")
-2021/07/27 08:43:37.125  cmd("GYRO DELAY with DELAY 250")

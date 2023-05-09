@@ -1,2 +1,0 @@
-2021/12/30 11:21:20.957  cmd("RADIO CHANGE_MODE with COMMAND_ID 1, ENTER_CMD_MODE [1, 2, 3]")
-2021/12/30 11:21:20.989  Error sending RADIO CHANGE_MODE due to Interface not connected for write: RADIOINT

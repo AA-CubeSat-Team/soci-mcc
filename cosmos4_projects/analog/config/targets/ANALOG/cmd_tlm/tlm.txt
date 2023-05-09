@@ -1,8 +1,0 @@
-TELEMETRY analog AnalogValue LITTLE_ENDIAN "Analog Voltage In"
-  APPEND_ITEM length 8 UINT "Packet Length"
-  APPEND_ID_ITEM analogID 8 UINT 1 "Packet ID for COSMOS identification"
-  APPEND_ITEM readAnalogPin 8 UINT "Current analog pin"
-  APPEND_ITEM analogReading 16 UINT "Current analog reading"
-    LIMITS DEFAULT 3 ENABLED 700 800 900 1000
-  APPEND_ITEM cmdsSent 8 UINT "Number of commands sent"
-  APPEND_ITEM cmdsAccepted 8 UINT "Number commands accepted"
