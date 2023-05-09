@@ -1,0 +1,9 @@
+def main():
+    image_file = 'desktop\image.txt'
+    with open(image_file) as f:
+        lines = f.readlines()
+        for line in lines:
+            print(line)
+
+if __name__ == '__main__':
+    main()
